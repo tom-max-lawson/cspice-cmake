@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SDIFFI ( Symmetric difference of two integer sets ) */
 /* Subroutine */ int sdiffi_(integer *a, integer *b, integer *c__)

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SPKE20 ( SPK, evaluate Chebyshev polynomials, type 20 ) */
 /* Subroutine */ int spke20_(doublereal *et, doublereal *record, doublereal *

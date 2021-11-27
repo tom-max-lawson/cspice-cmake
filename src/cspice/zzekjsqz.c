@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  ZZEKJSQZ ( Private: EK, join row set squeeze ) */
 /* Subroutine */ int zzekjsqz_(integer *jrsbas)

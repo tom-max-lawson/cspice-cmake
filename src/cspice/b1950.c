@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure B1950 ( Besselian Date 1950.0 ) */
 doublereal b1950_(void)

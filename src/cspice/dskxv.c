@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure DSKXV ( DSK, ray-surface intercept, vectorized ) */
 /* Subroutine */ int dskxv_(logical *pri, char *target, integer *nsurf, 

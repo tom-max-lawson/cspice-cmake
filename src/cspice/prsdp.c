@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure   PRSDP   ( Parse d.p. number with error checking ) */
 /* Subroutine */ int prsdp_(char *string, doublereal *dpval, ftnlen 

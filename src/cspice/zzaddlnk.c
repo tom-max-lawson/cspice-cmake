@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ZZADDLNK ( Add a new AB cell to an AB structure ) */
 /* Subroutine */ int zzaddlnk_(integer *aval, integer *bval, integer *maxa, 

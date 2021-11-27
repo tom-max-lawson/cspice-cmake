@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZDSPC ( SGP4 deep space routine ) */
 /* Subroutine */ int zzdspc_(integer *irez, doublereal *d2201, doublereal *

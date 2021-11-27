@@ -43,7 +43,7 @@
  
 */
 
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
    #undef    nvp2pl_c
    
 

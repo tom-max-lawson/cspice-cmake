@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  MAXAI  ( Maximum element of array, integer ) */
 /* Subroutine */ int maxai_(integer *array, integer *ndim, integer *maxval, 

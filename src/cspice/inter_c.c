@@ -41,10 +41,10 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZmc.h>
 
    void inter_c (  SpiceCell   * a,
                    SpiceCell   * b,
@@ -123,7 +123,7 @@
       sets planets and asteroids into the character set result.
 
 
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
                 .
                 .
                 .
@@ -147,7 +147,7 @@
       ID codes of the bodies of interest.
 
 
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
                 .
                 .
                 .

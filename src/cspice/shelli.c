@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SHELLI ( Shell sort an integer array ) */
 /* Subroutine */ int shelli_(integer *ndim, integer *array)

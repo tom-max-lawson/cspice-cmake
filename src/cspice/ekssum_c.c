@@ -42,10 +42,10 @@
    UTILITY 
  
 */
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZmc.h>
 
    void ekssum_c ( SpiceInt           handle,
                    SpiceInt           segno,
@@ -158,7 +158,7 @@
    1)  Dump the attributes of the segments in a specified EK. 
 
 
-          #include "SpiceUsr.h"
+          #include <cspice/SpiceUsr.h>
           #include <stdio.h>
 
           void main()

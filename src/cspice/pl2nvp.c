@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      PL2NVP ( Plane to normal vector and point ) */
 /* Subroutine */ int pl2nvp_(doublereal *plane, doublereal *normal, 

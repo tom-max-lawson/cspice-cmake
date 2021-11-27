@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      MXMG ( Matrix times matrix, general dimension ) */
 /* Subroutine */ int mxmg_(doublereal *m1, doublereal *m2, integer *row1, 

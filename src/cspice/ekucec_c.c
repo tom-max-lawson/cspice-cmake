@@ -43,11 +43,11 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
-   #include "SpiceZmc.h"
-   #include "SpiceZim.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZmc.h>
+   #include <cspice/SpiceZim.h>
    #undef    ekucec_c
 
 
@@ -200,7 +200,7 @@
        the fifth segment of an EK file designated by handle.  Set 
        the new value to "999". 
  
-          #include "SpiceUsr.h"
+          #include <cspice/SpiceUsr.h>
              .
              .
              .
@@ -210,7 +210,7 @@
     2)  Same as (1), but this time insert a null value.  The argument 
        "999" is ignored because the null flag is set to SPICETRUE 
  
-          #include "SpiceUsr.h"
+          #include <cspice/SpiceUsr.h>
              .
              .
              .
@@ -226,7 +226,7 @@
 
 
              
-          #include "SpiceUsr.h"
+          #include <cspice/SpiceUsr.h>
              .
              .
              .

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SCANRJ ( Scan --- reject tokens ) */
 /* Subroutine */ int scanrj_(integer *ids, integer *n, integer *ntokns, 

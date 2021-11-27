@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      VDOT  ( Vector dot product, 3 dimensions ) */
 doublereal vdot_(doublereal *v1, doublereal *v2)

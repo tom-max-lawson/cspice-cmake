@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure SPKEZP ( S/P Kernel, easy position ) */
 /* Subroutine */ int spkezp_(integer *targ, doublereal *et, char *ref, char *

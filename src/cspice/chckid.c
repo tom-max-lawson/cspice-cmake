@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      CHCKID ( Check ID string ) */
 /* Subroutine */ int chckid_(char *class__, integer *maxlen, char *id, ftnlen 

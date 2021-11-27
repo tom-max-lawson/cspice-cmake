@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure PLTNRM ( DSK, compute outward normal of plate ) */
 /* Subroutine */ int pltnrm_(doublereal *v1, doublereal *v2, doublereal *v3, 

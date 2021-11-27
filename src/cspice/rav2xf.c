@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      RAV2XF ( Rotation and angular velocity to transform ) */
 /* Subroutine */ int rav2xf_(doublereal *rot, doublereal *av, doublereal *

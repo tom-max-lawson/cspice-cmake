@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      FILLD ( Fill a double precision array ) */
 /* Subroutine */ int filld_(doublereal *value, integer *ndim, doublereal *

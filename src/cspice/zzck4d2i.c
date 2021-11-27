@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZCK4D2I ( Unpack a set of integers from DP number ) */
 /* Subroutine */ int zzck4d2i_(doublereal *dpcoef, integer *nsets, doublereal 

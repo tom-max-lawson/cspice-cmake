@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZELLBDS ( Create bounding ellipsoids ) */
 /* Subroutine */ int zzellbds_(doublereal *a, doublereal *b, doublereal *hmax,

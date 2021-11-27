@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SYNTHC ( Return Nth value associated with the symbol ) */
 /* Subroutine */ int synthc_(char *name__, integer *nth, char *tabsym, 

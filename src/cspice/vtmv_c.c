@@ -42,7 +42,7 @@
  
 */
 
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
    #undef    vtmv_c
 
    SpiceDouble vtmv_c ( ConstSpiceDouble v1     [3],

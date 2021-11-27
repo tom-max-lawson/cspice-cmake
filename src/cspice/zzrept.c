@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ZZREPT ( Private --- replace tokens ) */
 logical zzrept_(char *sub, char *replac, logical *l2r, ftnlen sub_len, ftnlen 

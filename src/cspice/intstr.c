@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  INTSTR  ( Integer to character string ) */
 /* Subroutine */ int intstr_(integer *number, char *string, ftnlen string_len)

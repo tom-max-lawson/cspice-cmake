@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure IOVCMP ( Inverse order vector with compressed range ) */
 /* Subroutine */ int iovcmp_(doublereal *darray, integer *ndim, integer *

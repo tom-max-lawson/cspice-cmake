@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      HYPTOF ( Hyperbolic time of flight ) */
 /* Subroutine */ int hyptof_(doublereal *ma, doublereal *ecc, doublereal *f)

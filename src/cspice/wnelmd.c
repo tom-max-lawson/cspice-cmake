@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure            WNELMD ( Element of a DP window ) */
 logical wnelmd_(doublereal *point, doublereal *window)

@@ -43,9 +43,9 @@
 
 */
    #include <stdlib.h>
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
 
    int byebye_ ( char *status,   ftnlen statusLen )
 

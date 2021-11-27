@@ -44,10 +44,10 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZim.h"
-   #include "SpiceDLA.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZim.h>
+   #include <cspice/SpiceDLA.h>
    #undef   dskx02_c
 
    void dskx02_c ( SpiceInt               handle,
@@ -195,9 +195,9 @@
 
          #include <stdio.h>
          #include <math.h>
-         #include "SpiceUsr.h"
-         #include "SpiceDLA.h"
-         #include "SpiceDSK.h"
+         #include <cspice/SpiceUsr.h>
+         #include <cspice/SpiceDLA.h>
+         #include <cspice/SpiceDSK.h>
 
          int main()
          {

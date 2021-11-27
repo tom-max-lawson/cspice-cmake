@@ -44,10 +44,10 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZmc.h>
 
    void sce2s_c ( SpiceInt        sc, 
                   SpiceDouble     et, 
@@ -202,7 +202,7 @@
        We can use the program below:
 
           #include <stdio.h>
-          #include "SpiceUsr.h"
+          #include <cspice/SpiceUsr.h>
 
           int main()
           {
@@ -266,7 +266,7 @@
        To perform this conversion, we could use the program below.
 
           #include <stdio.h>
-          #include "SpiceUsr.h"
+          #include <cspice/SpiceUsr.h>
 
           int main()
           {

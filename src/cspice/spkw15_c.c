@@ -41,9 +41,9 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
    #undef    spkw15_c
    
    
@@ -247,7 +247,7 @@
    fragment below will NOT produce a "correct" type 15 segment 
    for modeling the motion of your object.) 
  
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
           .
           .
           .

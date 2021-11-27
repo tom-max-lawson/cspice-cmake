@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      DPSTRP ( DP Number to Character, With Plus ) */
 /* Subroutine */ int dpstrp_(doublereal *x, integer *sigdig, char *string, 

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      DXTRCT (Extract Double Precision Values From A String) */
 /* Subroutine */ int dxtrct_(char *keywd, integer *maxwds, char *string, 

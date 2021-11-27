@@ -41,7 +41,7 @@
  
 */
 
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
 
 
    void sphlat_c ( SpiceDouble     r, 

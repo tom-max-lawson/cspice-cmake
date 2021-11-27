@@ -54,10 +54,10 @@
 #include <string.h>
 #include <stdio.h>
 
-#include "SpiceUsr.h"
-#include "SpiceZfc.h"
-#include "SpiceZst.h"
-#include "zzerror.h"
+#include <cspice/SpiceUsr.h>
+#include <cspice/SpiceZfc.h>
+#include <cspice/SpiceZst.h>
+#include <cspice/zzerror.h>
 
 #define     MSG_LEN             2024
 #define     TRC_LEN             32

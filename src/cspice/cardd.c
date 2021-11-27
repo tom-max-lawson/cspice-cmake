@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure            CARDD ( Cardinality of a double precision cell ) */
 integer cardd_(doublereal *cell)

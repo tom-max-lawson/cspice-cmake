@@ -1,0 +1,36 @@
+libbrief = static_library(
+    'brief', [
+        'disply.c',
+        'distim.c',
+        'filtem.c',
+        'getnam.c',
+        'maknam.c',
+        'objact.c',
+        'objadd.c',
+        'objcf1.c',
+        'objcf2.c',
+        'objchk.c',
+        'objcmp.c',
+        'objfnd.c',
+        'objget.c',
+        'objinl.c',
+        'objmod.c',
+        'objnth.c',
+        'objnxt.c',
+        'objrem.c',
+        'objsbc.c',
+        'objsbf.c',
+        'objset.c',
+        'objsiz.c',
+        'objval.c',
+        'prname.c',
+        'rndem.c',
+        'writit.c' ],
+    include_directories : includes)
+
+brief = executable(
+    'brief', [ 'brief.c', 'main.c' ],
+    include_directories : includes,
+    link_with : [ libbrief, libcsupport, libcspice ],
+    dependencies : [ math_dep ],
+    install : true)

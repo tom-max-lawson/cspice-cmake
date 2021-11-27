@@ -48,7 +48,7 @@
 */
 
    #include <signal.h>
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
  
 
    static SpiceBoolean signalStatus = SPICEFALSE;

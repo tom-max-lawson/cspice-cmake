@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      FNDPTK ( Find the previous token in a string ) */
 /* Subroutine */ int fndptk_(char *string, char *delims, integer *start, 

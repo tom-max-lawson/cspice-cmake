@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  PARSQS ( Parse quoted string token ) */
 /* Subroutine */ int parsqs_(char *string, char *qchar, char *value, integer *

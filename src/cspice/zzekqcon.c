@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  ZZEKQCON ( Private: EK, read constraints from query ) */
 /* Subroutine */ int zzekqcon_(integer *eqryi, char *eqryc, doublereal *eqryd,

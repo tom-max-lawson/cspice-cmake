@@ -52,11 +52,11 @@
 */
 
    #include <stdlib.h>
-   #include "SpiceGF.h"
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
-   #include "zzalloc.h"
+   #include <cspice/SpiceGF.h>
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
+   #include <cspice/zzalloc.h>
 
    void gfpa_c ( ConstSpiceChar     * target,
                  ConstSpiceChar     * illmn,
@@ -614,7 +614,7 @@
       the observer.
 
       #include <stdio.h>
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
 
       #define  TIMFMT  "YYYY MON DD HR:MN:SC.###"
       #define  NINTVL  5000

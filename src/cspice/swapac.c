@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SWAPAC ( Swap array, character ) */
 /* Subroutine */ int swapac_(integer *n, integer *locn, integer *m, integer *

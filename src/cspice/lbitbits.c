@@ -1,4 +1,4 @@
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 #ifndef LONGBITS
 #define LONGBITS 32

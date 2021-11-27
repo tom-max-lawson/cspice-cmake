@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      VALIDC ( Validate a character set ) */
 /* Subroutine */ int validc_(integer *size, integer *n, char *a, ftnlen a_len)

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      M2HAVE ( META/2 --- How many matches do we have ) */
 integer m2have_(char *name__, ftnlen name_len)

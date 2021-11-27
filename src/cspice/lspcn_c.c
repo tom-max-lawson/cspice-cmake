@@ -46,9 +46,9 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
 
    SpiceDouble lspcn_c ( ConstSpiceChar   * body,
                          SpiceDouble        et,
@@ -183,7 +183,7 @@
       used. 
  
          #include <stdio.h>
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
 
          int main()
          {

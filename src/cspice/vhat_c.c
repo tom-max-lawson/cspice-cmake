@@ -42,7 +42,7 @@
 */
 
    #include <math.h>
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
    #undef    vhat_c
 
 

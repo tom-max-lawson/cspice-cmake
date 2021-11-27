@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      PODAEI ( Pod, append elements, integer ) */
 /* Subroutine */ int podaei_(integer *elems, integer *n, integer *pod)

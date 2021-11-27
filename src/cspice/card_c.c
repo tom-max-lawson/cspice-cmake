@@ -42,8 +42,8 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZmc.h>
 
    SpiceInt card_c ( SpiceCell  * cell ) 
 
@@ -97,7 +97,7 @@
    is used to step through the individual elements of the character 
    cell names. 
  
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
            . 
            . 
            . 

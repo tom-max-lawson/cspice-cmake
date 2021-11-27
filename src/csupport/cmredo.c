@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      CMREDO ( COMMND loop trap ) */
 /* Subroutine */ int cmredo_(char *commnd, integer *from, logical *trap, 

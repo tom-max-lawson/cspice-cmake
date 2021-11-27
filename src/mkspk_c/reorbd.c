@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      REORBD ( Reorder a blocks of double precisions ) */
 /* Subroutine */ int reorbd_(integer *ordvec, integer *n, integer *bsize, 

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SYFETC ( Fetch the Nth symbol in the table ) */
 /* Subroutine */ int syfetc_(integer *nth, char *tabsym, integer *tabptr, 

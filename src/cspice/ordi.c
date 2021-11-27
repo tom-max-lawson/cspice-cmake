@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ORDI ( The ordinal position of an element in a set ) */
 integer ordi_(integer *item, integer *set)

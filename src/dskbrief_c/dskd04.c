@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure DSKD04 ( DSK, fetch d.p. type 4 data ) */
 /* Subroutine */ int dskd04_(integer *handle, integer *dladsc, integer *item, 

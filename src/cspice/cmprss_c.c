@@ -43,9 +43,9 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZmc.h"
-   #include "SpiceZst.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZmc.h>
+   #include <cspice/SpiceZst.h>
 
 
    void cmprss_c ( SpiceChar          delim,

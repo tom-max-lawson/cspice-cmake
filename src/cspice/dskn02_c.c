@@ -45,8 +45,8 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
    #undef dskn02_c
    
 
@@ -150,8 +150,8 @@
       Example code begins here. 
  
          #include <stdio.h>
-         #include "SpiceUsr.h"
-         #include "SpiceDLA.h"
+         #include <cspice/SpiceUsr.h>
+         #include <cspice/SpiceDLA.h>
          #include "dsk_proto.h"
 
          int main()

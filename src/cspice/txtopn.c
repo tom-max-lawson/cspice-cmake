@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      TXTOPN ( Text file, open new ) */
 /* Subroutine */ int txtopn_(char *fname, integer *unit, ftnlen fname_len)

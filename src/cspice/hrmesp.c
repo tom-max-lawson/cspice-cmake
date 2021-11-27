@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure HRMESP ( Hermite polynomial interpolation, equal spacing  ) */
 /* Subroutine */ int hrmesp_(integer *n, doublereal *first, doublereal *step, 

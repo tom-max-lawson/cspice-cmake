@@ -4,8 +4,8 @@
 #include "sys/types.h"
 #include "sys/stat.h"
 #endif
-#include "f2c.h"
-#include "fio.h"
+#include <cspice/f2c.h>
+#include <cspice/fio.h>
 
  VOID
 #ifdef KR_headers

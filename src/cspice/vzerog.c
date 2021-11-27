@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  VZEROG ( Is a vector the zero vector?---general dim. ) */
 logical vzerog_(doublereal *v, integer *ndim)

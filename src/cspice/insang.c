@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure INSANG ( Inside Tetrahedral Angle ) */
 /* Subroutine */ int insang_(doublereal *v, doublereal *e1, doublereal *e2, 

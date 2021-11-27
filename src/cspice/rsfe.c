@@ -42,9 +42,9 @@
 
 */
 
-#include "f2c.h"
-#include "fio.h"
-#include "fmt.h"
+#include <cspice/f2c.h>
+#include <cspice/fio.h>
+#include <cspice/fmt.h>
 
 /*
    The variable read_non_native is set via the function zzsetnnread_.
@@ -116,7 +116,7 @@ void    zzsetnnread_( logical * on );
 -&
 */
 
-xrd_SL(Void)
+int xrd_SL(Void)
    {
 
    int ch;
@@ -143,7 +143,7 @@ xrd_SL(Void)
    }
 
 
-x_getc(Void)
+int x_getc(Void)
    {
    
    int ch;
@@ -187,13 +187,13 @@ x_getc(Void)
    }
 
 
-x_endp(Void)
+int x_endp(Void)
    {
    xrd_SL();
    return f__curunit->uend == 1 ? EOF : 0;
    }
 
-x_rev(Void)
+int x_rev(Void)
    {
    (void) xrd_SL();
    return(0);

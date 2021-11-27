@@ -45,8 +45,8 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
    #undef pltexp_c
 
    void pltexp_c ( ConstSpiceDouble   iverts[3][3],
@@ -148,7 +148,7 @@
          ./
          #include <stdio.h>
          #include <math.h>
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
 
          int main()
          {

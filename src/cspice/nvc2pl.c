@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      NVC2PL ( Normal vector and constant to plane ) */
 /* Subroutine */ int nvc2pl_(doublereal *normal, doublereal *const__, 

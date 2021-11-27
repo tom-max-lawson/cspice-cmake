@@ -42,10 +42,10 @@
 
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
-   #include "SpiceZst.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
+   #include <cspice/SpiceZst.h>
    
 
    void tpictr_c ( ConstSpiceChar * sample,
@@ -158,7 +158,7 @@
    of epochs, et[0],...,et[n-1] (given as ephemeris seconds past J2000)
    as shown in the loop below:
 
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
           .
           .
           .

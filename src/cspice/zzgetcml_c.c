@@ -45,8 +45,8 @@
    #include <stdlib.h>
    #include <stdio.h>
 
-   #include "SpiceUsr.h"
-   #include "SpiceZpl.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZpl.h>
 
    #ifdef CSPICE_MACPPC
    
@@ -115,7 +115,7 @@
    #include <stdio.h>
    #include <stdlib.h>
 
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
 
    SpiceInt     i;
 

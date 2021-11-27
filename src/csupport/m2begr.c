@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      M2BEGR ( See if a word begins with a range template ) */
 /* Subroutine */ int m2begr_(char *string, integer *beg, integer *end, 

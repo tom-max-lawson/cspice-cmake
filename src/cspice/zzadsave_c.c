@@ -46,9 +46,9 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZst.h"
-   #include "SpiceZad.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZad.h>
 
    /*
    Static file scope variables 
@@ -129,9 +129,9 @@
 
 
          #include <stdio.h>
-         #include "SpiceUsr.h"
-         #include "SpiceZfc.h"
-         #include "SpiceZad.h"
+         #include <cspice/SpiceUsr.h>
+         #include <cspice/SpiceZfc.h>
+         #include <cspice/SpiceZad.h>
 
          int main()
          {

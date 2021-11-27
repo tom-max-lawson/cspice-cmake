@@ -41,7 +41,7 @@
 
 */
 
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
 
    SpiceDouble j2000_c ( void )
 

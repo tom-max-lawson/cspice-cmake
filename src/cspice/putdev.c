@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      PUTDEV ( Store Error Output Device Specification ) */
 /* Subroutine */ int putdev_0_(int n__, char *device, ftnlen device_len)

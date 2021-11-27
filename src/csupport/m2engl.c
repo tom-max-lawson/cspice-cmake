@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      M2ENGL ( Determine if a word contains all letters) */
 logical m2engl_(char *word, ftnlen word_len)

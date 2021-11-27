@@ -49,10 +49,10 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZmc.h>
 
 
    void srfcss_c ( SpiceInt          code,
@@ -294,7 +294,7 @@
         ./
 
         #include <stdio.h>
-        #include "SpiceUsr.h"
+        #include <cspice/SpiceUsr.h>
 
 
         int main()

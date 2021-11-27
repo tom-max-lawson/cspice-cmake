@@ -43,10 +43,10 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZmc.h>
    #undef    getelm_c
    
 
@@ -220,7 +220,7 @@
  
       #include <string.h>
       #include <stdio.h>
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
       
       SpiceDouble         et;
       SpiceDouble         epoch;

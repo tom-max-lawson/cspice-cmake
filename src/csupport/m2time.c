@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      M2TIME ( Determine whether or not a word is a time ) */
 logical m2time_(char *word, ftnlen word_len)

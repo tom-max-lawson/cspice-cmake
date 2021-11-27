@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      WRITLA ( Write array of lines to a logical unit ) */
 /* Subroutine */ int writla_(integer *numlin, char *array, integer *unit, 

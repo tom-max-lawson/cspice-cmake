@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      DRDGEO ( Derivative of rectangular w.r.t. geodetic ) */
 /* Subroutine */ int drdgeo_(doublereal *long__, doublereal *lat, doublereal *

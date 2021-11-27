@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure             EXISTS ( Does the file exist? ) */
 logical exists_(char *file, ftnlen file_len)

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SOMTRU ( Some entries true? ) */
 logical somtru_(logical *logcls, integer *n)

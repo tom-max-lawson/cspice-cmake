@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZDDHGTU ( Private --- DDH Get Unit ) */
 /* Subroutine */ int zzddhgtu_(integer *utcst, integer *uthan, logical *utlck,

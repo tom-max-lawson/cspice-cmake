@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure             ISOPEN ( Is a file currently open? ) */
 logical isopen_(char *file, ftnlen file_len)

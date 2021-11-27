@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      M2TRIM ( META/2 trim the name portion from a word ) */
 /* Subroutine */ int m2trim_(char *word, char *root, ftnlen word_len, ftnlen 

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      RECSPH ( Rectangular to spherical coordinates ) */
 /* Subroutine */ int recsph_(doublereal *rectan, doublereal *r__, doublereal *

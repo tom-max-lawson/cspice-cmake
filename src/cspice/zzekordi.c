@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ZZEKORDI ( Order of an integer EK column ) */
 /* Subroutine */ int zzekordi_(integer *ivals, logical *nullok, logical *

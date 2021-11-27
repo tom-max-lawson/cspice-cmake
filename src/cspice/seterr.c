@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SETERR ( Set Error Status ) */
 logical seterr_0_(int n__, logical *status)

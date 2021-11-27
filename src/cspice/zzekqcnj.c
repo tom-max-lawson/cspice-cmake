@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  ZZEKQCNJ ( Private: EK, read conjunction sizes from query ) */
 /* Subroutine */ int zzekqcnj_(integer *eqryi, integer *n, integer *size)

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure LBUPD ( Line buffer, update ) */
 /* Subroutine */ int lbupd_1__(integer *nline, integer *ncom, integer *ptrs)

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      KEPLEQ ( Kepler's Equation - Equinoctial Version ) */
 doublereal kepleq_(doublereal *ml, doublereal *h__, doublereal *k)

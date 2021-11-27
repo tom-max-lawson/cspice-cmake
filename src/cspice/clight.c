@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure CLIGHT ( C, Speed of light in a vacuum ) */
 doublereal clight_(void)

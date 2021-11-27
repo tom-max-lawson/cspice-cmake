@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure GETELM ( Get the components from two-line elements) */
 /* Subroutine */ int getelm_(integer *frstyr, char *lines, doublereal *epoch, 

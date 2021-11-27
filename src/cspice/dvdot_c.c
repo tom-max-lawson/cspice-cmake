@@ -43,7 +43,7 @@
 
 */
 
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
    #undef   dvdot_c
 
    SpiceDouble dvdot_c ( ConstSpiceDouble s1[6],

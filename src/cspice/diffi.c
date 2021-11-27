@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      DIFFI ( Difference of two integer sets ) */
 /* Subroutine */ int diffi_(integer *a, integer *b, integer *c__)

@@ -41,9 +41,9 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
    #undef    spkw17_c
    
    
@@ -236,7 +236,7 @@
       These elements are converted to equinoctial elements (in 
       the order compatible with type 17) as shown below. 
  
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
                .
                .
                .

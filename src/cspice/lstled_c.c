@@ -43,9 +43,9 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZim.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZim.h>
    #undef    lstled_c
 
    SpiceInt lstled_c ( SpiceDouble         x,

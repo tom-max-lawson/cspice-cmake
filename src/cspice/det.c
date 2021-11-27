@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  DET  ( Determinant of a double precision 3x3 matrix ) */
 doublereal det_(doublereal *m1)

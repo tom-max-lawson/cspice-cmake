@@ -44,8 +44,8 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
 
    void drdlat_c ( SpiceDouble   r,
                    SpiceDouble   lon,
@@ -144,7 +144,7 @@
  
    This is illustrated by the following code fragment. 
  
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
             .
             .
             .

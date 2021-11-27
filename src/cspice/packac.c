@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      PACKAC ( Pack a character array ) */
 /* Subroutine */ int packac_(char *in, integer *pack, integer *npack, integer 

@@ -1,7 +1,7 @@
 /*write sequential formatted external*/
-#include "f2c.h"
-#include "fio.h"
-#include "fmt.h"
+#include <cspice/f2c.h>
+#include <cspice/fio.h>
+#include <cspice/fmt.h>
 extern int f__hiwater;
 
  int

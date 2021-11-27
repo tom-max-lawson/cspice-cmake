@@ -48,9 +48,9 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
 
 
    void ckcov_c ( ConstSpiceChar    * ck,
@@ -286,7 +286,7 @@
 
 
           #include <stdio.h>
-          #include "SpiceUsr.h"
+          #include <cspice/SpiceUsr.h>
 
           int main()
           {
@@ -419,7 +419,7 @@
  
 
           #include <stdio.h>
-          #include "SpiceUsr.h"
+          #include <cspice/SpiceUsr.h>
 
           int main()
           {

@@ -41,9 +41,9 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
 
    void ekffld_c ( SpiceInt     handle,
                    SpiceInt     segno,
@@ -158,7 +158,7 @@
        Below, we show how we'd open a new EK file and create the 
        first of the segments described above. 
  
-       #include "SpiceUsr.h"
+       #include <cspice/SpiceUsr.h>
        #include <stdio.h>
        
        

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure   ZZEKRSC ( EK, read scalar, character ) */
 /* Subroutine */ int zzekrsc_(integer *handle, integer *segdsc, integer *

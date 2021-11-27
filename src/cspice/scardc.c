@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SCARDC ( Set the cardinality of a character cell ) */
 /* Subroutine */ int scardc_(integer *card, char *cell, ftnlen cell_len)

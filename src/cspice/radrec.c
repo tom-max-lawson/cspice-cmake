@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      RADREC ( Range, RA and DEC to rectangular coordinates ) */
 /* Subroutine */ int radrec_(doublereal *range, doublereal *ra, doublereal *

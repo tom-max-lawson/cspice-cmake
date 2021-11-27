@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZINREC ( DSK, in rectangular element? ) */
 /* Subroutine */ int zzinrec_(doublereal *p, doublereal *bounds, doublereal *

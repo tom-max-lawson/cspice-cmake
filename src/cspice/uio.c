@@ -1,11 +1,11 @@
-#include "f2c.h"
-#include "fio.h"
+#include <cspice/f2c.h>
+#include <cspice/fio.h>
 uiolen f__reclen;
 
 #ifdef KR_headers
-do_us(number,ptr,len) ftnint *number; char *ptr; ftnlen len;
+int do_us(number,ptr,len) ftnint *number; char *ptr; ftnlen len;
 #else
-do_us(ftnint *number, char *ptr, ftnlen len)
+int do_us(ftnint *number, char *ptr, ftnlen len)
 #endif
 {
 	if(f__reading)

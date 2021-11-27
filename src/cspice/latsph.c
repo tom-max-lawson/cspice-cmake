@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      LATSPH ( Latitudinal to spherical coordinates ) */
 /* Subroutine */ int latsph_(doublereal *radius, doublereal *long__, 

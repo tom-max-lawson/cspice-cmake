@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      POLYDS ( Compute a Polynomial and its Derivatives ) */
 /* Subroutine */ int polyds_(doublereal *coeffs, integer *deg, integer *

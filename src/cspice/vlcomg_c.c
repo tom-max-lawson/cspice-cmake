@@ -42,7 +42,7 @@
 
 */
 
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
    #undef   vlcomg_c
 
    void vlcomg_c ( SpiceInt            n,

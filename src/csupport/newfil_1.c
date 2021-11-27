@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      NEWFIL_1 ( Generate a filename that does not exist ) */
 /* Subroutine */ int newfil_1__(char *pattrn, char *file, ftnlen pattrn_len, 

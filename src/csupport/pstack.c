@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      PSTACK (Save paragraphs of text in a paragraph stack) */
 /* Subroutine */ int pstack_0_(int n__, integer *depth, char *line, char *

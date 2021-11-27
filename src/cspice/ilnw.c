@@ -1,6 +1,6 @@
-#include "f2c.h"
-#include "fio.h"
-#include "lio.h"
+#include <cspice/f2c.h>
+#include <cspice/fio.h>
+#include <cspice/lio.h>
 extern char *f__icptr;
 extern char *f__icend;
 extern icilist *f__svic;

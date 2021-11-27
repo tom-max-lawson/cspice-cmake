@@ -41,8 +41,8 @@
  
 */
 
-#include "SpiceUsr.h"
-#include "SpiceZmc.h"
+#include <cspice/SpiceUsr.h>
+#include <cspice/SpiceZmc.h>
 
 
    void appndd_c ( SpiceDouble     item,
@@ -100,7 +100,7 @@
    1)  In the following example, the element 34 is appended to 
        the double precision cell fibNums. 
 
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
                 .
                 .
                 .

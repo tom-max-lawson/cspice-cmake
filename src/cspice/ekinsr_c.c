@@ -43,8 +43,8 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
 
    void ekinsr_c ( SpiceInt  handle,
                    SpiceInt  segno,
@@ -168,7 +168,7 @@
          
  
             EKCLS ( HANDLE ) 
-          #include "SpiceUsr.h"
+          #include <cspice/SpiceUsr.h>
               .
               . 
               . 

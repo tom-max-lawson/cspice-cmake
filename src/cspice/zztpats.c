@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZTPATS (Private, Time --- Time Patterns) */
 logical zztpats_(integer *room, integer *nknown, char *known, char *meanng, 

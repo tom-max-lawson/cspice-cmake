@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      VLCOM3 ( Vector linear combination, 3 dimensions ) */
 /* Subroutine */ int vlcom3_(doublereal *a, doublereal *v1, doublereal *b, 

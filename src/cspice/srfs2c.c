@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure SRFS2C ( Surface and body strings to surface ID code ) */
 /* Subroutine */ int srfs2c_(char *srfstr, char *bodstr, integer *code, 

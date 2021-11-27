@@ -1,7 +1,7 @@
-#include "f2c.h"
-#include "fio.h"
-#include "lio.h"
-#include "fmt.h" /* for f__doend */
+#include <cspice/f2c.h>
+#include <cspice/fio.h>
+#include <cspice/lio.h>
+#include <cspice/fmt.h> /* for f__doend */
 
 extern flag f__lquit;
 extern int f__lcount;

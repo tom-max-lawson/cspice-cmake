@@ -41,10 +41,10 @@
  
 */
  
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZmc.h>
  
    void valid_c (  SpiceInt      size,
                    SpiceInt      n,
@@ -132,7 +132,7 @@
    1) Build a double precision cell via a series of calls to appndd_c.
       Create a set from this set by calling valid_c.
  
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
  
          int main()
          {

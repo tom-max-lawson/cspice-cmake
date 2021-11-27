@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      VSUBG ( Vector subtraction, general dimension ) */
 /* Subroutine */ int vsubg_(doublereal *v1, doublereal *v2, integer *ndim, 

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SCANSL ( Scan --- select tokens ) */
 /* Subroutine */ int scansl_(integer *ids, integer *n, integer *ntokns, 

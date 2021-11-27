@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SWAPD ( Swap double precision values ) */
 /* Subroutine */ int swapd_(doublereal *a, doublereal *b)

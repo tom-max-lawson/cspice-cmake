@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  HX2DP  ( Hexadecimal string to d.p. number ) */
 /* Subroutine */ int hx2dp_(char *string, doublereal *number, logical *error, 

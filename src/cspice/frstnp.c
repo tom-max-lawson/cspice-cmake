@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  FRSTNP ( First non-printable character ) */
 integer frstnp_(char *string, ftnlen string_len)

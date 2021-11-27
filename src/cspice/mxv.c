@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      MXV ( Matrix times vector, 3x3 ) */
 /* Subroutine */ int mxv_(doublereal *matrix, doublereal *vin, doublereal *

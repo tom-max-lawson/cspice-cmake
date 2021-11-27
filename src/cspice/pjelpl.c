@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      PJELPL ( Project ellipse onto plane ) */
 /* Subroutine */ int pjelpl_(doublereal *elin, doublereal *plane, doublereal *

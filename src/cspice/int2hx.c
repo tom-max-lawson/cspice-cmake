@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  INT2HX  ( Integer to signed hexadecimal string ) */
 /* Subroutine */ int int2hx_(integer *number, char *string, integer *length, 

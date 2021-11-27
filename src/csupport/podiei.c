@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      PODIEI ( Pod, insert elements, integer ) */
 /* Subroutine */ int podiei_(integer *elems, integer *n, integer *loc, 

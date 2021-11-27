@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZNSPPOK (Private Routine -- NSPIO Port) */
 integer zznsppok_(char *port, integer *nports, char *ports, ftnlen port_len, 

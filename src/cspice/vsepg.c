@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  VSEPG ( Angular separation of vectors, general dimension ) */
 doublereal vsepg_(doublereal *v1, doublereal *v2, integer *ndim)

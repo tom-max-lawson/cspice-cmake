@@ -42,8 +42,8 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
    #undef dvsep_c
 
    SpiceDouble dvsep_c (ConstSpiceDouble s1[6], ConstSpiceDouble s2[6] ) 

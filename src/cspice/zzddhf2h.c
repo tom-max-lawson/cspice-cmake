@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZDDHF2H ( Private --- DDH Filename to Handle ) */
 /* Subroutine */ int zzddhf2h_(char *fname, integer *ftabs, integer *ftamh, 

@@ -41,9 +41,9 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
 
    void spkopn_c ( ConstSpiceChar * name,
                    ConstSpiceChar * ifname,
@@ -125,7 +125,7 @@
    passed to the SPK type 5 segment writer have appropriate values 
    and no errors occur. 
  
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
          .
          .
          . 

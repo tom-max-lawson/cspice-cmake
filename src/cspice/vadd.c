@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      VADD ( Vector addition, 3 dimensional ) */
 /* Subroutine */ int vadd_(doublereal *v1, doublereal *v2, doublereal *vout)

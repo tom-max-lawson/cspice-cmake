@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      REMOVD ( Remove an item from a double precision set ) */
 /* Subroutine */ int removd_(doublereal *item, doublereal *a)

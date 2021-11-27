@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ZZEKSTYP ( EK, determine segment type ) */
 integer zzekstyp_(integer *ncols, integer *cdscrs)

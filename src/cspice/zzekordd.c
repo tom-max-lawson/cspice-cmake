@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ZZEKORDD ( Order of a double precision EK column ) */
 /* Subroutine */ int zzekordd_(doublereal *dvals, logical *nullok, logical *

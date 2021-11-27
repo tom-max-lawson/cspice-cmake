@@ -48,8 +48,8 @@
 
 */
    #include <ctype.h>
-   #include "SpiceUsr.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZmc.h>
    
    
    SpiceBoolean eqstr_c ( ConstSpiceChar * a,  ConstSpiceChar * b )
@@ -173,7 +173,7 @@
 
        The following illustrates a typical use for eqstr_c.
 
-          #include "SpiceUsr.h"
+          #include <cspice/SpiceUsr.h>
               .
               .
               .

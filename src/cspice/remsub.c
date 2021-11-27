@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      REMSUB ( Remove a substring ) */
 /* Subroutine */ int remsub_(char *in, integer *left, integer *right, char *

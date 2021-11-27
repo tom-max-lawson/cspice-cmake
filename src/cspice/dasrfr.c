@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      DASRFR ( DAS, read file record ) */
 /* Subroutine */ int dasrfr_(integer *handle, char *idword, char *ifname, 

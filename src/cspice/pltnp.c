@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      PLTNP ( Nearest point on triangular plate ) */
 /* Subroutine */ int pltnp_(doublereal *point, doublereal *v1, doublereal *v2,

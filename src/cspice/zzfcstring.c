@@ -157,9 +157,9 @@
 
    #include <string.h>
 
-   #include "SpiceUsr.h"
-   #include "SpiceZst.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZmc.h>
 
 
 SpiceStatus C2F_CreateStr ( ConstSpiceChar  *cStr,

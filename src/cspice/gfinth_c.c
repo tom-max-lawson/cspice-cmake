@@ -46,7 +46,7 @@
 */
 
    #include <signal.h>
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
  
 
    void gfinth_c ( int sigcode ) 
@@ -112,7 +112,7 @@
 
 
        #include <signal.h>
-       #include "SpiceUsr.h"
+       #include <cspice/SpiceUsr.h>
 
        int main()
        {

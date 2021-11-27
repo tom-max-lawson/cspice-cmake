@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      REMOVI ( Remove an item from an integer set ) */
 /* Subroutine */ int removi_(integer *item, integer *a)

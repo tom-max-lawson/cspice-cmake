@@ -41,7 +41,7 @@ None.
  
 */
 
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
 
    SpiceDouble tyear_c ( void ) 
 

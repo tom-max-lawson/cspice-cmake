@@ -49,10 +49,10 @@
  
 */
   
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZmc.h>
 
    void srfs2c_c ( ConstSpiceChar  * srfstr,
                    ConstSpiceChar  * bodstr,
@@ -258,7 +258,7 @@
         srfs2c_c example 1 
         ./
         #include <stdio.h>
-        #include "SpiceUsr.h"
+        #include <cspice/SpiceUsr.h>
 
         int main()
         {

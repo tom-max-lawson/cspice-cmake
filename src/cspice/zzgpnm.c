@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ZZGPNM ( Get position of a name ) */
 /* Subroutine */ int zzgpnm_(integer *namlst, integer *nmpool, char *names, 

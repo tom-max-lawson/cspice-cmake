@@ -42,7 +42,7 @@
  
 */
 
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
 
    void radrec_c ( SpiceDouble range, 
                    SpiceDouble ra, 
@@ -105,7 +105,7 @@
    The following code fragment converts right ascension and 
    declination from the B1950 reference frame to the J2000 frame.
  
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
 
       SpiceDouble      ra;
       SpiceDouble      dec; 

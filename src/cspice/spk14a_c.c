@@ -42,9 +42,9 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
    #undef    spk14a_c
    
    
@@ -211,7 +211,7 @@
       type 14 SPK segment if all of the data for the segment is 
       available at one time. 
  
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
             .
             .
             .
@@ -323,7 +323,7 @@
       type 14 SPK segment if all of the data for the segment is not 
       available at one time. 
  
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
             .
             .
             .

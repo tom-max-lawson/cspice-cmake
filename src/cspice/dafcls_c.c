@@ -42,8 +42,8 @@
 
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
 
    void dafcls_c ( SpiceInt handle )
 
@@ -104,7 +104,7 @@
    begin with the word TEST. The complete names for these arrays are
    printed to the screen. The file is closed at the end of the search.
 
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
           .
           .
           .
@@ -141,7 +141,7 @@
    closes the DAF.
 
       #include <stdio.h>
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
 
       int main()
          {

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure            WDINDX ( Index of a Word Within a String ) */
 integer wdindx_(char *string, char *word, ftnlen string_len, ftnlen word_len)

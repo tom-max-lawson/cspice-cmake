@@ -1,6 +1,6 @@
-#include "f2c.h"
-#include "fio.h"
-#include "lio.h"
+#include <cspice/f2c.h>
+#include <cspice/fio.h>
+#include <cspice/lio.h>
 
 #define MAX_NL_CACHE 3	/* maximum number of namelist hash tables to cache */
 #define MAXDIM 20	/* maximum number of subscripts */
@@ -36,7 +36,7 @@
 
  extern flag f__lquit;
  extern int f__lcount, nml_read;
- extern t_getc(Void);
+ extern int t_getc(Void);
 
 #ifdef KR_headers
  extern char *malloc(), *memset();
@@ -291,9 +291,9 @@ print_ne(cilist *a)
  static char where0[] = "namelist read start ";
 
 #ifdef KR_headers
-x_rsne(a) cilist *a;
+int x_rsne(a) cilist *a;
 #else
-x_rsne(cilist *a)
+int x_rsne(cilist *a)
 #endif
 {
 	int ch, got1, k, n, nd, quote, readall;

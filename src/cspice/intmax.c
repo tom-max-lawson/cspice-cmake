@@ -43,7 +43,7 @@
 */
 
    #include <limits.h>
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
 
    SpiceInt intmax_ () 
 

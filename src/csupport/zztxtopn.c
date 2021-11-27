@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZTXTOPN ( Private Routine -- Text file, open new ) */
 /* Subroutine */ int zztxtopn_(char *fname, integer *unit, logical *succss, 

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      M2EPOC ( Determine whether or not a word is an epoch ) */
 logical m2epoc_(char *word, ftnlen word_len)

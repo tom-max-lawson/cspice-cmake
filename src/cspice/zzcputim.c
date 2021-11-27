@@ -43,7 +43,7 @@
  
 */
    #include <time.h>
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
 
    int zzcputim_ ( SpiceDouble *tvec ) 
 
@@ -113,7 +113,7 @@
    to generate a "time stamp" that might be used to tag data 
    you plan to write to a file. 
  
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
       
       void tstamp ( SpiceChar *stamp ) 
       {

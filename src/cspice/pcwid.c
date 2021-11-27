@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure            PCWID ( Printable width of a character array ) */
 integer pcwid_(char *array, integer *nelt, ftnlen array_len)

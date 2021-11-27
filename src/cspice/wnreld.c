@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      WNRELD ( Compare two DP windows ) */
 logical wnreld_(doublereal *a, char *op, doublereal *b, ftnlen op_len)

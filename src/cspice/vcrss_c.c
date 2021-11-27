@@ -41,8 +41,8 @@
 
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZmc.h>
    #undef    vcrss_c
    
 

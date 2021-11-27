@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure DIMCB ( Dimension of character buffer ) */
 integer dimcb_1__(char *buffer, ftnlen buffer_len)

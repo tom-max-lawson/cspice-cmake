@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure    ZZEKILLE ( EK, indirect, last elt less than or equal to ) */
 integer zzekille_(integer *handle, integer *segdsc, integer *coldsc, integer *

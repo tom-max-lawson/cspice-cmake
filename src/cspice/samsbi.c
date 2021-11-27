@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SAMSBI (Same substrings, case insensitive) */
 logical samsbi_(char *str1, integer *b1, integer *e1, char *str2, integer *b2,

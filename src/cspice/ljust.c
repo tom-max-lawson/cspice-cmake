@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure LJUST ( Left justify a character string ) */
 /* Subroutine */ int ljust_(char *input, char *output, ftnlen input_len, 

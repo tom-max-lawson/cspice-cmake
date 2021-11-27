@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure NCODED ( Encode integer value into DP item ) */
 /* Subroutine */ int ncoded_0_(int n__, integer *value, doublereal *item)

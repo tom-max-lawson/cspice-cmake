@@ -44,8 +44,8 @@
    TRANSFORMATION
 
 */
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
    #undef    m2eul_c
    
 

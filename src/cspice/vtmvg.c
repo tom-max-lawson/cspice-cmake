@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  VTMVG  ( Vector transpose times matrix times vector ) */
 doublereal vtmvg_(doublereal *v1, doublereal *matrix, doublereal *v2, integer 

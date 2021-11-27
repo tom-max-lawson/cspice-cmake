@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SYORDD ( Order the components of a single symbol ) */
 /* Subroutine */ int syordd_(char *name__, char *tabsym, integer *tabptr, 

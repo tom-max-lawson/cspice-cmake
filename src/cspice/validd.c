@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      VALIDD ( Validate a double precision set ) */
 /* Subroutine */ int validd_(integer *size, integer *n, doublereal *a)

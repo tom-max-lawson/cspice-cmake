@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ORDERC ( Order of a character array ) */
 /* Subroutine */ int orderc_(char *array, integer *ndim, integer *iorder, 

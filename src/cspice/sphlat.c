@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SPHLAT ( Spherical to latitudinal coordinates ) */
 /* Subroutine */ int sphlat_(doublereal *r__, doublereal *colat, doublereal *

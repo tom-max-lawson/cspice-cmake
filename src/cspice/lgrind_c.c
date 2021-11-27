@@ -45,8 +45,8 @@
 
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
    #undef    lgrind_c
 
    void lgrind_c ( SpiceInt            n,
@@ -167,7 +167,7 @@
       and evaluate this polynomial at x = 2.
 
       #include <stdio.h>
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
 
       int main()
          {

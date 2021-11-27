@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ZZEKTLOC ( EK, locate token in tokenized EK query ) */
 /* Subroutine */ int zzektloc_(integer *tokid, integer *kwcode, integer *

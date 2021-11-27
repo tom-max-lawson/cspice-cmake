@@ -42,8 +42,8 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZmc.h>
 
 
    SpiceInt size_c ( SpiceCell  * cell )
@@ -104,7 +104,7 @@
    elements than save is capable of holding, then the operation 
    will fail.) 
  
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
            . 
            . 
            . 

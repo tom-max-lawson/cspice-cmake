@@ -44,8 +44,8 @@
    TOPOGRAPHY
 
 */
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
    #undef dski02_c
 
    void dski02_c ( SpiceInt              handle,
@@ -195,9 +195,9 @@
 
 
          #include <stdio.h>
-         #include "SpiceUsr.h"
-         #include "SpiceDLA.h"
-         #include "SpiceDSK.h"
+         #include <cspice/SpiceUsr.h>
+         #include <cspice/SpiceDLA.h>
+         #include <cspice/SpiceDSK.h>
 
          int main()
          {

@@ -44,9 +44,9 @@
 
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
 
    SpiceBoolean bodfnd_c ( SpiceInt           body,
                            ConstSpiceChar   * item )
@@ -97,7 +97,7 @@
    In the following example, default values are substituted for
    bodies for which radii are not found.
 
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
           ...
       SpiceDouble          radii[3];
       SpiceInt             n;

@@ -1,4 +1,4 @@
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 #ifdef KR_headers
 shortint pow_hh(ap, bp) shortint *ap, *bp;

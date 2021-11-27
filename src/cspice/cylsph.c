@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      CYLSPH ( Cylindrical to spherical ) */
 /* Subroutine */ int cylsph_(doublereal *r__, doublereal *longc, doublereal *

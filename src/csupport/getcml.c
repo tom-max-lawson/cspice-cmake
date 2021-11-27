@@ -44,9 +44,9 @@
    #include <string.h>
    #include <stdlib.h>
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
 
    SpiceInt getcml_ ( char    * outline,
                       ftnlen    line_len )
@@ -118,8 +118,8 @@
    Example:
 
 
-   #include "SpiceUsr.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZmc.h>
 
    #define  LINE_LEN   20
 

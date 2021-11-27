@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure GFSTEP ( GF, step size ) */
 /* Subroutine */ int gfstep_0_(int n__, doublereal *time, doublereal *step)

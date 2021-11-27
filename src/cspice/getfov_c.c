@@ -43,10 +43,10 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZmc.h>
 
    void getfov_c ( SpiceInt        instid,
                    SpiceInt        room,
@@ -471,7 +471,7 @@
    of the four FOVs and prints these parameters to the screen.
 
       #include <stdio.h>
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
 
       #define      MAXBND            4
       #define      NUMINS            4

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure PLTAR ( Compute area of plate set ) */
 doublereal pltar_(integer *nv, doublereal *vrtces, integer *np, integer *

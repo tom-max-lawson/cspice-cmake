@@ -45,8 +45,8 @@
    FILES
 
 */
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
 
  
    void dafrda_c ( SpiceInt       handle, 
@@ -125,7 +125,7 @@
    an interval, and each interval is covered by a set of eight
    osculating elements.
 
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
       
          .
          .

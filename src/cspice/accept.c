@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ACCEPT ( Accept New Long Error Message ) */
 logical accept_0_(int n__, logical *ok)

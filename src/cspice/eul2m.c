@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      EUL2M ( Euler angles to matrix ) */
 /* Subroutine */ int eul2m_(doublereal *angle3, doublereal *angle2, 

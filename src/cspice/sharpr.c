@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SHARPR ( Sharpen a rotation ) */
 /* Subroutine */ int sharpr_(doublereal *rot)

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      UTC2ET ( UTC to Ephemeris Time ) */
 /* Subroutine */ int utc2et_(char *utcstr, doublereal *et, ftnlen utcstr_len)

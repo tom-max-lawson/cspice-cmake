@@ -43,7 +43,7 @@
  
 */
 
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
    #include <math.h>
    #undef    rotvec_c
 

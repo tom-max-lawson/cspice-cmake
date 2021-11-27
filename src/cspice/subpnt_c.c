@@ -53,10 +53,10 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZmc.h>
  
    void subpnt_c ( ConstSpiceChar       * method,
                    ConstSpiceChar       * target,
@@ -892,7 +892,7 @@
           Program subpnt_ex1 
        ./
        #include <stdio.h>
-       #include "SpiceUsr.h"
+       #include <cspice/SpiceUsr.h>
 
        int main()
        {    
@@ -1227,7 +1227,7 @@
         Program subpnt_ex2
         ./
         #include <stdio.h>
-        #include "SpiceUsr.h"
+        #include <cspice/SpiceUsr.h>
 
         int main()
         {

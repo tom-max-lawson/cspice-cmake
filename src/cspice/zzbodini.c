@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZBODINI ( Private --- Body-Code Hash Initialization ) */
 /* Subroutine */ int zzbodini_(char *names, char *nornam, integer *codes, 

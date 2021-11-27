@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure PCK03E ( PCK, end a type 3 segment ) */
 /* Subroutine */ int pck03e_(integer *handle)

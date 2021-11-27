@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      STLABX ( Stellar aberration, transmission case ) */
 /* Subroutine */ int stlabx_(doublereal *pobj, doublereal *vobs, doublereal *

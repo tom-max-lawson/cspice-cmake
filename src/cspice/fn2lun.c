@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      FN2LUN ( Map name of open file to its logical unit. ) */
 /* Subroutine */ int fn2lun_(char *filnam, integer *lunit, ftnlen filnam_len)

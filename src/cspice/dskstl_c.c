@@ -43,8 +43,8 @@
    TOLERANCE 
     
 */
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
 
 
    void dskstl_c ( SpiceInt        keywrd,
@@ -121,7 +121,7 @@
    1) Obtain, display, and update the DSK type 2 plate expansion fraction: 
 
          #include <stdio.h>
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
 
          int main()
          {

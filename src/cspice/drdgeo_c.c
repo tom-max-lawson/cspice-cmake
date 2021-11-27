@@ -44,8 +44,8 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
 
    void drdgeo_c ( SpiceDouble    lon,
                    SpiceDouble    lat,
@@ -177,7 +177,7 @@
  
    In code this looks like: 
  
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
            .
            .
            .

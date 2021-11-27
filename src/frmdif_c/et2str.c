@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ET2STR ( Convert ET to String for FRMDIFF Output ) */
 /* Subroutine */ int et2str_(doublereal *et, char *timfmt, integer *sclkid, 

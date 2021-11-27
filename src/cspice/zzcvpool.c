@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZCVPOOL ( Private---Check variable update, with counter ) */
 /* Subroutine */ int zzcvpool_(char *agent, integer *usrctr, logical *update, 

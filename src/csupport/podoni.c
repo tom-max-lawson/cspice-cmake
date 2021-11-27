@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      PODONI ( Pod, offset and number, integer ) */
 /* Subroutine */ int podoni_(integer *pod, integer *offset, integer *number)

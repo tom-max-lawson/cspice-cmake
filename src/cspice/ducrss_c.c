@@ -43,9 +43,9 @@
 
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
    #undef   ducrss_c
 
    void ducrss_c ( ConstSpiceDouble s1  [6],

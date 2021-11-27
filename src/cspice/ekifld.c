@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      EKIFLD ( EK, initialize segment for fast write ) */
 /* Subroutine */ int ekifld_(integer *handle, char *tabnam, integer *ncols, 

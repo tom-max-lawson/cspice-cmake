@@ -47,8 +47,8 @@
 
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
    #undef   uddc_c
 
    void uddc_c ( void            ( * udfunc ) ( SpiceDouble    x,

@@ -41,10 +41,10 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZmc.h>
    
 
    void kinfo_c ( ConstSpiceChar  * file,
@@ -138,7 +138,7 @@
    how you might use this routine to do this.
 
       #include <stdio.h>
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
 
       #define  FILLEN   256
       #define  TYPLEN   33

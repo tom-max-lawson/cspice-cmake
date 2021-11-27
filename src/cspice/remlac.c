@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      REMLAC ( Remove elements from a character array ) */
 /* Subroutine */ int remlac_(integer *ne, integer *loc, char *array, integer *

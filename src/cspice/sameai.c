@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure            SAMEAI ( Are two integer arrays the same? ) */
 logical sameai_(integer *a1, integer *a2, integer *ndim)

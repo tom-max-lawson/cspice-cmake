@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      XPOSBL ( Transpose a matrix by blocks    ) */
 /* Subroutine */ int xposbl_(doublereal *bmat, integer *nrow, integer *ncol, 

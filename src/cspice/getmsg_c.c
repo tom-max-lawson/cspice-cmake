@@ -43,10 +43,10 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZmc.h>
    
 
    void getmsg_c ( ConstSpiceChar  * option,
@@ -183,7 +183,7 @@
    If it did, the message is retrieved and output via 
    a user-defined output routine: 
 
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
       #include <stdio.h>
       
       #define  MSGLEN         1841

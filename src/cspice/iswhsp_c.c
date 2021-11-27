@@ -43,8 +43,8 @@
 */
 
    #include <ctype.h>
-   #include "SpiceUsr.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZmc.h>
 
 
    SpiceBoolean iswhsp_c ( ConstSpiceChar * string ) 
@@ -104,7 +104,7 @@
    1) Read a text file; print the non-blank lines.   
    
          #include <stdio.h>
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
          
          void main()
          {

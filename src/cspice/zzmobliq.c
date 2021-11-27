@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure   ZZMOBLIQ   ( Mean obliquity of date ) */
 /* Subroutine */ int zzmobliq_(doublereal *et, doublereal *mob, doublereal *

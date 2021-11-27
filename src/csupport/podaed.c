@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      PODAED ( Pod, append elements, double precision ) */
 /* Subroutine */ int podaed_(doublereal *elems, integer *n, doublereal *pod)

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SYNTHI ( Return the Nth component of a symbol ) */
 /* Subroutine */ int synthi_(char *name__, integer *nth, char *tabsym, 

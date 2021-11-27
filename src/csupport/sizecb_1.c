@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure SIZECB ( Size of character buffer ) */
 integer sizecb_1__(char *buffer, ftnlen buffer_len)

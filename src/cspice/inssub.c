@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      INSSUB ( Insert a substring ) */
 /* Subroutine */ int inssub_(char *in, char *sub, integer *loc, char *out, 

@@ -42,7 +42,7 @@
 
 */
 
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
    #undef    vzerog_c
 
    SpiceBoolean vzerog_c ( ConstSpiceDouble * v, SpiceInt ndim )

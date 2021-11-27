@@ -44,9 +44,9 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
    #undef    isordv_c
 
    SpiceBoolean isordv_c ( ConstSpiceInt  * array,
@@ -124,7 +124,7 @@
  
       The code fragment below illustrates this idea. 
  
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
                   . 
                   . 
                   . 

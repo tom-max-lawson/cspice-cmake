@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure OCCURS ( Count occurrences of a substring in a string ) */
 integer occurs_(char *str, char *sub, ftnlen str_len, ftnlen sub_len)

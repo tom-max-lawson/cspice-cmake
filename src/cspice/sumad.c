@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure SUMAD ( Sum of a double precision array ) */
 doublereal sumad_(doublereal *array, integer *n)

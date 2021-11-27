@@ -41,8 +41,8 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
 
    void shelld_c ( SpiceInt       ndim,
                    SpiceDouble  * array ) 

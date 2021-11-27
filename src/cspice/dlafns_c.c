@@ -45,8 +45,8 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
 
 
    void dlafns_c ( SpiceInt               handle,
@@ -127,8 +127,8 @@
        and size attributes. 
  
 
-          #include "SpiceUsr.h"
-          #include "SpiceDLA.h"
+          #include <cspice/SpiceUsr.h>
+          #include <cspice/SpiceDLA.h>
           #include <stdio.h>
 
           int main()

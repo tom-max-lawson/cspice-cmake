@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure        BSRCHD ( Binary search for double precision value ) */
 integer bsrchd_(doublereal *value, integer *ndim, doublereal *array)

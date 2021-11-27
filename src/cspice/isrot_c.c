@@ -43,7 +43,7 @@
  
 */
 
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
    #undef    isrot_c
    
    
@@ -161,7 +161,7 @@
        C-kernel, and we wish to test whether it is in fact a 
        rotation matrix.  We can use isrot_c to check this: 
  
-          #include "SpiceUsr.h"
+          #include <cspice/SpiceUsr.h>
                .
                .
                .

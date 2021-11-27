@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ZZMSXF ( Multiply sequence of state transformations ) */
 /* Subroutine */ int zzmsxf_(doublereal *matrix, integer *n, doublereal *

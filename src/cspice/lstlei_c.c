@@ -43,9 +43,9 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZim.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZim.h>
    #undef    lstlei_c
 
    SpiceInt lstlei_c ( SpiceInt            x,

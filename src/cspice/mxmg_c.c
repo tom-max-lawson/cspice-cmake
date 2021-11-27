@@ -41,9 +41,9 @@
 
 */
    #include <stdlib.h>
-   #include "SpiceZmc.h"
-   #include "SpiceUsr.h"
-   #include "SpiceZim.h"
+   #include <cspice/SpiceZmc.h>
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZim.h>
    #undef    mxmg_c
 
    void mxmg_c ( const void    * m1,

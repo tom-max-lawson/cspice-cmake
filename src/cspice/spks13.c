@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure SPKS13 ( S/P Kernel, subset, type 13 ) */
 /* Subroutine */ int spks13_(integer *handle, integer *baddr, integer *eaddr, 

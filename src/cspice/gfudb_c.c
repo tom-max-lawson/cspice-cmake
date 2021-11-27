@@ -45,10 +45,10 @@
 
 
    #include <signal.h>
-   #include "SpiceUsr.h"
-   #include "SpiceZmc.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZad.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZmc.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZad.h>
    #undef   gfudb_c
 
    void gfudb_c (  void             ( * udfuns ) ( SpiceDouble       et,
@@ -402,9 +402,9 @@
       #include <stdlib.h>
       #include <string.h>
 
-      #include "SpiceUsr.h"
-      #include "SpiceZfc.h"
-      #include "SpiceZad.h"
+      #include <cspice/SpiceUsr.h>
+      #include <cspice/SpiceZfc.h>
+      #include <cspice/SpiceZad.h>
 
 
       #define       MAXWIN    20000
@@ -642,7 +642,7 @@
       #include <stdlib.h>
       #include <string.h>
 
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
 
 
       #define       MAXWIN    20000

@@ -52,10 +52,10 @@
  
 */
    #include <math.h>
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
-   #include "SpiceZst.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
+   #include <cspice/SpiceZst.h>
 
    void limb_pl02 ( SpiceInt              handle,
                     ConstSpiceDLADescr  * dladsc,
@@ -434,7 +434,7 @@
 
           #include <stdio.h>
           #include <math.h>
-          #include "SpiceUsr.h"
+          #include <cspice/SpiceUsr.h>
 
           int main()
           {

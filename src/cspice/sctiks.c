@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SCTIKS ( Convert spacecraft clock string to ticks. ) */
 /* Subroutine */ int sctiks_(integer *sc, char *clkstr, doublereal *ticks, 

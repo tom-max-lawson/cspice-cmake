@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      PCKE20 ( PCK, evaluate record, type 20 ) */
 /* Subroutine */ int pcke20_(doublereal *et, doublereal *record, doublereal *

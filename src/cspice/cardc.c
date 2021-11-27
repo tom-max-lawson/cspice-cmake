@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure            CARDC ( Cardinality of a character cell ) */
 integer cardc_(char *cell, ftnlen cell_len)

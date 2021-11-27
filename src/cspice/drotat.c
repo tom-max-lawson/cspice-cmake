@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      DROTAT ( Derivative of a rotation matrix ) */
 /* Subroutine */ int drotat_(doublereal *angle, integer *iaxis, doublereal *

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      WNINTD ( Intersect two DP windows ) */
 /* Subroutine */ int wnintd_(doublereal *a, doublereal *b, doublereal *c__)

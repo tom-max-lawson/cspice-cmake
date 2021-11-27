@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure RDNBL ( Read non-blank line ) */
 /* Subroutine */ int rdnbl_(char *file, char *line, logical *eof, ftnlen 

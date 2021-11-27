@@ -41,8 +41,8 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZmc.h>
 
    void ident_c ( SpiceDouble    matrix[3][3] ) 
 
@@ -98,7 +98,7 @@
  
       First get the Identity matrix 
       
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
             .
             .
             .

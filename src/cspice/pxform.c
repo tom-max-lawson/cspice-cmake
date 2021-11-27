@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      PXFORM ( Position Transformation Matrix ) */
 /* Subroutine */ int pxform_(char *from, char *to, doublereal *et, doublereal 

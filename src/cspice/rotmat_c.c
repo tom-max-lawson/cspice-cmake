@@ -43,8 +43,8 @@
  
 */
 
-   #include "SpiceZfc.h"
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceUsr.h>
    #undef    rotmat_c
 
 

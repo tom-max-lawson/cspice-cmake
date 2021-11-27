@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  VRELG ( Vector relative difference, general dimension ) */
 doublereal vrelg_(doublereal *v1, doublereal *v2, integer *ndim)

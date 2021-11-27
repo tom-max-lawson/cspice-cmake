@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  ZZWIND ( Find winding number of polygon about point ) */
 integer zzwind_(doublereal *plane, integer *n, doublereal *vertcs, doublereal 

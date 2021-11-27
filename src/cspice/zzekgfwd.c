@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ZZEKGFWD ( EK, get forward pointer for data page ) */
 /* Subroutine */ int zzekgfwd_(integer *handle, integer *type__, integer *p, 

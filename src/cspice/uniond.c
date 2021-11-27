@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      UNIOND ( Union two double precision sets ) */
 /* Subroutine */ int uniond_(doublereal *a, doublereal *b, doublereal *c__)

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure DLAFNS ( DLA, find next segment ) */
 /* Subroutine */ int dlafns_(integer *handle, integer *descr, integer *nxtdsc,

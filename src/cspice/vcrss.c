@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      VCRSS ( Vector cross product, 3 dimensions ) */
 /* Subroutine */ int vcrss_(doublereal *v1, doublereal *v2, doublereal *vout)

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SHIFTL ( Shift left ) */
 /* Subroutine */ int shiftl_(char *in, integer *nshift, char *fillc, char *

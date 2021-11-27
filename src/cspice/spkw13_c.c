@@ -45,10 +45,10 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZmc.h>
    #undef    spkw13_c
    
 
@@ -203,7 +203,7 @@
    to a previously opened SPK file attached to handle. The file must 
    have been opened with write access. 
  
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
            .
            .
            .

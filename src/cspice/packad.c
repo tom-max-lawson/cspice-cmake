@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      PACKAD ( Pack a double precision array ) */
 /* Subroutine */ int packad_(doublereal *in, integer *pack, integer *npack, 

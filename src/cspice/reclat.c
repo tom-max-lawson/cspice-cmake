@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      RECLAT ( Rectangular to latitudinal coordinates ) */
 /* Subroutine */ int reclat_(doublereal *rectan, doublereal *radius, 

@@ -1,5 +1,5 @@
-#include "f2c.h"
-#include "fio.h"
+#include <cspice/f2c.h>
+#include <cspice/fio.h>
 #include "string.h"
 #ifdef KR_headers
 integer f_inqu(a) inlist *a;
@@ -9,6 +9,8 @@ integer f_inqu(a) inlist *a;
 #undef min
 #undef max
 #include "io.h"
+#else
+#include <unistd.h>
 #endif
 integer f_inqu(inlist *a)
 #endif

@@ -1,8 +1,8 @@
 #include "stdio.h"
-#include "f2c.h"
+#include <cspice/f2c.h>
 #define PAUSESIG 15
 
-#include "signal1.h"
+#include <cspice/signal1.h>
 #ifdef KR_headers
 #define Void /* void */
 #define Int /* int */

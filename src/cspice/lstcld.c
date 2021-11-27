@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure   LSTCLD ( Last closest double precision array element ) */
 integer lstcld_(doublereal *x, integer *n, doublereal *array)

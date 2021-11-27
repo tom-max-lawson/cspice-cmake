@@ -42,10 +42,10 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
-   #include "SpiceZst.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
+   #include <cspice/SpiceZst.h>
 
 
    void dafopw_c ( ConstSpiceChar  * fname,
@@ -143,8 +143,8 @@
    a particular object. The code for the object is then changed 
    (perhaps to reflect some new convention). 
   
-      #include "SpiceUsr.h"
-      #include "SpiceZfc.h"
+      #include <cspice/SpiceUsr.h>
+      #include <cspice/SpiceZfc.h>
 
       int main()
       {

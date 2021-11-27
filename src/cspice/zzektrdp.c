@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ZZEKTRDP ( EK tree, return data pointer ) */
 /* Subroutine */ int zzektrdp_(integer *handle, integer *tree, integer *key, 

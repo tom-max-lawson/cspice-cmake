@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SPEAKR ( Displays CHRONOS trace information ) */
 /* Subroutine */ int speakr_0_(int n__, char *line, ftnlen line_len)

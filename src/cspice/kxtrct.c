@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      KXTRCT ( Extract a substring starting with a keyword ) */
 /* Subroutine */ int kxtrct_(char *keywd, char *terms, integer *nterms, char *

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure             ISRCHC  ( Search in a character array ) */
 integer isrchc_(char *value, integer *ndim, char *array, ftnlen value_len, 

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  ZZTKNERR ( Create ZZTOKNS overflow error message ) */
 /* Subroutine */ int zztknerr_(char *templt, char *string, char *token, char *

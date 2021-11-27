@@ -53,9 +53,9 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
    #undef subslr_c
 
  
@@ -827,7 +827,7 @@
         Program subslr_ex1 
         ./
         #include <stdio.h>
-        #include "SpiceUsr.h"
+        #include <cspice/SpiceUsr.h>
 
         int main()
         {

@@ -41,7 +41,7 @@
 
 */
 
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
    #undef   vminug_c
 
    void vminug_c ( ConstSpiceDouble  * vin,

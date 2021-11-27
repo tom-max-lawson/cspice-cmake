@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZINIL ( SGP4 initializer ) */
 /* Subroutine */ int zzinil_(doublereal *geophs, integer *opmode, doublereal *

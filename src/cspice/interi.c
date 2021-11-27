@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      INTERI ( Intersect two integer sets ) */
 /* Subroutine */ int interi_(integer *a, integer *b, integer *c__)

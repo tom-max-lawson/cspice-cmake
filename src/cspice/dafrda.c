@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure DAFRDA ( DAF, read data from address ) */
 /* Subroutine */ int dafrda_(integer *handle, integer *begin, integer *end, 

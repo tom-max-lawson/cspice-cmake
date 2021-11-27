@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  REPMCT  ( Replace marker with cardinal text ) */
 /* Subroutine */ int repmct_(char *in, char *marker, integer *value, char *

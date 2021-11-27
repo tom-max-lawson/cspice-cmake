@@ -42,7 +42,7 @@
  
 */
 
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
    #undef xf2rav_c
    
 

@@ -42,10 +42,10 @@
 */
 
 
-#include "SpiceUsr.h"
-#include "SpiceZfc.h"
-#include "SpiceZmc.h"
-#include "f2cMang.h"
+#include <cspice/SpiceUsr.h>
+#include <cspice/SpiceZfc.h>
+#include <cspice/SpiceZmc.h>
+#include <cspice/f2cMang.h>
 
 
    void appndc_c ( ConstSpiceChar   * item,
@@ -113,7 +113,7 @@
       the character cell planets.  planets is declared with
       string length NAMLEN.
 
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
                 .
                 .
                 .

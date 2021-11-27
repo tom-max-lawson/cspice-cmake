@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure            SMSGNI  ( Same Sign Integer Numbers ) */
 logical smsgni_(integer *x, integer *y)

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure   LSTLTI ( Last integer element less than ) */
 integer lstlti_(integer *x, integer *n, integer *array)

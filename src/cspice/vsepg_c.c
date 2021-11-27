@@ -45,7 +45,7 @@
 */
 
    #include <math.h>
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
    #undef   vsepg_c
 
    SpiceDouble vsepg_c ( ConstSpiceDouble * v1,

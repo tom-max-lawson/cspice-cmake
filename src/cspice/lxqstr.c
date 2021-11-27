@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      LXQSTR ( Lex quoted string ) */
 /* Subroutine */ int lxqstr_(char *string, char *qchar, integer *first, 

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      CKE06 ( C-Kernel, evaluate, type 6 ) */
 /* Subroutine */ int cke06_(logical *needav, doublereal *record, doublereal *

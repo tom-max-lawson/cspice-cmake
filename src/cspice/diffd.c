@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      DIFFD ( Difference of two double precision sets ) */
 /* Subroutine */ int diffd_(doublereal *a, doublereal *b, doublereal *c__)

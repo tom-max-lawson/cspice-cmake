@@ -42,8 +42,8 @@
 */
 
 
-#include "SpiceUsr.h"
-#include "SpiceZmc.h"
+#include <cspice/SpiceUsr.h>
+#include <cspice/SpiceZmc.h>
 
 
    void appndi_c ( SpiceInt        item,
@@ -99,7 +99,7 @@
    1)  In the following example, the element 34 is appended to 
        the integer cell fibNums. 
 
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
                 .
                 .
                 .

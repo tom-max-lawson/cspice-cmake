@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      NPARSI ( Integer parsing of a character string) */
 /* Subroutine */ int nparsi_(char *string, integer *n, char *error, integer *

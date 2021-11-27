@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure    EXTMSI  ( print message with integer and do error exit ) */
 /* Subroutine */ int extmsi_(char *messge, char *marker, integer *icode, 

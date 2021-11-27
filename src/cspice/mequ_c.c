@@ -42,8 +42,8 @@
 
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZmc.h>
    #undef    mequ_c
 
    void mequ_c ( ConstSpiceDouble  m1  [3][3],

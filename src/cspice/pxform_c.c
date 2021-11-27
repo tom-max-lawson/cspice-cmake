@@ -42,10 +42,10 @@
  
 */
  
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
-   #include "SpiceZst.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
+   #include <cspice/SpiceZst.h>
 
  
    void pxform_c ( ConstSpiceChar   * from,
@@ -126,7 +126,7 @@
    illustrates how to transform the position of the station to a
    J2000 position.
  
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
             .
             .
             .

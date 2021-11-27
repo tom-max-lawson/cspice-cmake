@@ -41,9 +41,9 @@
  
 */
 
-#include "SpiceUsr.h"
-#include "SpiceCel.h"
-#include "SpiceZmc.h"
+#include <cspice/SpiceUsr.h>
+#include <cspice/SpiceCel.h>
+#include <cspice/SpiceZmc.h>
 
    void scard_c (  SpiceInt      card,   
                    SpiceCell   * cell  )
@@ -101,7 +101,7 @@
       the cardinality to zero to effectively make room in the 
       cell.
 
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
                .
                .
                .

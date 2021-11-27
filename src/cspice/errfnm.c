@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ERRFNM ( Insert filename into long error message text ) */
 /* Subroutine */ int errfnm_(char *marker, integer *unit, ftnlen marker_len)

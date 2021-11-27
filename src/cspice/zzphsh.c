@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZPHSH ( Private---kernel POOL hash function umbrella ) */
 integer zzphsh_0_(int n__, char *word, integer *m, integer *m2, ftnlen 

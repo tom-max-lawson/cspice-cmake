@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZVOX2ID ( Return voxel index from coords ) */
 integer zzvox2id_(integer *vixyz, integer *nvox)

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  ZZEKQSEL ( Private: EK, read SELECT columns from query ) */
 /* Subroutine */ int zzekqsel_(integer *eqryi, char *eqryc, integer *n, 

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  CHBIGR ( Chebyshev expansion integral ) */
 /* Subroutine */ int chbigr_(integer *degp, doublereal *cp, doublereal *x2s, 

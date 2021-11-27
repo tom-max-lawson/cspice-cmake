@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      CLEARD ( Clear a double precision array ) */
 /* Subroutine */ int cleard_(integer *ndim, doublereal *array)

@@ -1,7 +1,7 @@
-#include "f2c.h"
-#include "fio.h"
-#include "fmt.h"
-#include "lio.h"
+#include <cspice/f2c.h>
+#include <cspice/fio.h>
+#include <cspice/fmt.h>
+#include <cspice/lio.h>
 #include "string.h"
 
 #ifdef KR_headers

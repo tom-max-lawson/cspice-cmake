@@ -41,9 +41,9 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
 
 
    void unload_c ( ConstSpiceChar  * file ) 
@@ -129,7 +129,7 @@
    in a second meta-text kernel.  Let's call these predict.mta and 
    actual.mta. 
  
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
            .
            .
            .

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      LX4UNS (Scan for unsigned integer) */
 /* Subroutine */ int lx4uns_(char *string, integer *first, integer *last, 

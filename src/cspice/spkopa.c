@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SPKOPA ( SPK open for addition ) */
 /* Subroutine */ int spkopa_(char *file, integer *handle, ftnlen file_len)

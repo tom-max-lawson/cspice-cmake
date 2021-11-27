@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      MXVG ( Matrix time vector, general dimension ) */
 /* Subroutine */ int mxvg_(doublereal *m1, doublereal *v2, integer *nr1, 

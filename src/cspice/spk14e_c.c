@@ -42,9 +42,9 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
 
    void spk14e_c ( SpiceInt   handle ) 
 
@@ -185,7 +185,7 @@
       type 14 SPK segment if all of the data for the segment is 
       available at one time. 
  
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
             .
             .
             .
@@ -297,7 +297,7 @@
       type 14 SPK segment if all of the data for the segment is not 
       available at one time. 
  
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
             .
             .
             .

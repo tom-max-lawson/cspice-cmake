@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      WRDNLN (Write a definition line) */
 /* Subroutine */ int wrdnln_(char *k, char *v, integer *i__, integer *unit, 

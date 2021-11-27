@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      APPNDI ( Append an item to an integer cell ) */
 /* Subroutine */ int appndi_(integer *item, integer *cell)

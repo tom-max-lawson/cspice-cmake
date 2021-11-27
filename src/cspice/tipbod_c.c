@@ -47,10 +47,10 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZmc.h>
 
    void tipbod_c ( ConstSpiceChar  * ref,
                    SpiceInt          body,
@@ -260,7 +260,7 @@
        of an object with respect to the center of the 
        body at time et. 
 
-          #include "SpiceUsr.h"
+          #include <cspice/SpiceUsr.h>
                 .
                 .
                 .

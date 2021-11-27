@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      WNFILD ( Fill small gaps in a DP window ) */
 /* Subroutine */ int wnfild_(doublereal *small, doublereal *window)

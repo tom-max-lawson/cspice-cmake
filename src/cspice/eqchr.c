@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      EQCHR (Equivalent characters) */
 logical eqchr_0_(int n__, char *a, char *b, ftnlen a_len, ftnlen b_len)

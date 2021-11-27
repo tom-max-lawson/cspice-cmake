@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure            NCPOS ( NOT character position ) */
 integer ncpos_(char *str, char *chars, integer *start, ftnlen str_len, ftnlen 

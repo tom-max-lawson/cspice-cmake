@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  MAXAD  ( Maximum element of array, DP ) */
 /* Subroutine */ int maxad_(doublereal *array, integer *ndim, doublereal *

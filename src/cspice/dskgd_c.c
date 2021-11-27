@@ -47,10 +47,10 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
-   #include "SpiceZim.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
+   #include <cspice/SpiceZim.h>
    #undef dskgd_c
 
 
@@ -124,7 +124,7 @@
    Example code begins here. 
 
       #include <stdio.h>
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
 
       int main()
       {
@@ -249,7 +249,7 @@
       Program EX2 
       ./
       #include <stdio.h>
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
 
       int main()
       {     

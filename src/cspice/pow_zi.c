@@ -1,4 +1,4 @@
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 #ifdef KR_headers
 VOID pow_zi(p, a, b) 	/* p = a**b  */

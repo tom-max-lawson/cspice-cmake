@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      PODIED ( Pod, insert elements, double precision ) */
 /* Subroutine */ int podied_(doublereal *elems, integer *n, integer *loc, 

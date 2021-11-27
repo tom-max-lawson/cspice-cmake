@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure   EKCLS ( EK, close file ) */
 /* Subroutine */ int ekcls_(integer *handle)

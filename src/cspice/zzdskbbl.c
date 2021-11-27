@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZDSKBBL ( DSK, build BSR segment list ) */
 /* Subroutine */ int zzdskbbl_(integer *bodyid)

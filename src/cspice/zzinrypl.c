@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZINRYPL ( Simplified intersection of ray and plane ) */
 /* Subroutine */ int zzinrypl_(doublereal *vertex, doublereal *udir, 

@@ -50,11 +50,11 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
-   #include "SpiceZmc.h"
-   #include "zzalloc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZmc.h>
+   #include <cspice/zzalloc.h>
    #undef dskxv_c
 
 
@@ -454,7 +454,7 @@
 
       #include <stdio.h>
       #include <stdlib.h>
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
 
       int main( int argc,  char **argv )
       {

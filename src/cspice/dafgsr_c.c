@@ -41,9 +41,9 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
 
    void dafgsr_c  ( SpiceInt        handle,
                     SpiceInt        recno,
@@ -129,8 +129,8 @@
    If the record does not yet exist, we can assume that it is 
    filled with zeros. 
  
-      #include "SpiceUsr.h"
-      #include "SpiceZfc.h"
+      #include <cspice/SpiceUsr.h>
+      #include <cspice/SpiceZfc.h>
 
       SpiceInt    size   = 128;
       SpiceInt    recno;

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure BRCKTD (Bracket a double precision value within an interval) */
 doublereal brcktd_(doublereal *number, doublereal *end1, doublereal *end2)

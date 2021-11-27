@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure       SYPTRC ( Symbol table, fetch pointers, generic ) */
 /* Subroutine */ int syptrc_(char *name__, char *symnam, integer *symptr, 

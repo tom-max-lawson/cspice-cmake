@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      EXPLN ( Get Explanation for Short Error Message ) */
 /* Subroutine */ int expln_(char *msg, char *expl, ftnlen msg_len, ftnlen 

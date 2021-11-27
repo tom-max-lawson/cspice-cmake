@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      TKVRSN ( Toolkit version strings ) */
 /* Subroutine */ int tkvrsn_(char *item, char *verstr, ftnlen item_len, 

@@ -44,8 +44,8 @@
 
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
    #undef    polyds_c
 
    void polyds_c ( ConstSpiceDouble    * coeffs,
@@ -159,7 +159,7 @@
 
 
       #include <stdio.h>
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
 
       int main()
          {

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SWAPAD ( Swap elements within a DP array ) */
 /* Subroutine */ int swapad_(integer *n, integer *locn, integer *m, integer *

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  ZZEKQORD ( Private: EK, read order-by columns from query ) */
 /* Subroutine */ int zzekqord_(integer *eqryi, char *eqryc, integer *n, char *

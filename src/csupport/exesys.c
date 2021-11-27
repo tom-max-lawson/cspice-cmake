@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure   EXESYS  ( Execute system command ) */
 /* Subroutine */ int exesys_(char *cmd, ftnlen cmd_len)

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure VPERP ( Perpendicular component of a 3-vector ) */
 /* Subroutine */ int vperp_(doublereal *a, doublereal *b, doublereal *p)

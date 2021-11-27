@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  DISSM ( Write a summary to standard output ) */
 /* Subroutine */ int dispsm_(integer *nobj, integer *ids, doublereal *tstrts, 

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZGRAV ( SGP4 gravitational constants ) */
 /* Subroutine */ int zzgrav_(doublereal *grav)

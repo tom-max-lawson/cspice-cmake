@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ZZEKCIX1 ( EK, create index, type 1 ) */
 /* Subroutine */ int zzekcix1_(integer *handle, integer *coldsc)

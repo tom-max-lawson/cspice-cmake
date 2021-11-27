@@ -43,7 +43,7 @@
  
 */
    #include <math.h>
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
 
 
    void frame_c ( SpiceDouble x[3],

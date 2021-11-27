@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure NCODEI ( Encode integer value into integer item ) */
 /* Subroutine */ int ncodei_0_(int n__, integer *value, integer *item)

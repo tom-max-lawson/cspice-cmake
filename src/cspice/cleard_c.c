@@ -41,7 +41,7 @@
    ASSIGNMENT 
  
 */
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
 
 
    void cleard_c ( SpiceInt       ndim,

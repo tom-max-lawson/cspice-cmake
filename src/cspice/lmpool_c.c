@@ -43,11 +43,11 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
-   #include "SpiceZmc.h"
-   #include "SpiceZim.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZmc.h>
+   #include <cspice/SpiceZim.h>
    #undef    lmpool_c
 
 
@@ -123,7 +123,7 @@
    the program.  The example below shows how you might set up 
    the initialization portion of your program. 
  
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
       
       #define LNSIZE          81
       #define NLINES          27

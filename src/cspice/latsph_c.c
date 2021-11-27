@@ -41,7 +41,7 @@
 
 */
 
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
 
 
    void latsph_c ( SpiceDouble    radius,

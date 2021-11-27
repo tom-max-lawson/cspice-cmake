@@ -42,8 +42,8 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
 
 
    SpiceInt eknelt_c ( SpiceInt  selidx,
@@ -139,7 +139,7 @@
        entry we fetch. 
  
              #include <stdio.h>
-             #include "SpiceUsr.h"
+             #include <cspice/SpiceUsr.h>
              
              #define ISIZE  10
                     .

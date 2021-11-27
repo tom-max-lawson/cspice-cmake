@@ -42,9 +42,9 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
 
    void dascls_c ( SpiceInt handle ) 
 
@@ -98,8 +98,8 @@
    1)  Open a new DAS file called TEST.DAS, add 100 d.p. numbers 
        to it, and then close the file. 
  
-          #include "SpiceUsr.h"
-          #include "SpiceZfc.h"
+          #include <cspice/SpiceUsr.h>
+          #include <cspice/SpiceZfc.h>
           #include <string.h>
 
           int main()

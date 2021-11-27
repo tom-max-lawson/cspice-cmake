@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ZZEKECMP ( EK, column entry element comparison ) */
 integer zzekecmp_(integer *hans, integer *sgdscs, integer *cldscs, integer *

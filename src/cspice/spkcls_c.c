@@ -41,8 +41,8 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
 
    void spkcls_c ( SpiceInt handle ) 
 
@@ -88,7 +88,7 @@
    passed to the SPK type 5 segment writer have appropriate values 
    and no errors occur. 
  
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
          .
          .
          . 

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure BGROUP_1 ( Determine if groups are balanced ) */
 integer bgroup_1__(char *string, char *lgr, char *rgr, char *sgr, ftnlen 

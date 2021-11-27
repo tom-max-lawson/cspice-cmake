@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ZZEKSRCP ( EK, set record companion pointer ) */
 /* Subroutine */ int zzeksrcp_(integer *handle, integer *recptr, integer *

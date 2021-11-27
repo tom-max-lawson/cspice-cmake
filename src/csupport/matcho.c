@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure MATCHO ( Match the characters in two words ) */
 integer matcho_(char *word, char *guess, ftnlen word_len, ftnlen guess_len)

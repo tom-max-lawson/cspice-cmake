@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure DISTIM ( Format Time for Displaying by BRIEF ) */
 /* Subroutine */ int distim_(char *timtyp, doublereal *et, char *timlbl, char 

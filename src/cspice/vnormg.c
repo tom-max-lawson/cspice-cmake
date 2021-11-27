@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      VNORMG ( Vector norm, general dimension ) */
 doublereal vnormg_(doublereal *v1, integer *ndim)

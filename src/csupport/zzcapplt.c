@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZCAPPLT ( Make polar cap plates ) */
 /* Subroutine */ int zzcapplt_(integer *ncols, logical *north, logical *wrap, 

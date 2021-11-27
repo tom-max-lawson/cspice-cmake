@@ -1,4 +1,4 @@
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 #ifdef KR_headers
 double pow_di(ap, bp) doublereal *ap; integer *bp;

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure     ISROT ( Indicate whether a matrix is a rotation matrix ) */
 logical isrot_(doublereal *m, doublereal *ntol, doublereal *dtol)

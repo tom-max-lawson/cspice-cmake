@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  ZZVOXCVO ( Voxel to coarse voxel offset ) */
 /* Subroutine */ int zzvoxcvo_(integer *vixyz, integer *nvox, integer *cgrscl,

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      TOKENS ( Find tokens in SUBTeX input ) */
 /* Subroutine */ int tokens_(char *action, char *source, integer *n, char *

@@ -1,10 +1,10 @@
-#include "f2c.h"
-#include "fio.h"
+#include <cspice/f2c.h>
+#include <cspice/fio.h>
 
 #ifdef KR_headers
-c_due(a) cilist *a;
+int c_due(a) cilist *a;
 #else
-c_due(cilist *a)
+int c_due(cilist *a)
 #endif
 {
 	if(!f__init) f_init();

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZVALCOR ( Validate aberration correction ) */
 /* Subroutine */ int zzvalcor_(char *abcorr, logical *attblk, ftnlen 

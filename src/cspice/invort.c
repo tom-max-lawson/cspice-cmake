@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      INVORT ( Invert nearly orthogonal matrices ) */
 /* Subroutine */ int invort_(doublereal *m, doublereal *mit)

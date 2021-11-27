@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ZZGFCOST ( GF, coordinate definition state ) */
 /* Subroutine */ int zzgfcost_(char *vecdef, char *method, integer *trgid, 

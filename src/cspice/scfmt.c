@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SCFMT ( Convert SCLK "ticks" to character clock format) */
 /* Subroutine */ int scfmt_(integer *sc, doublereal *ticks, char *clkstr, 

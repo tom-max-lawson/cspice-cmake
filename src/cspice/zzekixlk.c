@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZEKIXLK ( EK, look up record pointer in EK index ) */
 /* Subroutine */ int zzekixlk_(integer *handle, integer *coldsc, integer *key,

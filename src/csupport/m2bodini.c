@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      M2BODINI () */
 /* Subroutine */ int m2bodini_(char *names, integer *nnam, integer *codes, 

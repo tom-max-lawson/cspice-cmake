@@ -44,9 +44,9 @@
  
 */
    #include <string.h>
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
 
 
    void ltime_c ( SpiceDouble        etobs,
@@ -170,7 +170,7 @@
       past J2000.) 
  
          #include <stdio.h>
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
                .
                .
                .

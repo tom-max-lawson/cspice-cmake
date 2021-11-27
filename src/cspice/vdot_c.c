@@ -43,7 +43,7 @@
 */
 
    #include <math.h>
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
    #undef    vdot_c
    
 

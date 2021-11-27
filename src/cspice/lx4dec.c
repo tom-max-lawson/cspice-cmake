@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      LX4DEC (Scan for signed integer) */
 /* Subroutine */ int lx4dec_(char *string, integer *first, integer *last, 

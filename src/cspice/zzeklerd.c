@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZEKLERD ( EK, LLE, using record numbers, d.p. ) */
 /* Subroutine */ int zzeklerd_(integer *handle, integer *segdsc, integer *

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure VHATIP ( "V-Hat", 3-d unit vector along V, in place ) */
 /* Subroutine */ int vhatip_(doublereal *v)

@@ -46,10 +46,10 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
-   #include "SpiceZst.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
+   #include <cspice/SpiceZst.h>
 
 
    void spkez_c ( SpiceInt            targ,
@@ -693,7 +693,7 @@
 
 
        #include <stdio.h>
-       #include "SpiceUsr.h"
+       #include <cspice/SpiceUsr.h>
 
        int main()
        {

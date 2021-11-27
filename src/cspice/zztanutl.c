@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZTANUTL ( DSK, tangent ray utilities ) */
 /* Subroutine */ int zztanutl_0_(int n__, integer *curve, doublereal *srcrad, 

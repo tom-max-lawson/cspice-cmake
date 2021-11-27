@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SYGETC ( Return all components for a symbol ) */
 /* Subroutine */ int sygetc_(char *name__, char *tabsym, integer *tabptr, 

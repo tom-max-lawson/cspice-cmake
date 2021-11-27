@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ZZRXR ( Multiply sequence of 3x3 matrices ) */
 /* Subroutine */ int zzrxr_(doublereal *matrix, integer *n, doublereal *

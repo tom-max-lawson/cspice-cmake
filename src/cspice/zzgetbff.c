@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZGETBFF ( Private --- Get Binary File Format ) */
 /* Subroutine */ int zzgetbff_(integer *bffid)

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure            POSR ( Position of substring, reverse search) */
 integer posr_(char *str, char *substr, integer *start, ftnlen str_len, ftnlen 

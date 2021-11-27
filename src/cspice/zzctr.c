@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZCTR ( Manipulate Counter Array ) */
 /* Subroutine */ int zzctr_0_(int n__, integer *newctr, integer *oldctr, 

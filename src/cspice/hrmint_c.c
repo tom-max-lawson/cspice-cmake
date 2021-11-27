@@ -44,8 +44,8 @@
 
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
    #undef    hrmint_c
 
    void hrmint_c ( SpiceInt            n,
@@ -163,7 +163,7 @@
       and evaluate this polynomial at x = 2.
 
       #include <stdio.h>
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
 
       int main()
          {

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure                      TRACE ( Trace of a 3x3 matrix ) */
 doublereal trace_(doublereal *matrix)

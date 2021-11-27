@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  ZZVRTPLT  ( create vertex-plate mapping ) */
 /* Subroutine */ int zzvrtplt_(integer *nv, integer *np, integer *plates, 

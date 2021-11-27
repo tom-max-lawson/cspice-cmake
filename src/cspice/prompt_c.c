@@ -44,8 +44,8 @@
    #include <stdlib.h>
    #include <stdio.h>
 
-   #include "SpiceUsr.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZmc.h>
 
    SpiceChar * prompt_c ( ConstSpiceChar * prmptStr,
                           SpiceInt         lenout,
@@ -124,7 +124,7 @@
    #include <stdlib.h>
    #include <stdio.h>
 
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
 
    #define   STRLEN    32
 

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure EDPNT ( Ellipsoid point  ) */
 /* Subroutine */ int edpnt_(doublereal *p, doublereal *a, doublereal *b, 

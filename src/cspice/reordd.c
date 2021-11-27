@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      REORDD ( Reorder a double precision array ) */
 /* Subroutine */ int reordd_(integer *iorder, integer *ndim, doublereal *

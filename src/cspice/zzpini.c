@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ZZPINI ( Private --- kernel pool initialization ) */
 /* Subroutine */ int zzpini_(logical *first, integer *maxvar, integer *maxval,

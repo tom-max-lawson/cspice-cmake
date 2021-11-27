@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      STMP03 ( Stumpff functions 0 through 3 ) */
 /* Subroutine */ int stmp03_(doublereal *x, doublereal *c0, doublereal *c1, 

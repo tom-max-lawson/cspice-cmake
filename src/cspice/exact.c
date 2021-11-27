@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure                     EXACT ( Round to exact value ) */
 doublereal exact_(doublereal *number, doublereal *value, doublereal *tol)

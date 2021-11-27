@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      RECCYL ( Rectangular to cylindrical coordinates ) */
 /* Subroutine */ int reccyl_(doublereal *rectan, doublereal *r__, doublereal *

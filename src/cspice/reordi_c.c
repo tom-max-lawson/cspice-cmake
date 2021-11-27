@@ -43,9 +43,9 @@
 */
 
    #include <stdlib.h>
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZim.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZim.h>
    #undef    reordi_c
    
 
@@ -123,7 +123,7 @@
    of satellites). This is representative of the typical use of 
    these routines. 
 
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
           .
           .
           .

@@ -42,10 +42,10 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZmc.h>
 
    SpiceBoolean matchi_c ( ConstSpiceChar      * string,
                            ConstSpiceChar      * templ,
@@ -100,7 +100,7 @@
    and the template. All of the following are equivalent:  they 
    all return SPICETRUE. 
 
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
             .
             .
             .

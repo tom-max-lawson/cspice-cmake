@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      VMINUG ( Minus V, "-V", general dimension ) */
 /* Subroutine */ int vminug_(doublereal *vin, integer *ndim, doublereal *vout)

@@ -1,5 +1,5 @@
-#include "f2c.h"
-#include "signal1.h"
+#include <cspice/f2c.h>
+#include <cspice/signal1.h>
 
  ftnint
 #ifdef KR_headers

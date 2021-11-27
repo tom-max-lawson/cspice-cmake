@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      KPSOLV ( Solve Keplers Equation --- Vector Form ) */
 doublereal kpsolv_(doublereal *evec)

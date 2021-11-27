@@ -42,9 +42,9 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
    #undef    spkw10_c
    
    void spkw10_c ( SpiceInt           handle,
@@ -168,7 +168,7 @@
    code fragment demonstrates how you could go about creating 
    a type 10 SPK segment. 
  
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
           .
           .
           .

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      DVDOT  ( Derivative of Vector Dot Product, 3-D ) */
 doublereal dvdot_(doublereal *s1, doublereal *s2)

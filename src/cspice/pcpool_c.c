@@ -43,11 +43,11 @@
  
 */
    #include <stdlib.h>
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
-   #include "SpiceZst.h"
-   #include "SpiceZim.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZim.h>
    #undef    pcpool_c
 
 
@@ -137,7 +137,7 @@
    coincides with the reference frame DSS-12_TOPO.
  
       #include <stdio.h>
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
 
       int main()
       {

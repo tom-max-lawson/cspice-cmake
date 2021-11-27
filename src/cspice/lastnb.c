@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure             LASTNB ( Last non-blank character ) */
 integer lastnb_(char *string, ftnlen string_len)

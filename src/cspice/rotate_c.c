@@ -43,9 +43,9 @@
  
 */
 
-   #include "SpiceZfc.h"
-   #include "SpiceUsr.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZmc.h>
 
    void rotate_c ( SpiceDouble     angle, 
                    SpiceInt        iaxis, 

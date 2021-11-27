@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure            M2WMCH ( Match a word against a META/2 class ) */
 logical m2wmch_(char *string, integer *wordb, integer *worde, char *class__, 

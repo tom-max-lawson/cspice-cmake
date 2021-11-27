@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  HX2INT  ( Signed hexadecimal string to integer ) */
 /* Subroutine */ int hx2int_(char *string, integer *number, logical *error, 

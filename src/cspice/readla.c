@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure   READLA   ( Read array of lines from a logical unit ) */
 /* Subroutine */ int readla_(integer *unit, integer *maxlin, integer *numlin, 

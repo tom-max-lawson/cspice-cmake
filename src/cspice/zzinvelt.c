@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZINVELT ( DSK, in volume element? ) */
 /* Subroutine */ int zzinvelt_(doublereal *p, integer *corsys, doublereal *

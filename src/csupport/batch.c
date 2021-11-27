@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      BATCH (Tell whether or not a program is in batch mode) */
 logical batch_0_(int n__)

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure            OPSGND ( Opposite Sign Double Precision Numbers ) */
 logical opsgnd_(doublereal *x, doublereal *y)

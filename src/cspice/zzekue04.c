@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ZZEKUE04 ( EK, update column entry, class 4 ) */
 /* Subroutine */ int zzekue04_(integer *handle, integer *segdsc, integer *

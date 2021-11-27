@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      FNDLUN ( Find a free logical unit ) */
 /* Subroutine */ int fndlun_0_(int n__, integer *unit)

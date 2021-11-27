@@ -42,9 +42,9 @@
 */
 
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
 
 
    void removd_c ( SpiceDouble     item,
@@ -110,7 +110,7 @@
       inserting 20.0 in its place.
 
 
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
                 .
                 .
                 .

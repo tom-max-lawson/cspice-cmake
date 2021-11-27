@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  MXMTG  ( Matrix times matrix transpose, general dimension ) */
 /* Subroutine */ int mxmtg_(doublereal *m1, doublereal *m2, integer *nr1, 

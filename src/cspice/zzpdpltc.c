@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZPDPLTC (Planetodetic coordinates, point latitude check) */
 logical zzpdpltc_(doublereal *re, doublereal *f, doublereal *p, doublereal *

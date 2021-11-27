@@ -44,9 +44,9 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
 
    void ekrced_c ( SpiceInt           handle,
                    SpiceInt           segno,
@@ -156,7 +156,7 @@
        the fifth segment of an EK file designated by HANDLE. 
  
           
-          #include "SpiceUsr.h"
+          #include <cspice/SpiceUsr.h>
              .
              .
              .

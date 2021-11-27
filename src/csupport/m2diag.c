@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      M2DIAG ( META/2 diagnostics formatting utility. ) */
 /* Subroutine */ int m2diag_0_(int n__, char *filler, char *begmrk, char *

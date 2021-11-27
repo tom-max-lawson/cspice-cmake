@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      PRTENC ( Encode a character string, portably ) */
 /* Subroutine */ int prtenc_0_(int n__, integer *number, char *string, ftnlen 

@@ -41,8 +41,8 @@
 
 */
 
-#include "SpiceUsr.h"
-#include "zzerror.h"
+#include <cspice/SpiceUsr.h>
+#include <cspice/zzerror.h>
 
 void zzerrorinit(void)
 

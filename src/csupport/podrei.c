@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      PODREI ( Pod, remove elements, integer ) */
 /* Subroutine */ int podrei_(integer *n, integer *loc, integer *pod)

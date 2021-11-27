@@ -43,9 +43,9 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
    #undef    spkw02_c
    
 
@@ -284,7 +284,7 @@
    to add one new type 2 segment.  To add multiple segments, put the 
    call to spkw02_c in a loop. 
  
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
            .
            .
            .

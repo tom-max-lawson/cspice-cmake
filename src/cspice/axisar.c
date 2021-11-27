@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      AXISAR ( Axis and angle to rotation ) */
 /* Subroutine */ int axisar_(doublereal *axis, doublereal *angle, doublereal *

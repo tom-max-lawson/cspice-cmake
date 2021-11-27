@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure RC2COR ( MKDSK: map grid row and column to coordinates ) */
 /* Subroutine */ int rc2cor_(doublereal *lftcor, doublereal *topcor, 

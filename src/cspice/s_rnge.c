@@ -113,8 +113,8 @@
 
 #include <string.h>
 #include <stdio.h>
-#include "SpiceUsr.h"
-#include "SpiceZst.h"
+#include <cspice/SpiceUsr.h>
+#include <cspice/SpiceZst.h>
 
 
 /* 
@@ -124,7 +124,7 @@ from the min and max defintions in f2c.h.
 #undef min
 #undef max
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 #define     ERRLEN              32
 #define     TRC_LEN             32

@@ -40,7 +40,7 @@
    None.
 
 */
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
    #undef    xpose_c
    
 

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure DASINE (arc sine of bracketed argument) */
 doublereal dasine_(doublereal *arg, doublereal *tol)

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ZZSIZEOK ( Determine if the size of a segment is ok ) */
 /* Subroutine */ int zzsizeok_(integer *size, integer *psize, integer *dsize, 

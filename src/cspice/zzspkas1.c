@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZSPKAS1 ( SPK, apparent state ) */
 /* Subroutine */ int zzspkas1_(integer *targ, doublereal *et, char *ref, char 

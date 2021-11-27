@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ESRCHC ( Equivalence search, character ) */
 integer esrchc_(char *value, integer *ndim, char *array, ftnlen value_len, 

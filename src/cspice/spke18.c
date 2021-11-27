@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SPKE18 ( S/P Kernel, evaluate, type 18 ) */
 /* Subroutine */ int spke18_(doublereal *et, doublereal *record, doublereal *

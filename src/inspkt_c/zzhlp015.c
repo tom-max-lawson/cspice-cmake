@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ZZHLP015 ( private help text ) */
 /* Subroutine */ int zzhlp015_(integer *begin, integer *finish, char *text, 

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure APPNDD ( Append an item to a double precision cell ) */
 /* Subroutine */ int appndd_(doublereal *item, doublereal *cell)

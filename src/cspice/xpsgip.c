@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure XPSGIP ( Transpose a matrix, general dimension, in place ) */
 /* Subroutine */ int xpsgip_(integer *nrow, integer *ncol, doublereal *matrix)

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure LBDES ( Line buffer, describe ) */
 /* Subroutine */ int lbdes_1__(integer *ptrs, integer *maxln, integer *nline, 

@@ -43,8 +43,8 @@
 
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
    #undef dvnorm_c
 
    SpiceDouble       dvnorm_c ( ConstSpiceDouble state[6] )
@@ -113,7 +113,7 @@
    platforms as the results depend on the SPICE kernels used as input
    and the machine specific arithmetic implementation.
 
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
       #include <stdio.h>
       #include <math.h>
 

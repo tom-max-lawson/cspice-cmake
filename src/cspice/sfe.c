@@ -1,6 +1,6 @@
 /* sequential formatted external common routines*/
-#include "f2c.h"
-#include "fio.h"
+#include <cspice/f2c.h>
+#include <cspice/fio.h>
 
 extern char *f__fmtbuf;
 
@@ -11,9 +11,9 @@ integer e_rsfe(Void)
 	return(n);
 }
 #ifdef KR_headers
-c_sfe(a) cilist *a; /* check */
+int c_sfe(a) cilist *a; /* check */
 #else
-c_sfe(cilist *a) /* check */
+int c_sfe(cilist *a) /* check */
 #endif
 {	unit *p;
 	f__curunit = p = &f__units[a->ciunit];

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      REMLAI ( Remove elements from an integer array ) */
 /* Subroutine */ int remlai_(integer *ne, integer *loc, integer *array, 

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure LGRESP ( Lagrange interpolation on equally spaced points ) */
 doublereal lgresp_(integer *n, doublereal *first, doublereal *step, 

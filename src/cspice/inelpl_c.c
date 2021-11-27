@@ -44,10 +44,10 @@
  
 */
    #include <math.h>
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
-   #include "SpiceZim.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZim.h>
    #undef   inelpl_c
 
 
@@ -144,7 +144,7 @@
        We assume that all vectors are given in body-fixed 
        coordinates. 
  
-          #include "SpiceUsr.h"
+          #include <cspice/SpiceUsr.h>
               .
               .
               .

@@ -41,7 +41,7 @@
 
 */
 
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
    #undef   vaddg_c
 
    void vaddg_c ( ConstSpiceDouble  * v1,

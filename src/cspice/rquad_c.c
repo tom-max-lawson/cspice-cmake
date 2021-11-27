@@ -43,9 +43,9 @@
  
 */
    #include <math.h>
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
 
 
    void rquad_c ( SpiceDouble  a,

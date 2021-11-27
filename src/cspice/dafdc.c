@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      DAFDC ( DAF delete comments ) */
 /* Subroutine */ int dafdc_(integer *handle)

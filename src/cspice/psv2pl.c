@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      PSV2PL ( Point and spanning vectors to plane ) */
 /* Subroutine */ int psv2pl_(doublereal *point, doublereal *span1, doublereal 

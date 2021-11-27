@@ -46,9 +46,9 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
    #undef    npelpt_c
    
 
@@ -135,7 +135,7 @@
        the same coordinate system.  We can find the distance from 
        the spacecraft to the ring using the code fragment 
  
-          #include "SpiceUsr.h"
+          #include <cspice/SpiceUsr.h>
                .
                .
                .

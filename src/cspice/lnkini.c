@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      LNKINI ( LNK, initialize ) */
 /* Subroutine */ int lnkini_(integer *size, integer *pool)

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ZZEKGLNK ( EK, get link count for data page ) */
 /* Subroutine */ int zzekglnk_(integer *handle, integer *type__, integer *p, 

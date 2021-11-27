@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure PAGMAN (Page Manager) */
 /* Subroutine */ int pagman_0_(int n__, char *which, char *line, integer *

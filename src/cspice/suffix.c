@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SUFFIX (Suffix a character string) */
 /* Subroutine */ int suffix_(char *suff, integer *spaces, char *string, 

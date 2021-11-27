@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure DAFB2A ( DAF, binary to ASCII ) */
 /* Subroutine */ int dafb2a_(char *binary, char *ascii, ftnlen binary_len, 

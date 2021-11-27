@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure            SETI ( Compare integer sets ) */
 logical seti_(integer *a, char *op, integer *b, ftnlen op_len)

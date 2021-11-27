@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      CYCLEC ( Cycle a character string ) */
 /* Subroutine */ int cyclec_(char *instr, char *dir, integer *ncycle, char *

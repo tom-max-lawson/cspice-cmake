@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      COPYC ( Copy a character cell ) */
 /* Subroutine */ int copyc_(char *cell, char *copy, ftnlen cell_len, ftnlen 

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      CYCLAD ( Cycle the elements of a DP array ) */
 /* Subroutine */ int cyclad_(doublereal *array, integer *nelt, char *dir, 

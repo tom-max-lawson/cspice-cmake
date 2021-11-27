@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZDDHIVF ( Private --- DDH Identify VAX DAF File Format ) */
 /* Subroutine */ int zzddhivf_(char *nsum, integer *bff, logical *found, 

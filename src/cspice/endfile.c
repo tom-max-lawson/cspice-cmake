@@ -1,5 +1,5 @@
-#include "f2c.h"
-#include "fio.h"
+#include <cspice/f2c.h>
+#include <cspice/fio.h>
 
 #ifdef KR_headers
 extern char *strcpy();

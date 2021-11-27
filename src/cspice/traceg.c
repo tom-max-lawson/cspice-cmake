@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  TRACEG ( Trace of a matrix, general dimension ) */
 doublereal traceg_(doublereal *matrix, integer *ndim)

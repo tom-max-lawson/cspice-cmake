@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      VSCLIP ( Vector scaling, 3 dimensions, in place ) */
 /* Subroutine */ int vsclip_(doublereal *s, doublereal *v)

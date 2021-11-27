@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      BODMAT ( Return transformation matrix for a body ) */
 /* Subroutine */ int bodmat_(integer *body, doublereal *et, doublereal *tipm)

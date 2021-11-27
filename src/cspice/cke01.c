@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      CKE01 ( CK evaluate pointing record, data type 1 ) */
 /* Subroutine */ int cke01_(logical *needav, doublereal *record, doublereal *

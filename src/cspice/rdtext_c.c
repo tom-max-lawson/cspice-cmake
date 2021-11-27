@@ -42,10 +42,10 @@
 
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZmc.h>
 
    void rdtext_c ( ConstSpiceChar * file,
                    SpiceInt         lenout,
@@ -139,7 +139,7 @@
 
    Then the code fragment
 
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
    #define LENOUT 32
 
    main(void)

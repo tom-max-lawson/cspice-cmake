@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure DSKCLS ( DSK, close file ) */
 /* Subroutine */ int dskcls_(integer *handle, logical *optmiz)

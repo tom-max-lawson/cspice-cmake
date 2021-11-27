@@ -42,9 +42,9 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
 
    void ssize_c (  SpiceInt      size,   
                    SpiceCell   * cell  )
@@ -118,7 +118,7 @@
       the size to 1/2 the originally declared size, in order
       to inhibit write access to the last portion of the cell.
 
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
                .
                .
                .

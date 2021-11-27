@@ -68,7 +68,7 @@
    the f2c distribution.
    */
    #ifdef MIX_C_AND_FORTRAN
-      #include "f2cMang.h"
+      #include <cspice/f2cMang.h>
    #endif
    /*
    End of modification.  

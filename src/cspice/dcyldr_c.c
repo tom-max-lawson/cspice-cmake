@@ -44,8 +44,8 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
 
    void dcyldr_c ( SpiceDouble    x,
                    SpiceDouble    y,
@@ -142,7 +142,7 @@
  
    In code this looks like: 
 
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
             .
             .
             .

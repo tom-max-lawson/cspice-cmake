@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      INSRTI ( Insert an item into an integer set ) */
 /* Subroutine */ int insrti_(integer *item, integer *a)

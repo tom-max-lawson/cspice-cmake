@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      NPSGPT ( Nearest point on line segment ) */
 /* Subroutine */ int npsgpt_(doublereal *ep1, doublereal *ep2, doublereal *

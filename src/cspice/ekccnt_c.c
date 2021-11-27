@@ -44,9 +44,9 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
 
    void ekccnt_c ( ConstSpiceChar  * table,
                    SpiceInt        * ccount ) 
@@ -107,8 +107,8 @@
        table.  ekccnt_c is used to obtain column counts. 
 
 
-          #include "SpiceUsr.h"
-          #include "SpiceEK.h"
+          #include <cspice/SpiceUsr.h>
+          #include <cspice/SpiceEK.h>
 
           #define FILEN           256
 

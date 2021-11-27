@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      M2XIST ( META/2 --- does a named template word exist ) */
 logical m2xist_(char *name__, ftnlen name_len)

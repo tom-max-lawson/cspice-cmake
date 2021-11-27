@@ -43,9 +43,9 @@
 
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZmc.h"
-   #include "SpiceZim.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZmc.h>
+   #include <cspice/SpiceZim.h>
    #undef   vrelg_c
 
    SpiceDouble vrelg_c ( ConstSpiceDouble * v1,
@@ -114,7 +114,7 @@
    between the state vectors, the program will check if the relative
    difference between the vectors is greater than a fixed tolerance.
 
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
                .
                .
                .

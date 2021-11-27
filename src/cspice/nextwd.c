@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      NEXTWD ( Next word in a character string ) */
 /* Subroutine */ int nextwd_(char *string, char *next, char *rest, ftnlen 

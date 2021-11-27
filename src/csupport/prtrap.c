@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure     PRTRAP */
 /* Subroutine */ int prtrap_(char *command, logical *tran, ftnlen command_len)

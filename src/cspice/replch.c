@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      REPLCH ( Replace characters in a string ) */
 /* Subroutine */ int replch_(char *instr, char *old, char *new__, char *

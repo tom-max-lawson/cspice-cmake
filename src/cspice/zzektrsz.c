@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ZZEKTRSZ ( EK, tree size ) */
 integer zzektrsz_(integer *handle, integer *tree)

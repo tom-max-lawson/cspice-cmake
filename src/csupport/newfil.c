@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      NEWFIL ( Open a new file on the specified port ) */
 /* Subroutine */ int newfil_(char *pattrn, char *port, char *file, ftnlen 

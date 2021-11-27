@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure SBGET ( String buffer, get ) */
 /* Subroutine */ int sbget_1__(char *name__, char *names, integer *ptrs, char 

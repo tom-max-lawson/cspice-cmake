@@ -56,9 +56,9 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
    #undef   sincpt_c
 
 
@@ -935,8 +935,8 @@
  
          #include <stdio.h>
          #include <string.h>
-         #include "SpiceUsr.h"
-         #include "SpiceZmc.h"
+         #include <cspice/SpiceUsr.h>
+         #include <cspice/SpiceZmc.h>
 
          int main()
          {
@@ -1368,7 +1368,7 @@
         Program subpnt_ex2
         ./
         #include <stdio.h>
-        #include "SpiceUsr.h"
+        #include <cspice/SpiceUsr.h>
 
         int main()
         {

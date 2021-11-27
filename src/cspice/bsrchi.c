@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure            BSRCHI ( Binary search for an integer value ) */
 integer bsrchi_(integer *value, integer *ndim, integer *array)

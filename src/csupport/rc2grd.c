@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure RC2GRD ( DSKBRIEF, rectangles to pixel grid ) */
 /* Subroutine */ int rc2grd_(integer *nrec, doublereal *bnds1, doublereal *

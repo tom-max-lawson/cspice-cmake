@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      PUTACT ( Store Error Response Action ) */
 /* Subroutine */ int putact_0_(int n__, integer *action)

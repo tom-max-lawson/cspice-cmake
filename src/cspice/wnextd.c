@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      WNEXTD ( Extract the endpoints from a DP window ) */
 /* Subroutine */ int wnextd_(char *side, doublereal *window, ftnlen side_len)

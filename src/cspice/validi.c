@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      VALIDI ( Validate an integer set ) */
 /* Subroutine */ int validi_(integer *size, integer *n, integer *a)

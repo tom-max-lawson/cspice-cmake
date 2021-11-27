@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      INSRTD ( Insert an item into a double precision set ) */
 /* Subroutine */ int insrtd_(doublereal *item, doublereal *a)

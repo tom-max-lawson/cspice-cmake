@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  ZZINGRD  ( is a voxel inside the grid? ) */
 logical zzingrd_(integer *nvox, integer *voxel)

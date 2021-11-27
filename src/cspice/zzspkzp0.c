@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZSPKZP0 ( S/P Kernel, easy position ) */
 /* Subroutine */ int zzspkzp0_(integer *targ, doublereal *et, char *ref, char 

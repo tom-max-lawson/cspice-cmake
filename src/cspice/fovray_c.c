@@ -51,9 +51,9 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
    #undef fovray_c
 
    void fovray_c ( ConstSpiceChar   * inst,
@@ -342,8 +342,8 @@
       Example code begins here.
       
          #include <stdio.h>
-         #include "SpiceUsr.h"
-         #include "SpiceZmc.h"
+         #include <cspice/SpiceUsr.h>
+         #include <cspice/SpiceZmc.h>
          
          int main()
          {

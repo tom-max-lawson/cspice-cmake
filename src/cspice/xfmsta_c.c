@@ -44,9 +44,9 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
 
 
    void xfmsta_c ( ConstSpiceDouble     input_state[6],
@@ -298,7 +298,7 @@
       Example code begins here.
       
          #include <stdio.h>
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
 
          int main()
          {
@@ -419,7 +419,7 @@
       coordinates with respect to Earth. 
    
          #include <stdio.h>
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
 
          int main()
          {

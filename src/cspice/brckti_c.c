@@ -44,7 +44,7 @@
     
 */
 
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
 
 
    SpiceInt brckti_c ( SpiceInt  number, 
@@ -95,7 +95,7 @@
    This routine provides a shorthand notation for code fragments 
    like the following 
 
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
             .
             .
             .
@@ -122,7 +122,7 @@
  
     The following code fragment illustrates a typical use for brckti_c. 
  
-       #include "SpiceUsr.h"
+       #include <cspice/SpiceUsr.h>
             .
             .
             .

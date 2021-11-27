@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ATTCMP ( Attribute comparison for DSK segments ) */
 /* Subroutine */ int attcmp_(integer *han1, integer *dlads1, integer *han2, 

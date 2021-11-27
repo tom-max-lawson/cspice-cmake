@@ -42,8 +42,8 @@
 */
 
    #include <string.h>
-   #include "SpiceUsr.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZmc.h>
 
 
    void lcase_c ( SpiceChar       * in,

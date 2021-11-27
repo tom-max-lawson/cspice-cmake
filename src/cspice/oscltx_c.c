@@ -46,8 +46,8 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
    #undef   oscltx_c
 
    void oscltx_c ( ConstSpiceDouble state [6],

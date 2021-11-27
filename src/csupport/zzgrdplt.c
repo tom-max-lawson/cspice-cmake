@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZGRDPLT ( Create grid of plates ) */
 /* Subroutine */ int zzgrdplt_(integer *nrows, integer *ncols, logical *wrap, 

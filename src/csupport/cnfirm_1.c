@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      CNFIRM_1 ( Return status of a yes/no query ) */
 /* Subroutine */ int cnfirm_1__(char *prmpt, logical *torf, ftnlen prmpt_len)

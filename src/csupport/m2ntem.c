@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      M2NTEM ( Parse the numeric template of a @number ) */
 /* Subroutine */ int m2ntem_(char *string, char *base, integer *beg, integer *

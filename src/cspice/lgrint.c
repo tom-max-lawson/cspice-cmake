@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      LGRINT ( Lagrange polynomial interpolation ) */
 doublereal lgrint_(integer *n, doublereal *xvals, doublereal *yvals, 

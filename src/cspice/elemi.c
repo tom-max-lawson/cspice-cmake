@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure            ELEMI ( Element of an integer set ) */
 logical elemi_(integer *item, integer *a)

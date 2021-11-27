@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      EKFFLD ( EK, finish fast write ) */
 /* Subroutine */ int ekffld_(integer *handle, integer *segno, integer *rcptrs)

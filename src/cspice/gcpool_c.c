@@ -43,10 +43,10 @@
  
 */
  
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZmc.h>
  
  
    void gcpool_c ( ConstSpiceChar * name,
@@ -187,8 +187,8 @@
    #include <stdio.h>
    #include <string.h>
  
-   #include "SpiceUsr.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZmc.h>
  
    #define LENOUT 20
    #define NUMVALS 2

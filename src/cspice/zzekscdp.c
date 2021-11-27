@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ZZEKSCDP ( EK, set column data pointer ) */
 /* Subroutine */ int zzekscdp_(integer *handle, integer *segdsc, integer *

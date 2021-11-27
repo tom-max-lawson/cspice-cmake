@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      EKAPPR ( EK, append record onto segment ) */
 /* Subroutine */ int ekappr_(integer *handle, integer *segno, integer *recno)

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure BADKPV ( Bad Kernel Pool Variable ) */
 logical badkpv_(char *caller, char *name__, char *comp, integer *size, 

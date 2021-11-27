@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZHSC ( Private---Add-only Character Hash ) */
 /* Subroutine */ int zzhsc_0_(int n__, integer *hashsz, integer *hedlst, 

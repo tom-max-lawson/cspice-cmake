@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZDDHRMU ( Private --- DDH Remove Unit ) */
 /* Subroutine */ int zzddhrmu_(integer *uindex, integer *nft, integer *utcst, 

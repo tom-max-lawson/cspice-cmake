@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure            SETC ( Compare character sets ) */
 logical setc_(char *a, char *op, char *b, ftnlen a_len, ftnlen op_len, ftnlen 

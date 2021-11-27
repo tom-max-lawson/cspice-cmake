@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  REPMF  ( Replace marker with formatted d.p. value ) */
 /* Subroutine */ int repmf_(char *in, char *marker, doublereal *value, 

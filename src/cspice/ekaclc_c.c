@@ -42,11 +42,11 @@
 */
 
    #include <stdlib.h>
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
-   #include "SpiceZmc.h"
-   #include "SpiceZim.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZmc.h>
+   #include <cspice/SpiceZim.h>
    #undef    ekaclc_c
    
 
@@ -242,7 +242,7 @@
        Below, we show how we'd open a new EK file and create the 
        first of the segments described above. 
  
-       #include "SpiceUsr.h"
+       #include <cspice/SpiceUsr.h>
        #include <stdio.h>
        
        

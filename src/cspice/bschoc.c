@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure BSCHOC ( Binary search with order vector, character ) */
 integer bschoc_(char *value, integer *ndim, char *array, integer *order, 

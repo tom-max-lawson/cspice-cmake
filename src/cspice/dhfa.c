@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure DHFA ( Time derivative of half angle ) */
 doublereal dhfa_(doublereal *state, doublereal *bodyr)

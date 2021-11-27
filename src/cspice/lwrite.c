@@ -1,7 +1,7 @@
-#include "f2c.h"
-#include "fio.h"
-#include "fmt.h"
-#include "lio.h"
+#include <cspice/f2c.h>
+#include <cspice/fio.h>
+#include <cspice/fmt.h>
+#include <cspice/lio.h>
 
 ftnint L_len;
 int f__Aquote;
@@ -232,9 +232,9 @@ lwrt_C(double a, double b)
 	PUT(')');
 }
 #ifdef KR_headers
-l_write(number,ptr,len,type) ftnint *number,type; char *ptr; ftnlen len;
+int l_write(number,ptr,len,type) ftnint *number,type; char *ptr; ftnlen len;
 #else
-l_write(ftnint *number, char *ptr, ftnlen len, ftnint type)
+int l_write(ftnint *number, char *ptr, ftnlen len, ftnint type)
 #endif
 {
 #define Ptr ((flex *)ptr)

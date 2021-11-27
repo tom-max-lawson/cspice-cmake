@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      PUTSMS ( Store Short Error Message ) */
 /* Subroutine */ int putsms_0_(int n__, char *msg, ftnlen msg_len)

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      REMOVC ( Remove an item from a character set ) */
 /* Subroutine */ int removc_(char *item, char *a, ftnlen item_len, ftnlen 

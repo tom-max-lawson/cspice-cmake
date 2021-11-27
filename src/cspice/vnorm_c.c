@@ -41,8 +41,8 @@
  
 */
    #include <math.h>
-   #include "SpiceUsr.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZmc.h>
    #undef    vnorm_c
 
 

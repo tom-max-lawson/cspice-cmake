@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZBODS2C ( Body name to ID translation, with bypass ) */
 /* Subroutine */ int zzbods2c_(integer *usrctr, char *savnam, integer *savcde,

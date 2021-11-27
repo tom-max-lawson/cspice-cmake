@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      MEQUG  ( Matrix equal to another, general dimension ) */
 /* Subroutine */ int mequg_(doublereal *m1, integer *nr, integer *nc, 

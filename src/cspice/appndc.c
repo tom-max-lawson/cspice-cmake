@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      APPNDC ( Append an item to a character cell ) */
 /* Subroutine */ int appndc_(char *item, char *cell, ftnlen item_len, ftnlen 

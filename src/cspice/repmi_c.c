@@ -43,10 +43,10 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZmc.h>
 
 
    void repmi_c ( ConstSpiceChar     * in,
@@ -141,7 +141,7 @@
  
    by the calls 
  
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
            .
            .
            .
@@ -174,7 +174,7 @@
  
       Then following the call, 
  
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
               .
               .
               .
@@ -200,7 +200,7 @@
       Then following the call, 
  
  
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
               .
               .
               .
@@ -224,7 +224,7 @@
  
       Then following the sequence of calls, 
  
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
               .
               .
               .

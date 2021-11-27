@@ -42,9 +42,9 @@
  
 */
 
-  #include "SpiceUsr.h"
-  #include "SpiceZfc.h" 
-  #include "SpiceZmc.h" 
+  #include <cspice/SpiceUsr.h>
+  #include <cspice/SpiceZfc.h> 
+  #include <cspice/SpiceZmc.h> 
 
 
    void ktotal_c ( ConstSpiceChar   * kind,
@@ -122,7 +122,7 @@
    have been loaded via the interface furnsh_c.  Assign kind 
    the value "SPK" and call ktotal_c as shown: 
  
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
            .
            .
            .

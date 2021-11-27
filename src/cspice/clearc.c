@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      CLEARC ( Clear a character-string array ) */
 /* Subroutine */ int clearc_(integer *ndim, char *array, ftnlen array_len)

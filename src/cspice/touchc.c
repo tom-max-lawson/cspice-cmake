@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      TOUCHC ( Touch a variable ) */
 /* Character */ VOID touchc_(char *ret_val, ftnlen ret_val_len, char *string, 

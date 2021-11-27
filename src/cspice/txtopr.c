@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      TXTOPR ( Text file, open for read ) */
 /* Subroutine */ int txtopr_(char *fname, integer *unit, ftnlen fname_len)

@@ -45,8 +45,8 @@
 
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
    #undef    chbder_c
 
    void chbder_c ( ConstSpiceDouble * cp,
@@ -225,7 +225,7 @@
    Example:
 
       #include <stdio.h>
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
    
       int main()
          {

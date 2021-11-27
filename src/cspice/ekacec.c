@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure     EKACEC ( EK, add character data to column ) */
 /* Subroutine */ int ekacec_(integer *handle, integer *segno, integer *recno, 

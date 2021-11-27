@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SPK14E ( SPK type 14: End a segment. ) */
 /* Subroutine */ int spk14e_(integer *handle)

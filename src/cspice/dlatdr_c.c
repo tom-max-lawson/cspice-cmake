@@ -44,8 +44,8 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
 
 
    void dlatdr_c ( SpiceDouble   x,
@@ -143,7 +143,7 @@
  
    In code this looks like: 
  
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
             .
             .
             .

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SCE2S ( ET to SCLK string ) */
 /* Subroutine */ int sce2s_(integer *sc, doublereal *et, char *sclkch, ftnlen 

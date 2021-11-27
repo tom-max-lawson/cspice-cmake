@@ -43,8 +43,8 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
 
    void ekgi_c ( SpiceInt          selidx,
                  SpiceInt          row,

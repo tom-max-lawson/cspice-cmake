@@ -43,9 +43,9 @@
 
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
 
    void gipool_c ( ConstSpiceChar * name,
                    SpiceInt         start,
@@ -168,8 +168,8 @@
    #include <stdio.h>
    #include <string.h>
 
-   #include "SpiceUsr.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZmc.h>
 
    #define NUMVALS 2
 

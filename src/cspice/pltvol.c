@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure PLTVOL ( Compute volume of plate model ) */
 doublereal pltvol_(integer *nv, doublereal *vrtces, integer *np, integer *

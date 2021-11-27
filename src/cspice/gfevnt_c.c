@@ -47,12 +47,12 @@
 */
 
    #include <signal.h>
-   #include "SpiceUsr.h"
-   #include "SpiceZmc.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZad.h"
-   #include "SpiceZst.h"
-   #include "zzalloc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZmc.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZad.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/zzalloc.h>
    #undef gfevnt_c
 
    void gfevnt_c ( void             ( * udstep ) ( SpiceDouble       et,
@@ -1070,8 +1070,8 @@
 
    Code:
 
-      #include "SpiceUsr.h"
-      #include "SpiceGF.h"
+      #include <cspice/SpiceUsr.h>
+      #include <cspice/SpiceGF.h>
       #include <stdio.h>
       #include <signal.h>
 

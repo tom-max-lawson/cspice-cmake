@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure DVHAT ( Derivative and unit vector "V-hat" of a state) */
 /* Subroutine */ int dvhat_(doublereal *s1, doublereal *sout)

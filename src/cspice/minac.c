@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  MINAC  ( Minimum element of array, character ) */
 /* Subroutine */ int minac_(char *array, integer *ndim, char *minval, integer 

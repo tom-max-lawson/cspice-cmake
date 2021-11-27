@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure DSKGD ( DSK, return DSK segment descriptor  ) */
 /* Subroutine */ int dskgd_(integer *handle, integer *dladsc, doublereal *

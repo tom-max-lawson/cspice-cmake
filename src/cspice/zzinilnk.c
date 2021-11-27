@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ZZINILNK ( Initialize an AB cell linked-list ) */
 /* Subroutine */ int zzinilnk_(integer *maxp, integer *maxc, integer *ncell, 

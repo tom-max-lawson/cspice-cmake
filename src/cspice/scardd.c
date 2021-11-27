@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure SCARDD ( Set the cardinality of a double precision cell ) */
 /* Subroutine */ int scardd_(integer *card, doublereal *cell)

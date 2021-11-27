@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZDDHCLU ( Private --- DDH Count Locks ) */
 integer zzddhclu_(logical *utlck, integer *nut)

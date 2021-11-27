@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      DRDSPH ( Derivative of rectangular w.r.t. spherical ) */
 /* Subroutine */ int drdsph_(doublereal *r__, doublereal *colat, doublereal *

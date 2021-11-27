@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure   LSTLED ( Last double precision element less than or equal) */
 integer lstled_(doublereal *x, integer *n, doublereal *array)

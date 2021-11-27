@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      LDKLST ( Loads Kernels Listed In a String) */
 /* Subroutine */ int ldklst_(char *klist, ftnlen klist_len)

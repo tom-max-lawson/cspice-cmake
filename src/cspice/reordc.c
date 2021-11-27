@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      REORDC ( Reorder a character array ) */
 /* Subroutine */ int reordc_(integer *iorder, integer *ndim, char *array, 

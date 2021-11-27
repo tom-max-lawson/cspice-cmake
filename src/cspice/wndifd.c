@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      WNDIFD ( Difference two DP windows ) */
 /* Subroutine */ int wndifd_(doublereal *a, doublereal *b, doublereal *c__)

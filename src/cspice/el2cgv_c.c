@@ -44,8 +44,8 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZmc.h>
    #undef    el2cgv_c
    
 
@@ -128,7 +128,7 @@
  
    1)  Find the semi-axes of the limb of an ellipsoid. 
  
-          #include "SpiceUsr.h"
+          #include <cspice/SpiceUsr.h>
                   .
                   .
                   .

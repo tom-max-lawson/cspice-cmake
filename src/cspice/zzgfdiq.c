@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ZZGFDIQ ( GF, return distance between objects ) */
 /* Subroutine */ int zzgfdiq_(integer *targid, doublereal *et, char *abcorr, 

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ZZEKORDC ( Order of a character EK column ) */
 /* Subroutine */ int zzekordc_(char *cvals, logical *nullok, logical *nlflgs, 

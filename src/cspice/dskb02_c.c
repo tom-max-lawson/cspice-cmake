@@ -44,9 +44,9 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
    #undef dskb02_c
 
    void dskb02_c ( SpiceInt               handle,
@@ -177,9 +177,9 @@
       Example code begins here. 
 
          #include <stdio.h>
-         #include "SpiceUsr.h"
-         #include "SpiceDLA.h"
-         #include "SpiceDSK.h"
+         #include <cspice/SpiceUsr.h>
+         #include <cspice/SpiceDLA.h>
+         #include <cspice/SpiceDSK.h>
 
          int main()
          {   

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      DIFFC ( Difference of two character sets ) */
 /* Subroutine */ int diffc_(char *a, char *b, char *c__, ftnlen a_len, ftnlen 

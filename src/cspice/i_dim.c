@@ -1,4 +1,4 @@
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 #ifdef KR_headers
 integer i_dim(a,b) integer *a, *b;

@@ -45,9 +45,9 @@
 
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"   
-   #include "SpiceZmc.h"   
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>   
+   #include <cspice/SpiceZmc.h>   
 
 
    void tisbod_c ( ConstSpiceChar   * ref,    
@@ -314,7 +314,7 @@
       velocity) of an object with respect to the center of the body
       at time et.
          
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
                .
                .
                .
@@ -341,7 +341,7 @@
       velocity vector (with respect to an inertial frame) of the 
       specified body at time et.
 
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
                .
                .
                .

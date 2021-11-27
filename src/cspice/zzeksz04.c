@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZEKSZ04 ( EK, element entry size, class 4 ) */
 integer zzeksz04_(integer *handle, integer *segdsc, integer *coldsc, integer *

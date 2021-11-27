@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ZZCK4I2D ( Pack set of integers into a single DP ) */
 /* Subroutine */ int zzck4i2d_(integer *i__, integer *nsets, doublereal *

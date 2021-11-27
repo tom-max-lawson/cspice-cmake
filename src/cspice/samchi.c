@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure   SAMCHI ( Same character --- case insensitive ) */
 logical samchi_(char *str1, integer *l1, char *str2, integer *l2, ftnlen 

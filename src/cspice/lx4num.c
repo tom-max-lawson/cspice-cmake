@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      LX4NUM (Scan for a number) */
 /* Subroutine */ int lx4num_(char *string, integer *first, integer *last, 

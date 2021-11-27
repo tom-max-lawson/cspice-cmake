@@ -43,7 +43,7 @@
    MATH
 
 */
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
    #undef   dvhat_c
 
    void dvhat_c ( ConstSpiceDouble s1  [6],
@@ -108,7 +108,7 @@
    instantaneous angular rate of the object across the sky as seen
    from the observers vantage.
 
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
       #include <stdio.h>
       #include <math.h>
 

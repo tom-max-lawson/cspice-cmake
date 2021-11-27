@@ -42,8 +42,8 @@
 
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
 
    void gfstol_c ( SpiceDouble value )
 
@@ -135,7 +135,7 @@
       14 A.D. SEP 1 to 14 A.D. SEP 30 (Julian).
 
          #include <stdio.h>
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
 
          int main()
             {

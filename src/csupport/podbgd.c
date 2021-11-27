@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      PODBGD ( Pod, begin group, double precision ) */
 /* Subroutine */ int podbgd_(doublereal *pod)

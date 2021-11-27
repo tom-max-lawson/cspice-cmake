@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      PARSDO ( Parsing of DATA_ORDER string ) */
 /* Subroutine */ int parsdo_(char *line, char *doval, integer *nval, integer *

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      Q2M ( Quaternion to matrix ) */
 /* Subroutine */ int q2m_(doublereal *q, doublereal *r__)

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      FILLC ( Fill a character array ) */
 /* Subroutine */ int fillc_(char *value, integer *ndim, char *array, ftnlen 

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure SPKPOS ( S/P Kernel, position ) */
 /* Subroutine */ int spkpos_(char *targ, doublereal *et, char *ref, char *

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure            ELEMD ( Element of a double precision set ) */
 logical elemd_(doublereal *item, doublereal *a)

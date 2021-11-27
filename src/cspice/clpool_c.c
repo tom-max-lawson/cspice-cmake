@@ -43,8 +43,8 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
    
 
    void clpool_c ( void ) 
@@ -102,7 +102,7 @@
    makes it possible to use all three.
     
  
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
             .
             .
             .

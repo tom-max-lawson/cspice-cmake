@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZRBRKST ( Private --- Reverse Bracketed String Extractor ) */
 /* Subroutine */ int zzrbrkst_(char *string, char *lftend, char *rgtend, char 

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure     ASTRIP ( STRIP Ascii characters from a string ) */
 /* Subroutine */ int astrip_(char *instr, char *asciib, char *asciie, char *

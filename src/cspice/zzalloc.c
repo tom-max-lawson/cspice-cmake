@@ -54,8 +54,8 @@
 #include <stdarg.h>
 #include <stdio.h>
 #include <string.h>
-#include "SpiceUsr.h"
-#include "zzalloc.h"
+#include <cspice/SpiceUsr.h>
+#include <cspice/zzalloc.h>
 
    /*
    Define 'op' tags for zzalloc_count control.

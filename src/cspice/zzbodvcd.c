@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZBODVCD ( Get d.p. kernel variable for body, with bypass ) */
 /* Subroutine */ int zzbodvcd_(integer *bodyid, char *item, integer *maxn, 

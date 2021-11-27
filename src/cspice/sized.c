@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure            SIZED ( Size of a double precision cell ) */
 integer sized_(doublereal *cell)

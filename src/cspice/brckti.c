@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  BRCKTI ( Bracket an integer value within an interval. ) */
 integer brckti_(integer *number, integer *end1, integer *end2)

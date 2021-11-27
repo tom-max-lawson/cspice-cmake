@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZCKCV06 ( Private --- C-kernel segment coverage, type 06 ) */
 /* Subroutine */ int zzckcv06_(integer *handle, integer *arrbeg, integer *

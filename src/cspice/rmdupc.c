@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      RMDUPC ( Remove duplicates from a character array ) */
 /* Subroutine */ int rmdupc_(integer *nelt, char *array, ftnlen array_len)

@@ -41,7 +41,7 @@
  
 */
 
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
    #undef    trace_c
 
    SpiceDouble trace_c ( ConstSpiceDouble  matrix[3][3] ) 

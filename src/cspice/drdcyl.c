@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure DRDCYL (Derivative of rectangular w.r.t. cylindrical) */
 /* Subroutine */ int drdcyl_(doublereal *r__, doublereal *long__, doublereal *

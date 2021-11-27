@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure SPKSSB ( S/P Kernel, solar system barycenter ) */
 /* Subroutine */ int spkssb_(integer *targ, doublereal *et, char *ref, 

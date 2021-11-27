@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZCHRLAT ( Chord latitude  ) */
 /* Subroutine */ int zzchrlat_(doublereal *midlat, doublereal *dlon, 

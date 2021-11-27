@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      WNFETD ( Fetch an interval from a DP window ) */
 /* Subroutine */ int wnfetd_(doublereal *window, integer *n, doublereal *left,

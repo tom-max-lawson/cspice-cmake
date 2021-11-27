@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      GETINT ( Prompt for an integer value ) */
 /* Subroutine */ int getint_(char *prmpt, integer *value, logical *gotval, 

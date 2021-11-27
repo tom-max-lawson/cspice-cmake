@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ROTVEC ( Transform a vector via a rotation ) */
 /* Subroutine */ int rotvec_(doublereal *v1, doublereal *angle, integer *

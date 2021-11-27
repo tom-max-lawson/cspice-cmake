@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      UNORM ( Unit vector and norm, 3 dimensional ) */
 /* Subroutine */ int unorm_(doublereal *v1, doublereal *vout, doublereal *

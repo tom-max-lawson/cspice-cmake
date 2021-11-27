@@ -45,10 +45,10 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceCel.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceCel.h>
+   #include <cspice/SpiceZmc.h>
 
    void zzsynccl_c ( SpiceTransDir     xdir,
                      SpiceCell       * cell )   

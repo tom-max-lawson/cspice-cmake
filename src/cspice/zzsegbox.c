@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZSEGBOX (Bounding box for DSK segment volume element) */
 /* Subroutine */ int zzsegbox_(doublereal *dskdsc, doublereal *boxctr, 

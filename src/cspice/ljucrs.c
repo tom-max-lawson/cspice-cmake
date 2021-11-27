@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      LJUCRS ( Left-justify, Uppercase, Compress ) */
 /* Subroutine */ int ljucrs_(integer *n, char *input, char *output, ftnlen 

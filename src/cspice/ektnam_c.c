@@ -42,10 +42,10 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZmc.h>
 
    void ektnam_c ( SpiceInt     n,
                    SpiceInt     lenout,
@@ -119,7 +119,7 @@
  
    1)  Dump the names of the loaded tables. 
  
-       #include "SpiceUsr.h"
+       #include <cspice/SpiceUsr.h>
           .
           .
           .

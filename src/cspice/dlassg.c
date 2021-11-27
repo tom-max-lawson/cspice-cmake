@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure DLASSG ( DLA, same segment? ) */
 logical dlassg_(integer *han1, integer *han2, integer *dsc1, integer *dsc2)

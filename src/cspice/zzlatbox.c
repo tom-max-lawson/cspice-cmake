@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZLATBOX (Bounding box for latitudinal volume element) */
 /* Subroutine */ int zzlatbox_(doublereal *bounds, doublereal *center, 

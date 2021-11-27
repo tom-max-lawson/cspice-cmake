@@ -53,10 +53,10 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZmc.h>
 
 
    void term_pl02 ( SpiceInt              handle,
@@ -553,8 +553,8 @@
 
           #include <stdio.h>
           #include <math.h>
-          #include "SpiceUsr.h"
-          #include "SpiceZfc.h"
+          #include <cspice/SpiceUsr.h>
+          #include <cspice/SpiceZfc.h>
 
           int main()
           {

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ZZEKTRLS ( EK tree, linear search ) */
 integer zzektrls_(integer *handle, integer *tree, integer *ival)

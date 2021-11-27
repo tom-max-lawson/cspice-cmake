@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ILUMIN ( Illumination angles ) */
 /* Subroutine */ int ilumin_(char *method, char *target, doublereal *et, char 

@@ -41,9 +41,9 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
 
    void dafgh_c ( SpiceInt  * handle ) 
 
@@ -95,7 +95,7 @@
    individual arrays in a DAF and examines the contents of those 
    meeting certain criteria.  
  
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
           ...
       dafopw_c ( fname, &handle );
       dafbfs_c ( handle );

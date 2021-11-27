@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure DAFRFR ( DAF, read file record ) */
 /* Subroutine */ int dafrfr_(integer *handle, integer *nd, integer *ni, char *

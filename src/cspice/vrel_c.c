@@ -42,9 +42,9 @@
 
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZmc.h"
-   #include "SpiceZim.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZmc.h>
+   #include <cspice/SpiceZim.h>
    #undef   vrel_c
 
    SpiceDouble vrel_c ( ConstSpiceDouble v1[3],
@@ -108,7 +108,7 @@
    between the geometric and light time corrected state of Io
    with respect to Voyager 2 at a given UTC time.
 
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
                .
                .
                .

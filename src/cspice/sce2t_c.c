@@ -46,8 +46,8 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
 
    void sce2t_c ( SpiceInt       sc, 
                   SpiceDouble    et, 

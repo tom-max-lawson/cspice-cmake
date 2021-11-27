@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure GFREFN ( GF, default refinement estimator) */
 /* Subroutine */ int gfrefn_(doublereal *t1, doublereal *t2, logical *s1, 

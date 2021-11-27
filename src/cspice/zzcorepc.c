@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZCOREPC ( Correct epoch for aberration ) */
 /* Subroutine */ int zzcorepc_(char *abcorr, doublereal *et, doublereal *lt, 

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      XPOSEG ( Transpose a matrix, general ) */
 /* Subroutine */ int xposeg_(doublereal *matrix, integer *nrow, integer *ncol,

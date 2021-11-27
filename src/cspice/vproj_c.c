@@ -42,8 +42,8 @@
 
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZmc.h>
    #undef  vproj_c
 
    void vproj_c ( ConstSpiceDouble   a[3],

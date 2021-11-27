@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure UDDC ( Derivative of function less than zero, df(x)/dx < 0 ) */
 /* Subroutine */ int uddc_(U_fp udfunc, doublereal *x, doublereal *dx, 

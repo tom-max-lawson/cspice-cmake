@@ -41,10 +41,10 @@
 
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZmc.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZmc.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
 
    void erract_c ( ConstSpiceChar * op,
                    SpiceInt         lenout,

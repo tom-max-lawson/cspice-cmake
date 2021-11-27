@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      LOCATI ( Locate an identifier in a list ) */
 /* Subroutine */ int locati_(integer *id, integer *idsz, integer *list, 

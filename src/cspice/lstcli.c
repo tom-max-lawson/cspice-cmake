@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure   LSTCLI ( Closest integer array element ) */
 integer lstcli_(integer *x, integer *n, integer *array)

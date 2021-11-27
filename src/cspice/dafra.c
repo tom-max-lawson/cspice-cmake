@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure DAFRA ( DAF, Re-order arrays ) */
 /* Subroutine */ int dafra_(integer *handle, integer *iorder, integer *n)

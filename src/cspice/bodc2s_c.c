@@ -43,10 +43,10 @@
    CONVERSION
 
 */
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZmc.h>
    #undef   bodc2s_c
 
    void bodc2s_c ( SpiceInt        code,
@@ -153,7 +153,7 @@
    included in the list.
 
    #include <stdio.h>
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
    #define  LEN               32
 
    int main()

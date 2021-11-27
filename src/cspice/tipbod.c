@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  TIPBOD ( Transformation, inertial position to bodyfixed ) */
 /* Subroutine */ int tipbod_(char *ref, integer *body, doublereal *et, 

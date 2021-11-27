@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZSPKSB0 ( S/P Kernel, solar system barycenter ) */
 /* Subroutine */ int zzspksb0_(integer *targ, doublereal *et, char *ref, 

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure             NBLEN ( Non blank length of a string ) */
 integer nblen_(char *string, ftnlen string_len)

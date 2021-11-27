@@ -43,10 +43,10 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
-   #include "SpiceZim.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
+   #include <cspice/SpiceZim.h>
    #undef    ekaced_c
 
 
@@ -239,7 +239,7 @@
        table in position 0, we'd make the following calls: 
 
 
-          #include "SpiceUsr.h"
+          #include <cspice/SpiceUsr.h>
               .
               . 
               . 

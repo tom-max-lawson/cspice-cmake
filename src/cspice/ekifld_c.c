@@ -41,11 +41,11 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
-   #include "SpiceZmc.h"
-   #include "SpiceZim.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZmc.h>
+   #include <cspice/SpiceZim.h>
    #undef    ekifld_c
 
 
@@ -326,7 +326,7 @@
        first of the segments described above. 
  
 
-       #include "SpiceUsr.h"
+       #include <cspice/SpiceUsr.h>
        #include <stdio.h>
        
        

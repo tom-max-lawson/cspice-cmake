@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  MOVEI  ( Move a integer array to another ) */
 /* Subroutine */ int movei_(integer *arrfrm, integer *ndim, integer *arrto)

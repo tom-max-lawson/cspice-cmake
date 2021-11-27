@@ -42,9 +42,9 @@
 
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
 
 
    void dafopr_c ( ConstSpiceChar    * fname,
@@ -130,7 +130,7 @@
    which is then searched for DAFs containing data for a particular
    object.
 
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
            .
            .
            .
@@ -163,7 +163,7 @@
    closes the DAF.
 
       #include <stdio.h>
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
 
       int main()
          {

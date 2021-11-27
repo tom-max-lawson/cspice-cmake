@@ -42,10 +42,10 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZmc.h>
 
    void scfmt_c ( SpiceInt      sc, 
                   SpiceDouble   ticks, 
@@ -196,7 +196,7 @@
    times in Galileo clock format. 
  
       #include <stdio.h>
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
       
       #define                MXPART   9999
       #define                MAXLEN   30

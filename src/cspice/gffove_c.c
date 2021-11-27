@@ -58,10 +58,10 @@
 */
 
    #include <signal.h>
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZad.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZad.h>
+   #include <cspice/SpiceZmc.h>
    #undef gffove_c
 
    void gffove_c ( ConstSpiceChar     * inst,
@@ -969,7 +969,7 @@
 
 
          #include <stdio.h>
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
 
          int main()
          {
@@ -1161,7 +1161,7 @@
 
          #include <stdio.h>
          #include <math.h>
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
 
          int main()
          {

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure MATCHE ( Match two words, allowing for common errors ) */
 /* Subroutine */ int matche_(char *word, char *guess, char *transf, integer *

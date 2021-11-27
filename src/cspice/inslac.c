@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      INSLAC ( Insert at location in a character array ) */
 /* Subroutine */ int inslac_(char *elts, integer *ne, integer *loc, char *

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      UCRSS ( Unitized cross product, 3x3 ) */
 /* Subroutine */ int ucrss_(doublereal *v1, doublereal *v2, doublereal *vout)

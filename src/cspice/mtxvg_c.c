@@ -41,10 +41,10 @@
 
 */
    #include <stdlib.h>
-   #include "SpiceUsr.h"
-   #include "SpiceZmc.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZim.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZmc.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZim.h>
    #undef    mtxvg_c
 
 

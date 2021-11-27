@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  MAXAC  ( Maximum element of array, character ) */
 /* Subroutine */ int maxac_(char *array, integer *ndim, char *maxval, integer 

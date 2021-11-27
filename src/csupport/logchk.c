@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      LOGCHK ( Log file check ) */
 /* Subroutine */ int logchk_(char *defalt, char *usenam, logical *dolog, 

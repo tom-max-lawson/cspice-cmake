@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      FOVTRG ( Is target in FOV at time? ) */
 /* Subroutine */ int fovtrg_(char *inst, char *target, char *tshape, char *

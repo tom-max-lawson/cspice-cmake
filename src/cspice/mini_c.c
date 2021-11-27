@@ -43,8 +43,8 @@
  
 */
    #include <stdarg.h>
-   #include "SpiceUsr.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZmc.h>
    
 
    SpiceInt mini_c ( SpiceInt n,  ... ) 
@@ -105,7 +105,7 @@
  
    1) Find the minimum of four integer values.
    
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
            .
            .
            .

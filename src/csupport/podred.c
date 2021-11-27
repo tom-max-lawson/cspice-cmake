@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      PODRED ( Pod, remove elements, double precision ) */
 /* Subroutine */ int podred_(integer *n, integer *loc, doublereal *pod)

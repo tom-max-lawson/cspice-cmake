@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      COPYD ( Copy a double precision cell ) */
 /* Subroutine */ int copyd_(doublereal *cell, doublereal *copy)

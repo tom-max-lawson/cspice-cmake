@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SYSELI ( Select a subset of the values of a symbol ) */
 /* Subroutine */ int syseli_(char *name__, integer *begin, integer *end, char 

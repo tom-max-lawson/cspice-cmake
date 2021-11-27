@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      CHBINT ( Interpolate a Chebyshev expansion ) */
 /* Subroutine */ int chbint_(doublereal *cp, integer *degp, doublereal *x2s, 

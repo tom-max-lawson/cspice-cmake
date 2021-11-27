@@ -43,9 +43,9 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
 
    void ekrcei_c ( SpiceInt           handle,
                    SpiceInt           segno,
@@ -156,7 +156,7 @@
    1)  Read the value in the third record of the column ICOL in 
        the fifth segment of an EK file designated by handle. 
           
-          #include "SpiceUsr.h"
+          #include <cspice/SpiceUsr.h>
              .
              .
              .

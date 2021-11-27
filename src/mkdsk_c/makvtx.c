@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure MAKVTX ( MKDSK: create vertex from coordinates ) */
 /* Subroutine */ int makvtx_(integer *corsys, doublereal *corpar, doublereal *

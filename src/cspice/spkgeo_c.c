@@ -42,9 +42,9 @@
 
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZmc.h"
-   #include "SpiceZfc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZmc.h>
+   #include <cspice/SpiceZfc.h>
 
    void spkgeo_c ( SpiceInt          targ, 
                    SpiceDouble       et, 
@@ -171,7 +171,7 @@
    from BEGIN to END. 
  
       #include <stdio.h>
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
       
       #define   EARTH         399
       #define   MOON          301

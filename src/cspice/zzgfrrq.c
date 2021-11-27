@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZGFRRQ ( Private - GF, range rate between objects ) */
 /* Subroutine */ int zzgfrrq_(doublereal *et, integer *targ, integer *obs, 

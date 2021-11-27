@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      FNDNWD ( Find the next word after an index ) */
 /* Subroutine */ int fndnwd_(char *string, integer *start, integer *b, 

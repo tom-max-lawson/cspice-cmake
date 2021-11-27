@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZNRMLON ( Normalize longitude bounds ) */
 /* Subroutine */ int zznrmlon_(doublereal *inmin, doublereal *inmax, 

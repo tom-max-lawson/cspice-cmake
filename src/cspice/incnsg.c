@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      INCNSG ( Intersection of cone and line segment ) */
 /* Subroutine */ int incnsg_(doublereal *apex, doublereal *axis, doublereal *

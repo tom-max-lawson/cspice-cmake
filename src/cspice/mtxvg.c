@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  MTXVG ( Matrix transpose times vector, general dimension ) */
 /* Subroutine */ int mtxvg_(doublereal *m1, doublereal *v2, integer *nc1, 

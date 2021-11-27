@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure                     J1900 ( Julian Date of 1900.0 JAN 0.5 ) */
 doublereal j1900_(void)

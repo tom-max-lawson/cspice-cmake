@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ZZMKPC ( Make a time format picture mark ) */
 /* Subroutine */ int zzmkpc_(char *pictur, integer *b, integer *e, char *mark,

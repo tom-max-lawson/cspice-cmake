@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      DVCRSS ( Derivative of Vector cross product ) */
 /* Subroutine */ int dvcrss_(doublereal *s1, doublereal *s2, doublereal *sout)

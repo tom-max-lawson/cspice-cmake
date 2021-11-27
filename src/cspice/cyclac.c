@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      CYCLAC ( Cycle the elements of a character array ) */
 /* Subroutine */ int cyclac_(char *array, integer *nelt, char *dir, integer *

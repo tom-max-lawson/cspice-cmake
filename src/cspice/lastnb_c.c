@@ -42,8 +42,8 @@
 
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZmc.h>
 
    SpiceInt lastnb_c ( ConstSpiceChar * string )
 

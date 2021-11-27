@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      CUTSTR ( Cut a long string into substrings ) */
 /* Subroutine */ int cutstr_(char *string, integer *start, integer *width, 

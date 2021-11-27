@@ -44,8 +44,8 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
    #undef    pjelpl_c
    
 
@@ -182,7 +182,7 @@
          the line and this plane (which is necessarily one point). 
          A `paraphrase' of the relevant code is: 
  
-            #include "SpiceUsr.h"
+            #include <cspice/SpiceUsr.h>
                  .
                  .
                  .

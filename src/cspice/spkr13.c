@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SPKR13 ( Read SPK record from segment, type 13 ) */
 /* Subroutine */ int spkr13_(integer *handle, doublereal *descr, doublereal *

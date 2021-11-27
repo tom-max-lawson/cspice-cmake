@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ZZEKSCMP ( EK, scalar value comparison ) */
 logical zzekscmp_(integer *op, integer *handle, integer *segdsc, integer *

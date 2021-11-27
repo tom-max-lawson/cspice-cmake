@@ -43,10 +43,10 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZmc.h>
 
    void ekrcec_c ( SpiceInt           handle,
                    SpiceInt           segno,
@@ -188,7 +188,7 @@
    1)  Read the value in the third record of the column ccol in 
        the fifth segment of an EK file designated by handle. 
  
-          #include "SpiceUsr.h"
+          #include <cspice/SpiceUsr.h>
              .
              .
              .

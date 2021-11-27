@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      NTHUQW ( N'th unquoted word) */
 /* Subroutine */ int nthuqw_(char *string, integer *n, char *equote, char *

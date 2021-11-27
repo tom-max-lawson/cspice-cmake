@@ -41,7 +41,7 @@
 
 */
 
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
 
    void putcml_c ( SpiceInt      argc,
                    SpiceChar  ** argv )
@@ -92,7 +92,7 @@
    #include <stdio.h>
    #include <stdlib.h>
 
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
 
    void main( int argc, char *argv[] )
    {

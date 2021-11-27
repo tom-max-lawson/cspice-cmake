@@ -43,12 +43,12 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
-   #include "SpiceZmc.h"
-   #include "SpiceZim.h" 
-   #include "f2cMang.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZmc.h>
+   #include <cspice/SpiceZim.h> 
+   #include <cspice/f2cMang.h>
    #undef    bschoc_c
 
 

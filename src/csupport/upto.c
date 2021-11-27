@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure UPTO ( Up to the next index of a substring ) */
 integer upto_(char *string, char *substr, integer *start, ftnlen string_len, 

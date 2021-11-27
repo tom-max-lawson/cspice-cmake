@@ -53,9 +53,9 @@
  
 */
  
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
 
  
    void subpt_c ( ConstSpiceChar       * method,
@@ -336,7 +336,7 @@
    twice, using both the "intercept" and "near point" options.
 
       #include <stdio.h>
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
  
       int main ()
       {

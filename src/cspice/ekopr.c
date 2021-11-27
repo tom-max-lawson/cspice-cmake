@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure   EKOPR ( EK, open file for reading ) */
 /* Subroutine */ int ekopr_(char *fname, integer *handle, ftnlen fname_len)

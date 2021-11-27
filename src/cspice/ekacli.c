@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure     EKACLI ( EK, add integer column to segment ) */
 /* Subroutine */ int ekacli_(integer *handle, integer *segno, char *column, 

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZGFPAQ ( Private --- GF, phase angle between bodies ) */
 /* Subroutine */ int zzgfpaq_(doublereal *et, integer *targ, integer *illmn, 

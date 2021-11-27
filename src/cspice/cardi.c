@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure            CARDI ( Cardinality of an integer cell ) */
 integer cardi_(integer *cell)

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SHELLD ( Shell sort a double precision array ) */
 /* Subroutine */ int shelld_(integer *ndim, doublereal *array)

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure                     B1900 ( Besselian Date 1900.0 ) */
 doublereal b1900_(void)

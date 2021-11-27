@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  DACOSH ( Double precision arc hyperbolic cosine ) */
 doublereal dacosh_(doublereal *x)

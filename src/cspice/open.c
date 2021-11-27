@@ -63,8 +63,8 @@
 
 
 
-#include "f2c.h"
-#include "fio.h"
+#include <cspice/f2c.h>
+#include <cspice/fio.h>
 #include "string.h"
 #ifndef NON_POSIX_STDIO
 #ifdef MSDOS
@@ -421,11 +421,11 @@ static void
 
 #ifdef KR_headers
 
-   fk_open( seq, fmt, n) ftnint n;
+   int fk_open( seq, fmt, n) ftnint n;
 
 #else
 
-   fk_open(int seq, int fmt, ftnint n)
+   int fk_open(int seq, int fmt, ftnint n)
 
 #endif
    {

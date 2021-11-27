@@ -42,10 +42,10 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
-   #include "SpiceZst.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
+   #include <cspice/SpiceZst.h>
 
 
    void frmnam_c ( SpiceInt      frcode,
@@ -150,7 +150,7 @@
    disposal.  You can capture the frame name using this routine 
    as shown here. 
  
-      #include "SpiceUsr.h"   
+      #include <cspice/SpiceUsr.h>   
            .
            .
            .

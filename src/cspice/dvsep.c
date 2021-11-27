@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure DVSEP ( Derivative of separation angle ) */
 doublereal dvsep_(doublereal *s1, doublereal *s2)

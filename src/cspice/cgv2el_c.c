@@ -43,8 +43,8 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZmc.h>
    #undef    cgv2el_c
 
 
@@ -113,7 +113,7 @@
        is defined by the vectors center, vec1, and vec2.  The plane 
        is defined by the normal vector n and the constant c. 
  
-          #include "SpiceUsr.h"
+          #include <cspice/SpiceUsr.h>
                     .
                     .
                     .

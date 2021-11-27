@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  ZZEKQTAB ( Private: EK, read table names from query ) */
 /* Subroutine */ int zzekqtab_(integer *eqryi, char *eqryc, integer *n, char *

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      REPLWD ( Replace a word ) */
 /* Subroutine */ int replwd_(char *instr, integer *nth, char *new__, char *

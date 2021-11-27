@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $ Procedure     CRCNST ( CHRONOS Parameter Arrays ) */
 /* Subroutine */ int crcnst_(char *systms, char *types, char *deftyp, logical 

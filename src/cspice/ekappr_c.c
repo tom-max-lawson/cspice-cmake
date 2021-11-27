@@ -43,8 +43,8 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
 
    void ekappr_c ( SpiceInt     handle,
                    SpiceInt     segno,
@@ -159,7 +159,7 @@
        table in position 0, we'd make the following calls: 
 
 
-          #include "SpiceUsr.h"
+          #include <cspice/SpiceUsr.h>
               .
               . 
               . 

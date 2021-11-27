@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure   LSTLTC ( Last character element less than ) */
 integer lstltc_(char *string, integer *n, char *array, ftnlen string_len, 

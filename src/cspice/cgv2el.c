@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      CGV2EL ( Center and generating vectors to ellipse ) */
 /* Subroutine */ int cgv2el_(doublereal *center, doublereal *vec1, doublereal 

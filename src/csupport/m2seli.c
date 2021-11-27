@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure M2SELI ( META/2 --- select a named integer ) */
 /* Subroutine */ int m2seli_(char *name__, char *string, integer *nth, 

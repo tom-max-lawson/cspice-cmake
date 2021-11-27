@@ -43,7 +43,7 @@
 */
 
    #include <float.h>
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
 
    SpiceDouble dpmax_ () 
 

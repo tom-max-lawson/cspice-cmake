@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      BODC2N ( Body ID code to name translation ) */
 /* Subroutine */ int bodc2n_(integer *code, char *name__, logical *found, 

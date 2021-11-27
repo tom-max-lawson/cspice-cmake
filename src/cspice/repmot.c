@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure  REPMOT  ( Replace marker with ordinal text ) */
 /* Subroutine */ int repmot_(char *in, char *marker, integer *value, char *

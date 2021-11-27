@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      M2NUMB ( Determine whether or not a word is a number ) */
 logical m2numb_(char *word, ftnlen word_len)

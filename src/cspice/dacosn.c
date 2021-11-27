@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure DACOSN (arc cosine of bracketed argument) */
 doublereal dacosn_(doublereal *arg, doublereal *tol)

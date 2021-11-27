@@ -55,10 +55,10 @@
  
 */
    #include <signal.h>
-   #include "SpiceUsr.h"
-   #include "SpiceZmc.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZad.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZmc.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZad.h>
 
 
    void gfocce_c ( ConstSpiceChar     * occtyp,
@@ -1055,7 +1055,7 @@
       Example code begins here.
 
 
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
          #include <stdio.h>
 
          int main()

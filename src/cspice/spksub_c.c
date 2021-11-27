@@ -43,9 +43,9 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
 
    void spksub_c ( SpiceInt            handle,
                    SpiceDouble         descr[5],
@@ -151,7 +151,7 @@
    Assume that the source and custom files have been opened, for 
    read and write access, with handles srchan and custhan respectively. 
  
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
            .
            .
            .

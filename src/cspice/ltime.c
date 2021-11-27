@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      LTIME ( Light Time ) */
 /* Subroutine */ int ltime_(doublereal *etobs, integer *obs, char *dir, 

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure            WNINCD ( Included in a double precision window ) */
 logical wnincd_(doublereal *left, doublereal *right, doublereal *window)

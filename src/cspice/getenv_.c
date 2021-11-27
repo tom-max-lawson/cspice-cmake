@@ -99,7 +99,7 @@
 
    -CSPICE Version 1.0.2, 03-APR-2009 (EDW)
 
-      Undefined the "min" and "max" macros prior to the #include "f2c.h"
+      Undefined the "min" and "max" macros prior to the #include <cspice/f2c.h>
       directive. f2c.h defines "min" and "max" as part of f2c.
 
    -CSPICE Version 1.0.1, 31-MAY-2007 (EDW)  
@@ -125,7 +125,7 @@ from the min and max defintions in f2c.h.
 #undef min
 #undef max
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 #ifdef KR_headers
 

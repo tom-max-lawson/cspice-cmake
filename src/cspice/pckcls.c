@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure PCKCLS ( PCK, close file ) */
 /* Subroutine */ int pckcls_(integer *handle)

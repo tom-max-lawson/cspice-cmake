@@ -43,8 +43,8 @@
  
 */
    #include <stdarg.h>
-   #include "SpiceUsr.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZmc.h>
    
 
    SpiceDouble maxd_c ( SpiceInt  n,  ... ) 
@@ -106,7 +106,7 @@
  
    1) Find the maximum of four double precision values.
    
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
            .
            .
            .

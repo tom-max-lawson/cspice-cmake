@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      PODBEC ( Pod, begin and end, character ) */
 /* Subroutine */ int podbec_(char *pod, integer *begin, integer *end, ftnlen 

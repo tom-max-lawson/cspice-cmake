@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZEKLERI ( EK, LLE, using record pointers, integer ) */
 /* Subroutine */ int zzekleri_(integer *handle, integer *segdsc, integer *

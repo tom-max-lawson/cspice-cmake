@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure     ZZEKIXDL ( EK, delete record from index ) */
 /* Subroutine */ int zzekixdl_(integer *handle, integer *segdsc, integer *

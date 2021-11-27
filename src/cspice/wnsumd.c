@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure WNSUMD ( Summary of a double precision window ) */
 /* Subroutine */ int wnsumd_(doublereal *window, doublereal *meas, doublereal 

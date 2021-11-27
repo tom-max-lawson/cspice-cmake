@@ -42,9 +42,9 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
 
    void scpart_c ( SpiceInt        sc, 
                    SpiceInt      * nparts, 
@@ -121,7 +121,7 @@
        in the kernel file sclk.ker. 
  
           #include <stdio.h>
-          #include "SpiceUsr.h"
+          #include <cspice/SpiceUsr.h>
           
           void main()
           {

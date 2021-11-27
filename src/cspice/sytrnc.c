@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SYTRNC (Transpose two values associated with a symbol) */
 /* Subroutine */ int sytrnc_(char *name__, integer *i__, integer *j, char *

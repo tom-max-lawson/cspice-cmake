@@ -42,10 +42,10 @@
 */
 
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZmc.h>
 
    SpiceBoolean set_c (  SpiceCell        * a,
                          ConstSpiceChar   * op,
@@ -145,7 +145,7 @@
       for as long as the integer set finished remains a proper 
       subset of the integer set planned. 
 
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
                .
                .
                .

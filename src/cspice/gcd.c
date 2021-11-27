@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure            GCD ( Greatest Common Divisor ) */
 integer gcd_(integer *a, integer *b)

@@ -43,9 +43,9 @@
 
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
    #undef eqncpv_c
 
    void eqncpv_c ( SpiceDouble        et,
@@ -174,7 +174,7 @@
 
       Compute a state vector from a set of equinoctial elements.
 
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
       #include <stdio.h>
       #include <math.h>
 

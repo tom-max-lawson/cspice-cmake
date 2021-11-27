@@ -51,11 +51,11 @@
 */
 
    #include <stdlib.h>
-   #include "SpiceGF.h"
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
-   #include "zzalloc.h"
+   #include <cspice/SpiceGF.h>
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
+   #include <cspice/zzalloc.h>
 
    void gfrr_c ( ConstSpiceChar     * target,
                  ConstSpiceChar     * abcorr,
@@ -604,7 +604,7 @@
       #include <stdlib.h>
       #include <string.h>
 
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
 
       #define       MAXWIN    20000
       #define       TIMFMT    "YYYY-MON-DD HR:MN:SC.###"

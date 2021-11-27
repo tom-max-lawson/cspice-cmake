@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure MATCHM ( Match string against multiple wildcard templates ) */
 logical matchm_(char *string, char *templ, char *wstr, char *wchr, char *

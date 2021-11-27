@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      VEQU ( Vector equality, 3 dimensions ) */
 /* Subroutine */ int vequ_(doublereal *vin, doublereal *vout)

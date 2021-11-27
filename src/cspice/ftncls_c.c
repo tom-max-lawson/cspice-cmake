@@ -41,8 +41,8 @@
 
 */
 
-   #include "SpiceUsr.h"
-   #include "f2c.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/f2c.h>
    
 
    void ftncls_c ( SpiceInt unit )
@@ -108,7 +108,7 @@
       example---into a text file.
       
          #include <string.h>
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
               .
               .
               .

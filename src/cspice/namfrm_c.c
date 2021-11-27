@@ -41,10 +41,10 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
-   #include "SpiceZst.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
+   #include <cspice/SpiceZst.h>
 
    void namfrm_c ( ConstSpiceChar   * frname,
                    SpiceInt         * frcode  ) 
@@ -132,7 +132,7 @@
    IAU cartographic working group.  Use the following code 
    to perform this task. 
  
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
           .
           .
           .

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure            SYDIMC ( Return the dimension of a symbol ) */
 integer sydimc_(char *name__, char *tabsym, integer *tabptr, char *tabval, 

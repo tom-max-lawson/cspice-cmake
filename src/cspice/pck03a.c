@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure PCK03A ( PCK, add data to a type 3 segment ) */
 /* Subroutine */ int pck03a_(integer *handle, integer *ncsets, doublereal *

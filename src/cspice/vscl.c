@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      VSCL ( Vector scaling, 3 dimensions ) */
 /* Subroutine */ int vscl_(doublereal *s, doublereal *v1, doublereal *vout)

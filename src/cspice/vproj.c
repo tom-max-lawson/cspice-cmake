@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      VPROJ ( Vector projection, 3 dimensions ) */
 /* Subroutine */ int vproj_(doublereal *a, doublereal *b, doublereal *p)

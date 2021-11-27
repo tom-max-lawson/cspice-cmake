@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZELNAXX ( ellipse normal axis intercepts ) */
 /* Subroutine */ int zzelnaxx_(doublereal *a, doublereal *b, doublereal *lat, 

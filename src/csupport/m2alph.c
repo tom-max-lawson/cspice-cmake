@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      M2ALPH ( Determine if a word starts with a letter) */
 logical m2alph_(char *word, ftnlen word_len)

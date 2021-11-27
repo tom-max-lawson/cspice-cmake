@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure SBINIT ( String buffer, initialize ) */
 /* Subroutine */ int sbinit_1__(integer *nsize, integer *psize, integer *vdim,

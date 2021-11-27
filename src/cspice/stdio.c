@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      STDIO ( Standard IO ) */
 /* Subroutine */ int stdio_(char *name__, integer *unit, ftnlen name_len)

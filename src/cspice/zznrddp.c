@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZNRDDP ( Shell for deep space entry points ) */
 /* Subroutine */ int zznrddp_0_(int n__, doublereal *ao, doublereal *elems, 

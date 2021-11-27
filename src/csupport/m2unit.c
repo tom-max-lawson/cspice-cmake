@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      M2UNIT ( Determine whether a word is a unit spec ) */
 logical m2unit_(char *word, ftnlen word_len)

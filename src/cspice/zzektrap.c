@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ZZEKTRAP ( EK tree, append item ) */
 /* Subroutine */ int zzektrap_(integer *handle, integer *tree, integer *value,

@@ -50,11 +50,11 @@
 */
 
    #include <stdlib.h>
-   #include "SpiceUsr.h"
-   #include "SpiceGF.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
-   #include "zzalloc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceGF.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
+   #include <cspice/zzalloc.h>
 
    void gfsubc_c ( ConstSpiceChar     * target,
                    ConstSpiceChar     * fixref,
@@ -699,7 +699,7 @@
       #include <stdlib.h>
       #include <string.h>
 
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
 
       #define   MAXWIN   100
       #define   TIMFMT   "YYYY-MON-DD HR:MN:SC.###### (TDB) ::TDB ::RND"

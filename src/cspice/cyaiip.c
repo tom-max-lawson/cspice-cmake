@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure CYAIIP ( Cycle the elements of an integer array, in place ) */
 /* Subroutine */ int cyaiip_(integer *nelt, char *dir, integer *ncycle, 

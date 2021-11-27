@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure     SETMSG  ( Set Long Error Message ) */
 /* Subroutine */ int setmsg_(char *msg, ftnlen msg_len)

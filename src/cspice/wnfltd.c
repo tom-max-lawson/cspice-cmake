@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      WNFLTD ( Filter small intervals from a DP window ) */
 /* Subroutine */ int wnfltd_(doublereal *small, doublereal *window)

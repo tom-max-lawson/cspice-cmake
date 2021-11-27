@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      PODOND ( Pod, offset and number, double precision ) */
 /* Subroutine */ int podond_(doublereal *pod, integer *offset, integer *

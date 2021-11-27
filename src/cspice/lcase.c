@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      LCASE ( Convert to lowercase ) */
 /* Subroutine */ int lcase_(char *in, char *out, ftnlen in_len, ftnlen 

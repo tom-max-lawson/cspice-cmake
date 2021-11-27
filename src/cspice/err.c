@@ -45,7 +45,7 @@
 #include "sys/stat.h"
 #endif
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 #ifdef KR_headers
 extern char *malloc();
@@ -56,8 +56,8 @@ extern char *malloc();
 #include "stdlib.h"
 #endif
 
-#include "fio.h"
-#include "fmt.h"   /* for struct syl */
+#include <cspice/fio.h>
+#include <cspice/fmt.h>   /* for struct syl */
 
 /*
 -Brief_I/O

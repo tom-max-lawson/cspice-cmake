@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ZZGETENV ( Get environment variable value. ) */
 /* Subroutine */ int zzgetenv_(char *envvar, char *value, ftnlen envvar_len, 

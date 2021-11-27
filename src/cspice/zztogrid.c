@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZTOGRID ( Model coordinates to voxel grid coordinates ) */
 /* Subroutine */ int zztogrid_(doublereal *modxyz, doublereal *voxori, 

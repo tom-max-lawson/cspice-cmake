@@ -41,7 +41,7 @@
  
 */
    #include <math.h>
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
    #undef    invert_c
    
 

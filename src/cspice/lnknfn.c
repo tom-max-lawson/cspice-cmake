@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      LNKNFN ( LNK, number of free nodes ) */
 integer lnknfn_(integer *pool)

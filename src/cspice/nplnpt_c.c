@@ -44,7 +44,7 @@
  
 */
 
-   #include "SpiceUsr.h"
+   #include <cspice/SpiceUsr.h>
    #undef    nplnpt_c
    
 
@@ -114,7 +114,7 @@
        closest point on the line to the point ( -6, 9, 10 ).  We 
        can use the code fragment 
  
-          #include "SpiceUsr.h"
+          #include <cspice/SpiceUsr.h>
                .
                .
                .

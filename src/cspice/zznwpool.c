@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZNWPOOL ( Private: notify watchers of update ) */
 /* Subroutine */ int zznwpool_(char *varnam, char *wtvars, integer *wtptrs, 

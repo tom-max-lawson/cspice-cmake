@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure ZZLDKER ( Load a kernel ) */
 /* Subroutine */ int zzldker_(char *file, char *nofile, char *filtyp, integer 

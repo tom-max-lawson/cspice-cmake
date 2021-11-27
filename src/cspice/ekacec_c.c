@@ -42,11 +42,11 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
-   #include "SpiceZmc.h"
-   #include "SpiceZim.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZmc.h>
+   #include <cspice/SpiceZim.h>
    #undef    ekacec_c
 
    void ekacec_c  ( SpiceInt          handle,
@@ -200,7 +200,7 @@
    1)  Add the value "999" to the third record of the column CCOL in 
        the fifth segment of an EK file designated by HANDLE. 
  
-          #include "SpiceUsr.h"
+          #include <cspice/SpiceUsr.h>
              .
              .
              .
@@ -210,7 +210,7 @@
    2)  Same as (1), but this time add a null value.  The argument 
        "999" is ignored because the null flag is set to SPICETRUE.
  
-          #include "SpiceUsr.h"
+          #include <cspice/SpiceUsr.h>
              .
              .
              .
@@ -224,7 +224,7 @@
           SpiceChar cbuff[10][CBLEN];
              
  
-          #include "SpiceUsr.h"
+          #include <cspice/SpiceUsr.h>
              .
              .
              .
@@ -273,7 +273,7 @@
        table in position 0, we'd make the following calls: 
 
 
-          #include "SpiceUsr.h"
+          #include <cspice/SpiceUsr.h>
               .
               . 
               . 

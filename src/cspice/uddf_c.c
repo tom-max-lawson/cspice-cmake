@@ -42,8 +42,8 @@
 
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
    #undef   uddf_c
 
    void uddf_c (  void             ( * udfunc ) ( SpiceDouble    et,
@@ -133,7 +133,7 @@
 
 
       #include <stdio.h>
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
 
       void udfunc ( SpiceDouble et, SpiceDouble * value );
                    

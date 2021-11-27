@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      NTHWD ( Nth word in a character string ) */
 /* Subroutine */ int nthwd_(char *string, integer *nth, char *word, integer *

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      RMAIND ( Remainder --- double precision ) */
 /* Subroutine */ int rmaind_(doublereal *num, doublereal *denom, doublereal *

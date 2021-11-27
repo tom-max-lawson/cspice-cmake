@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      ZZCLN ( Private --- clean up ) */
 /* Subroutine */ int zzcln_(integer *lookat, integer *nameat, integer *namlst,

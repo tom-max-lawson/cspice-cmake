@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      WNCOND ( Contract the intervals of a DP window ) */
 /* Subroutine */ int wncond_(doublereal *left, doublereal *right, doublereal *

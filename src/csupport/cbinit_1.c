@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure CBINIT ( Character buffer, initialize  ) */
 /* Subroutine */ int cbinit_1__(integer *dim, char *buffer, ftnlen buffer_len)

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure DRDLAT ( Derivative of rectangular w.r.t. latitudinal ) */
 /* Subroutine */ int drdlat_(doublereal *r__, doublereal *long__, doublereal *

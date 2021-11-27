@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      RJUST ( Right justify a character string ) */
 /* Subroutine */ int rjust_(char *input, char *output, ftnlen input_len, 

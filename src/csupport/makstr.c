@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      MAKSTR (Make String ) */
 /* Subroutine */ int makstr_0_(int n__, char *pattrn, char *this__, char *

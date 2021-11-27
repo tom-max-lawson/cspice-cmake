@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure CBREM ( Character buffer, remove ) */
 /* Subroutine */ int cbrem_1__(integer *begin, integer *end, char *buffer, 

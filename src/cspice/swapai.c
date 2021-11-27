@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SWAPAI ( Swap elements within an integer array ) */
 /* Subroutine */ int swapai_(integer *n, integer *locn, integer *m, integer *

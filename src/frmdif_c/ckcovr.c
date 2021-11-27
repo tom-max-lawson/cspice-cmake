@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      CKCOVR ( CK coverage as ETs adjusted for round off ) */
 /* Subroutine */ int ckcovr_(char *ck, integer *idcode, logical *needav, char 

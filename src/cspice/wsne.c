@@ -1,6 +1,6 @@
-#include "f2c.h"
-#include "fio.h"
-#include "lio.h"
+#include <cspice/f2c.h>
+#include <cspice/fio.h>
+#include <cspice/lio.h>
 
  integer
 #ifdef KR_headers

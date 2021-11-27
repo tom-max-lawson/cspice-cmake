@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure     EKUCED ( EK, update d.p. column entry ) */
 /* Subroutine */ int ekuced_(integer *handle, integer *segno, integer *recno, 

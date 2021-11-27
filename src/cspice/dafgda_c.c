@@ -41,8 +41,8 @@
    FILES
 
 */
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
 
  
    void dafgda_c ( SpiceInt       handle, 
@@ -119,7 +119,7 @@
    epochs. Each pair of epochs bounds an interval, and each interval is
    covered by a set of eight osculating elements.
 
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
       
          .
          .

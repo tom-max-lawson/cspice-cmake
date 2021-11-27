@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      PARTOF ( Parabolic time of flight ) */
 /* Subroutine */ int partof_(doublereal *ma, doublereal *d__)

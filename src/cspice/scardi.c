@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SCARDI ( Set the cardinality of an integer cell ) */
 /* Subroutine */ int scardi_(integer *card, integer *cell)

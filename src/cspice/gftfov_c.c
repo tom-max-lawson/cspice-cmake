@@ -56,9 +56,9 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
 
    void gftfov_c ( ConstSpiceChar     * inst,
                    ConstSpiceChar     * target,
@@ -648,8 +648,8 @@
  
 
          #include <stdio.h>
-         #include "SpiceUsr.h"
-         #include "SpiceZmc.h"
+         #include <cspice/SpiceUsr.h>
+         #include <cspice/SpiceZmc.h>
 
          int main()
          {

@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      SSIZEI ( Set the size of an integer cell ) */
 /* Subroutine */ int ssizei_(integer *size, integer *cell)

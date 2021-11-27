@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      PODAEC ( Pod, append elements, character ) */
 /* Subroutine */ int podaec_(char *elems, integer *n, char *pod, ftnlen 

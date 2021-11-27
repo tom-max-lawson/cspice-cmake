@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure SPCA2B ( SPK and CK, ASCII to binary ) */
 /* Subroutine */ int spca2b_(char *text, char *binary, ftnlen text_len, 

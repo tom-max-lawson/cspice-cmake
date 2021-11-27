@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      LPARSE ( Parse items from a list ) */
 /* Subroutine */ int lparse_(char *list, char *delim, integer *nmax, integer *

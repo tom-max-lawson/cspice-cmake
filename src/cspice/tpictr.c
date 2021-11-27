@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      TPICTR ( Create a Time Format Picture ) */
 /* Subroutine */ int tpictr_(char *sample, char *pictur, logical *ok, char *

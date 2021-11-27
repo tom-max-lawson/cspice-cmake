@@ -42,10 +42,10 @@
  
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZst.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZst.h>
+   #include <cspice/SpiceZmc.h>
 
 
    void copy_c (  SpiceCell   * cell,
@@ -104,7 +104,7 @@
    of the union of two character CSICE sets from a temporary 
    working set back into the one of the original set. 
  
-      #include "SpiceUsr.h"
+      #include <cspice/SpiceUsr.h>
            . 
            . 
            . 

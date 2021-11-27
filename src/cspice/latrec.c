@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      LATREC ( Latitudinal to rectangular coordinates ) */
 /* Subroutine */ int latrec_(doublereal *radius, doublereal *long__, 

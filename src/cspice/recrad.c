@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      RECRAD ( Rectangular coordinates to RA and DEC ) */
 /* Subroutine */ int recrad_(doublereal *rectan, doublereal *range, 

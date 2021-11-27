@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      PODRGC ( Pod, replace group, character ) */
 /* Subroutine */ int podrgc_(char *pod, ftnlen pod_len)

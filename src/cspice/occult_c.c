@@ -50,9 +50,9 @@
 
 */
 
-   #include "SpiceUsr.h"
-   #include "SpiceZfc.h"
-   #include "SpiceZmc.h"
+   #include <cspice/SpiceUsr.h>
+   #include <cspice/SpiceZfc.h>
+   #include <cspice/SpiceZmc.h>
    #include <stdio.h>
 
    void occult_c ( ConstSpiceChar   * targ1,
@@ -574,7 +574,7 @@
       Example code begins here.
       
          #include <stdio.h>
-         #include "SpiceUsr.h"
+         #include <cspice/SpiceUsr.h>
          
          int main()
          {

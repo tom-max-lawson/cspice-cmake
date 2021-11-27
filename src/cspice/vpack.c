@@ -3,7 +3,7 @@
 	-lf2c -lm   (in that order)
 */
 
-#include "f2c.h"
+#include <cspice/f2c.h>
 
 /* $Procedure      VPACK ( Pack three scalar components into a vector ) */
 /* Subroutine */ int vpack_(doublereal *x, doublereal *y, doublereal *z__, 
