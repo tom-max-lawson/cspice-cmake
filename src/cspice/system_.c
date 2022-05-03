@@ -72,7 +72,7 @@
    #undef abs
    #undef min
    #undef max
-   #include "stdlib.h"
+   #include <stdlib.h>
 
    extern char *F77_aloc(ftnlen, char*);
 

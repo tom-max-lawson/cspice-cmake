@@ -111,7 +111,7 @@ static integer c__3 = 3;
 
 /*     This include file declares parameters for DSK data type 2 */
 /*     (plate model). On most platforms, these parameters are */
-/*     indentical to those in the SPICELIB include file */
+/*     identical to those in the SPICELIB include file */
 
 /*        dsk02.inc */
 
@@ -124,12 +124,18 @@ static integer c__3 = 3;
 /*     references to this file may be replaced with references to */
 /*     dsk02.inc. */
 
+/* $ Version */
 
-/* -       SPICELIB Version 1.0.0 17-FEB-2017 (NJB) */
+/* -    MKDSK Version 1.1.0, 28-NOV-2021 (BVS) */
 
-/*          Based on SPICELIB include file dsk02.inc version */
-/*          1.0.0 08-FEB-2017 (NJB) */
+/*        Updated for MAC-OSX-M1-64BIT-CLANG_C. */
 
+/* -    MKDSK Version 1.0.0, 17-FEB-2017 (NJB) */
+
+/*        Based on SPICELIB include file dsk02.inc version */
+/*        1.0.0 08-FEB-2017 (NJB) */
+
+/* -& */
 
 
 
@@ -374,6 +380,10 @@ static integer c__3 = 3;
 /*     N.J. Bachman   (JPL) */
 
 /* $ Version */
+
+/* -    Version 5.0.0, 01-DEC-2020 (NJB) */
+
+/*        Updated number and date in version string parameter VER. */
 
 /* -    Version 4.0.0, 28-FEB-2017 (NJB) */
 
@@ -624,6 +634,10 @@ static integer c__3 = 3;
 /*     J.A. Bytof      (JPL) */
 
 /* $ Version */
+
+/* -    MKDSK Version 5.2.0, 30-NOV-2020 (NJB) */
+
+/*        Corrected typo in long error message. */
 
 /* -    MKDSK Version 5.1.0, 21-MAR-2017 (NJB) */
 
@@ -906,7 +920,7 @@ static integer c__3 = 3;
 		    ++n0;
 		    n[(i__3 = i__ + (j + face * 1025) * 1025 - 1050625) < 
 			    6303750 && 0 <= i__3 ? i__3 : s_rnge("n", i__3, 
-			    "rdffpl_", (ftnlen)608)] = n0;
+			    "rdffpl_", (ftnlen)612)] = n0;
 
 /*                Copy the vertex coordinates to the corresponding */
 /*                plate model arrays. This operation is somewhat */
@@ -949,58 +963,58 @@ static integer c__3 = 3;
 	i__1 = q - 1;
 	for (i__ = 1; i__ <= i__1; ++i__) {
 	    n[(i__2 = i__ + (q + 6150) * 1025 - 1050625) < 6303750 && 0 <= 
-		    i__2 ? i__2 : s_rnge("n", i__2, "rdffpl_", (ftnlen)657)] =
+		    i__2 ? i__2 : s_rnge("n", i__2, "rdffpl_", (ftnlen)661)] =
 		     n[(i__3 = q - i__ + (q + 4100) * 1025 - 1050625) < 
 		    6303750 && 0 <= i__3 ? i__3 : s_rnge("n", i__3, "rdffpl_",
-		     (ftnlen)657)];
+		     (ftnlen)661)];
 	    n[(i__2 = i__ + 5253125) < 6303750 && 0 <= i__2 ? i__2 : s_rnge(
-		    "n", i__2, "rdffpl_", (ftnlen)658)] = n[(i__3 = i__ + (q 
-		    + 2050) * 1025 - 1050625) < 6303750 && 0 <= i__3 ? i__3 : 
-		    s_rnge("n", i__3, "rdffpl_", (ftnlen)658)];
-	    n[(i__2 = i__ + 4202500) < 6303750 && 0 <= i__2 ? i__2 : s_rnge(
-		    "n", i__2, "rdffpl_", (ftnlen)659)] = n[(i__3 = q + (q - 
-		    i__ + 1025) * 1025 - 1050625) < 6303750 && 0 <= i__3 ? 
-		    i__3 : s_rnge("n", i__3, "rdffpl_", (ftnlen)659)];
-	    n[(i__2 = i__ + 3151875) < 6303750 && 0 <= i__2 ? i__2 : s_rnge(
-		    "n", i__2, "rdffpl_", (ftnlen)660)] = n[(i__3 = q - i__) <
-		     6303750 && 0 <= i__3 ? i__3 : s_rnge("n", i__3, "rdffpl_"
-		    , (ftnlen)660)];
-	    n[(i__2 = i__ + 2101250) < 6303750 && 0 <= i__2 ? i__2 : s_rnge(
-		    "n", i__2, "rdffpl_", (ftnlen)661)] = n[(i__3 = (i__ + 
-		    1025) * 1025 - 1050625) < 6303750 && 0 <= i__3 ? i__3 : 
-		    s_rnge("n", i__3, "rdffpl_", (ftnlen)661)];
-	    n[(i__2 = i__ + 1050625) < 6303750 && 0 <= i__2 ? i__2 : s_rnge(
 		    "n", i__2, "rdffpl_", (ftnlen)662)] = n[(i__3 = i__ + (q 
-		    + 1025) * 1025 - 1050625) < 6303750 && 0 <= i__3 ? i__3 : 
+		    + 2050) * 1025 - 1050625) < 6303750 && 0 <= i__3 ? i__3 : 
 		    s_rnge("n", i__3, "rdffpl_", (ftnlen)662)];
+	    n[(i__2 = i__ + 4202500) < 6303750 && 0 <= i__2 ? i__2 : s_rnge(
+		    "n", i__2, "rdffpl_", (ftnlen)663)] = n[(i__3 = q + (q - 
+		    i__ + 1025) * 1025 - 1050625) < 6303750 && 0 <= i__3 ? 
+		    i__3 : s_rnge("n", i__3, "rdffpl_", (ftnlen)663)];
+	    n[(i__2 = i__ + 3151875) < 6303750 && 0 <= i__2 ? i__2 : s_rnge(
+		    "n", i__2, "rdffpl_", (ftnlen)664)] = n[(i__3 = q - i__) <
+		     6303750 && 0 <= i__3 ? i__3 : s_rnge("n", i__3, "rdffpl_"
+		    , (ftnlen)664)];
+	    n[(i__2 = i__ + 2101250) < 6303750 && 0 <= i__2 ? i__2 : s_rnge(
+		    "n", i__2, "rdffpl_", (ftnlen)665)] = n[(i__3 = (i__ + 
+		    1025) * 1025 - 1050625) < 6303750 && 0 <= i__3 ? i__3 : 
+		    s_rnge("n", i__3, "rdffpl_", (ftnlen)665)];
+	    n[(i__2 = i__ + 1050625) < 6303750 && 0 <= i__2 ? i__2 : s_rnge(
+		    "n", i__2, "rdffpl_", (ftnlen)666)] = n[(i__3 = i__ + (q 
+		    + 1025) * 1025 - 1050625) < 6303750 && 0 <= i__3 ? i__3 : 
+		    s_rnge("n", i__3, "rdffpl_", (ftnlen)666)];
 	}
 	i__1 = q - 1;
 	for (j = 1; j <= i__1; ++j) {
 	    n[(i__2 = q + (j + 6150) * 1025 - 1050625) < 6303750 && 0 <= i__2 
-		    ? i__2 : s_rnge("n", i__2, "rdffpl_", (ftnlen)668)] = n[(
+		    ? i__2 : s_rnge("n", i__2, "rdffpl_", (ftnlen)672)] = n[(
 		    i__3 = j + (q + 5125) * 1025 - 1050625) < 6303750 && 0 <= 
-		    i__3 ? i__3 : s_rnge("n", i__3, "rdffpl_", (ftnlen)668)];
+		    i__3 ? i__3 : s_rnge("n", i__3, "rdffpl_", (ftnlen)672)];
 	    n[(i__2 = q + (j + 5125) * 1025 - 1050625) < 6303750 && 0 <= i__2 
-		    ? i__2 : s_rnge("n", i__2, "rdffpl_", (ftnlen)669)] = n[(
+		    ? i__2 : s_rnge("n", i__2, "rdffpl_", (ftnlen)673)] = n[(
 		    i__3 = (j + 4100) * 1025 - 1050625) < 6303750 && 0 <= 
-		    i__3 ? i__3 : s_rnge("n", i__3, "rdffpl_", (ftnlen)669)];
+		    i__3 ? i__3 : s_rnge("n", i__3, "rdffpl_", (ftnlen)673)];
 	    n[(i__2 = q + (j + 4100) * 1025 - 1050625) < 6303750 && 0 <= i__2 
-		    ? i__2 : s_rnge("n", i__2, "rdffpl_", (ftnlen)670)] = n[(
+		    ? i__2 : s_rnge("n", i__2, "rdffpl_", (ftnlen)674)] = n[(
 		    i__3 = (j + 3075) * 1025 - 1050625) < 6303750 && 0 <= 
-		    i__3 ? i__3 : s_rnge("n", i__3, "rdffpl_", (ftnlen)670)];
+		    i__3 ? i__3 : s_rnge("n", i__3, "rdffpl_", (ftnlen)674)];
 	    n[(i__2 = q + (j + 3075) * 1025 - 1050625) < 6303750 && 0 <= i__2 
-		    ? i__2 : s_rnge("n", i__2, "rdffpl_", (ftnlen)671)] = n[(
+		    ? i__2 : s_rnge("n", i__2, "rdffpl_", (ftnlen)675)] = n[(
 		    i__3 = (j + 2050) * 1025 - 1050625) < 6303750 && 0 <= 
-		    i__3 ? i__3 : s_rnge("n", i__3, "rdffpl_", (ftnlen)671)];
+		    i__3 ? i__3 : s_rnge("n", i__3, "rdffpl_", (ftnlen)675)];
 	    n[(i__2 = (j + 6150) * 1025 - 1050625) < 6303750 && 0 <= i__2 ? 
-		    i__2 : s_rnge("n", i__2, "rdffpl_", (ftnlen)672)] = n[(
+		    i__2 : s_rnge("n", i__2, "rdffpl_", (ftnlen)676)] = n[(
 		    i__3 = q - j + (q + 3075) * 1025 - 1050625) < 6303750 && 
 		    0 <= i__3 ? i__3 : s_rnge("n", i__3, "rdffpl_", (ftnlen)
-		    672)];
+		    676)];
 	    n[(i__2 = (j + 5125) * 1025 - 1050625) < 6303750 && 0 <= i__2 ? 
-		    i__2 : s_rnge("n", i__2, "rdffpl_", (ftnlen)673)] = n[(
+		    i__2 : s_rnge("n", i__2, "rdffpl_", (ftnlen)677)] = n[(
 		    i__3 = q + (j + 2050) * 1025 - 1050625) < 6303750 && 0 <= 
-		    i__3 ? i__3 : s_rnge("n", i__3, "rdffpl_", (ftnlen)673)];
+		    i__3 ? i__3 : s_rnge("n", i__3, "rdffpl_", (ftnlen)677)];
 	}
 
 /*        Cube corners. Associate later IDs with */
@@ -1008,54 +1022,54 @@ static integer c__3 = 3;
 
 	n[2101250] = n[0];
 	n[(i__1 = q + 3151875) < 6303750 && 0 <= i__1 ? i__1 : s_rnge("n", 
-		i__1, "rdffpl_", (ftnlen)682)] = n[0];
+		i__1, "rdffpl_", (ftnlen)686)] = n[0];
 	n[1050625] = n[(i__1 = (q + 1025) * 1025 - 1050625) < 6303750 && 0 <= 
-		i__1 ? i__1 : s_rnge("n", i__1, "rdffpl_", (ftnlen)683)];
+		i__1 ? i__1 : s_rnge("n", i__1, "rdffpl_", (ftnlen)687)];
 	n[(i__1 = q + 2101250) < 6303750 && 0 <= i__1 ? i__1 : s_rnge("n", 
-		i__1, "rdffpl_", (ftnlen)684)] = n[(i__2 = (q + 1025) * 1025 
+		i__1, "rdffpl_", (ftnlen)688)] = n[(i__2 = (q + 1025) * 1025 
 		- 1050625) < 6303750 && 0 <= i__2 ? i__2 : s_rnge("n", i__2, 
-		"rdffpl_", (ftnlen)684)];
+		"rdffpl_", (ftnlen)688)];
 	n[3151875] = n[(i__1 = q) < 6303750 && 0 <= i__1 ? i__1 : s_rnge(
-		"n", i__1, "rdffpl_", (ftnlen)685)];
+		"n", i__1, "rdffpl_", (ftnlen)689)];
 	n[(i__1 = q + 4202500) < 6303750 && 0 <= i__1 ? i__1 : s_rnge("n", 
-		i__1, "rdffpl_", (ftnlen)686)] = n[(i__2 = q) < 6303750 && 0 
-		<= i__2 ? i__2 : s_rnge("n", i__2, "rdffpl_", (ftnlen)686)];
+		i__1, "rdffpl_", (ftnlen)690)] = n[(i__2 = q) < 6303750 && 0 
+		<= i__2 ? i__2 : s_rnge("n", i__2, "rdffpl_", (ftnlen)690)];
 	n[4202500] = n[(i__1 = q + (q + 1025) * 1025 - 1050625) < 6303750 && 
-		0 <= i__1 ? i__1 : s_rnge("n", i__1, "rdffpl_", (ftnlen)687)];
+		0 <= i__1 ? i__1 : s_rnge("n", i__1, "rdffpl_", (ftnlen)691)];
 	n[(i__1 = q + 1050625) < 6303750 && 0 <= i__1 ? i__1 : s_rnge("n", 
-		i__1, "rdffpl_", (ftnlen)688)] = n[(i__2 = q + (q + 1025) * 
-		1025 - 1050625) < 6303750 && 0 <= i__2 ? i__2 : s_rnge("n", 
-		i__2, "rdffpl_", (ftnlen)688)];
-	n[5253125] = n[(i__1 = (q + 2050) * 1025 - 1050625) < 6303750 && 0 <= 
-		i__1 ? i__1 : s_rnge("n", i__1, "rdffpl_", (ftnlen)689)];
-	n[(i__1 = q + (q + 3075) * 1025 - 1050625) < 6303750 && 0 <= i__1 ? 
-		i__1 : s_rnge("n", i__1, "rdffpl_", (ftnlen)690)] = n[(i__2 = 
-		(q + 2050) * 1025 - 1050625) < 6303750 && 0 <= i__2 ? i__2 : 
-		s_rnge("n", i__2, "rdffpl_", (ftnlen)690)];
-	n[(i__1 = (q + 5125) * 1025 - 1050625) < 6303750 && 0 <= i__1 ? i__1 :
-		 s_rnge("n", i__1, "rdffpl_", (ftnlen)691)] = n[(i__2 = q + (
-		q + 2050) * 1025 - 1050625) < 6303750 && 0 <= i__2 ? i__2 : 
-		s_rnge("n", i__2, "rdffpl_", (ftnlen)691)];
-	n[(i__1 = q + 5253125) < 6303750 && 0 <= i__1 ? i__1 : s_rnge("n", 
-		i__1, "rdffpl_", (ftnlen)692)] = n[(i__2 = q + (q + 2050) * 
+		i__1, "rdffpl_", (ftnlen)692)] = n[(i__2 = q + (q + 1025) * 
 		1025 - 1050625) < 6303750 && 0 <= i__2 ? i__2 : s_rnge("n", 
 		i__2, "rdffpl_", (ftnlen)692)];
-	n[(i__1 = q + (q + 4100) * 1025 - 1050625) < 6303750 && 0 <= i__1 ? 
-		i__1 : s_rnge("n", i__1, "rdffpl_", (ftnlen)693)] = n[(i__2 = 
-		(q + 3075) * 1025 - 1050625) < 6303750 && 0 <= i__2 ? i__2 : 
-		s_rnge("n", i__2, "rdffpl_", (ftnlen)693)];
-	n[(i__1 = (q + 6150) * 1025 - 1050625) < 6303750 && 0 <= i__1 ? i__1 :
-		 s_rnge("n", i__1, "rdffpl_", (ftnlen)694)] = n[(i__2 = (q + 
-		3075) * 1025 - 1050625) < 6303750 && 0 <= i__2 ? i__2 : 
+	n[5253125] = n[(i__1 = (q + 2050) * 1025 - 1050625) < 6303750 && 0 <= 
+		i__1 ? i__1 : s_rnge("n", i__1, "rdffpl_", (ftnlen)693)];
+	n[(i__1 = q + (q + 3075) * 1025 - 1050625) < 6303750 && 0 <= i__1 ? 
+		i__1 : s_rnge("n", i__1, "rdffpl_", (ftnlen)694)] = n[(i__2 = 
+		(q + 2050) * 1025 - 1050625) < 6303750 && 0 <= i__2 ? i__2 : 
 		s_rnge("n", i__2, "rdffpl_", (ftnlen)694)];
-	n[(i__1 = q + (q + 5125) * 1025 - 1050625) < 6303750 && 0 <= i__1 ? 
-		i__1 : s_rnge("n", i__1, "rdffpl_", (ftnlen)695)] = n[(i__2 = 
-		(q + 4100) * 1025 - 1050625) < 6303750 && 0 <= i__2 ? i__2 : 
+	n[(i__1 = (q + 5125) * 1025 - 1050625) < 6303750 && 0 <= i__1 ? i__1 :
+		 s_rnge("n", i__1, "rdffpl_", (ftnlen)695)] = n[(i__2 = q + (
+		q + 2050) * 1025 - 1050625) < 6303750 && 0 <= i__2 ? i__2 : 
 		s_rnge("n", i__2, "rdffpl_", (ftnlen)695)];
-	n[(i__1 = q + (q + 6150) * 1025 - 1050625) < 6303750 && 0 <= i__1 ? 
-		i__1 : s_rnge("n", i__1, "rdffpl_", (ftnlen)696)] = n[(i__2 = 
+	n[(i__1 = q + 5253125) < 6303750 && 0 <= i__1 ? i__1 : s_rnge("n", 
+		i__1, "rdffpl_", (ftnlen)696)] = n[(i__2 = q + (q + 2050) * 
+		1025 - 1050625) < 6303750 && 0 <= i__2 ? i__2 : s_rnge("n", 
+		i__2, "rdffpl_", (ftnlen)696)];
+	n[(i__1 = q + (q + 4100) * 1025 - 1050625) < 6303750 && 0 <= i__1 ? 
+		i__1 : s_rnge("n", i__1, "rdffpl_", (ftnlen)697)] = n[(i__2 = 
+		(q + 3075) * 1025 - 1050625) < 6303750 && 0 <= i__2 ? i__2 : 
+		s_rnge("n", i__2, "rdffpl_", (ftnlen)697)];
+	n[(i__1 = (q + 6150) * 1025 - 1050625) < 6303750 && 0 <= i__1 ? i__1 :
+		 s_rnge("n", i__1, "rdffpl_", (ftnlen)698)] = n[(i__2 = (q + 
+		3075) * 1025 - 1050625) < 6303750 && 0 <= i__2 ? i__2 : 
+		s_rnge("n", i__2, "rdffpl_", (ftnlen)698)];
+	n[(i__1 = q + (q + 5125) * 1025 - 1050625) < 6303750 && 0 <= i__1 ? 
+		i__1 : s_rnge("n", i__1, "rdffpl_", (ftnlen)699)] = n[(i__2 = 
 		(q + 4100) * 1025 - 1050625) < 6303750 && 0 <= i__2 ? i__2 : 
-		s_rnge("n", i__2, "rdffpl_", (ftnlen)696)];
+		s_rnge("n", i__2, "rdffpl_", (ftnlen)699)];
+	n[(i__1 = q + (q + 6150) * 1025 - 1050625) < 6303750 && 0 <= i__1 ? 
+		i__1 : s_rnge("n", i__1, "rdffpl_", (ftnlen)700)] = n[(i__2 = 
+		(q + 4100) * 1025 - 1050625) < 6303750 && 0 <= i__2 ? i__2 : 
+		s_rnge("n", i__2, "rdffpl_", (ftnlen)700)];
 	n0 = 0;
 	for (face = 1; face <= 6; ++face) {
 	    i__1 = q - 1;
@@ -1132,28 +1146,28 @@ static integer c__3 = 3;
 			plates[n0 * 3 - 3] = n[(i__3 = i__ + (j + face * 1025)
 				 * 1025 - 1050625) < 6303750 && 0 <= i__3 ? 
 				i__3 : s_rnge("n", i__3, "rdffpl_", (ftnlen)
-				770)];
+				774)];
 			plates[n0 * 3 - 2] = n[(i__3 = i__ + 1 + (j + 1 + 
 				face * 1025) * 1025 - 1050625) < 6303750 && 0 
 				<= i__3 ? i__3 : s_rnge("n", i__3, "rdffpl_", 
-				(ftnlen)771)];
+				(ftnlen)775)];
 			plates[n0 * 3 - 1] = n[(i__3 = i__ + 1 + (j + face * 
 				1025) * 1025 - 1050625) < 6303750 && 0 <= 
 				i__3 ? i__3 : s_rnge("n", i__3, "rdffpl_", (
-				ftnlen)772)];
+				ftnlen)776)];
 			++n0;
 			plates[n0 * 3 - 3] = n[(i__3 = i__ + (j + face * 1025)
 				 * 1025 - 1050625) < 6303750 && 0 <= i__3 ? 
 				i__3 : s_rnge("n", i__3, "rdffpl_", (ftnlen)
-				775)];
+				779)];
 			plates[n0 * 3 - 2] = n[(i__3 = i__ + (j + 1 + face * 
 				1025) * 1025 - 1050625) < 6303750 && 0 <= 
 				i__3 ? i__3 : s_rnge("n", i__3, "rdffpl_", (
-				ftnlen)776)];
+				ftnlen)780)];
 			plates[n0 * 3 - 1] = n[(i__3 = i__ + 1 + (j + 1 + 
 				face * 1025) * 1025 - 1050625) < 6303750 && 0 
 				<= i__3 ? i__3 : s_rnge("n", i__3, "rdffpl_", 
-				(ftnlen)777)];
+				(ftnlen)781)];
 		    } else {
 
 /*                    Apply connection 2. */
@@ -1162,28 +1176,28 @@ static integer c__3 = 3;
 			plates[n0 * 3 - 3] = n[(i__3 = i__ + (j + face * 1025)
 				 * 1025 - 1050625) < 6303750 && 0 <= i__3 ? 
 				i__3 : s_rnge("n", i__3, "rdffpl_", (ftnlen)
-				784)];
+				788)];
 			plates[n0 * 3 - 2] = n[(i__3 = i__ + (j + 1 + face * 
 				1025) * 1025 - 1050625) < 6303750 && 0 <= 
 				i__3 ? i__3 : s_rnge("n", i__3, "rdffpl_", (
-				ftnlen)785)];
+				ftnlen)789)];
 			plates[n0 * 3 - 1] = n[(i__3 = i__ + 1 + (j + face * 
 				1025) * 1025 - 1050625) < 6303750 && 0 <= 
 				i__3 ? i__3 : s_rnge("n", i__3, "rdffpl_", (
-				ftnlen)786)];
+				ftnlen)790)];
 			++n0;
 			plates[n0 * 3 - 3] = n[(i__3 = i__ + 1 + (j + face * 
 				1025) * 1025 - 1050625) < 6303750 && 0 <= 
 				i__3 ? i__3 : s_rnge("n", i__3, "rdffpl_", (
-				ftnlen)789)];
+				ftnlen)793)];
 			plates[n0 * 3 - 2] = n[(i__3 = i__ + (j + 1 + face * 
 				1025) * 1025 - 1050625) < 6303750 && 0 <= 
 				i__3 ? i__3 : s_rnge("n", i__3, "rdffpl_", (
-				ftnlen)790)];
+				ftnlen)794)];
 			plates[n0 * 3 - 1] = n[(i__3 = i__ + 1 + (j + 1 + 
 				face * 1025) * 1025 - 1050625) < 6303750 && 0 
 				<= i__3 ? i__3 : s_rnge("n", i__3, "rdffpl_", 
-				(ftnlen)791)];
+				(ftnlen)795)];
 		    }
 		}
 	    }
@@ -1231,10 +1245,10 @@ static integer c__3 = 3;
 		    }
 		    for (j = 2; j <= 4; ++j) {
 			nparsd_(arc + ((i__1 = j - 1) < 6 && 0 <= i__1 ? i__1 
-				: s_rnge("arc", i__1, "rdffpl_", (ftnlen)857))
+				: s_rnge("arc", i__1, "rdffpl_", (ftnlen)861))
 				 * 40, &ard[(i__2 = j - 2) < 3 && 0 <= i__2 ? 
 				i__2 : s_rnge("ard", i__2, "rdffpl_", (ftnlen)
-				857)], error, &ptr, (ftnlen)40, (ftnlen)160);
+				861)], error, &ptr, (ftnlen)40, (ftnlen)160);
 			if (ptr != 0) {
 			    setmsg_("D.P. error (#) in line #.", (ftnlen)25);
 			    errch_("#", error, (ftnlen)1, (ftnlen)160);
@@ -1266,10 +1280,10 @@ static integer c__3 = 3;
 		    }
 		    for (j = 2; j <= 4; ++j) {
 			nparsi_(arc + ((i__1 = j - 1) < 6 && 0 <= i__1 ? i__1 
-				: s_rnge("arc", i__1, "rdffpl_", (ftnlen)901))
+				: s_rnge("arc", i__1, "rdffpl_", (ftnlen)905))
 				 * 40, &ari[(i__2 = j - 2) < 4 && 0 <= i__2 ? 
 				i__2 : s_rnge("ari", i__2, "rdffpl_", (ftnlen)
-				901)], error, &ptr, (ftnlen)40, (ftnlen)160);
+				905)], error, &ptr, (ftnlen)40, (ftnlen)160);
 			if (ptr != 0) {
 			    setmsg_("Integer error (#) in line #.", (ftnlen)
 				    28);
@@ -1449,7 +1463,7 @@ static integer c__3 = 3;
 	    }
 	}
     } else {
-	setmsg_("Unkown plate data type: #.", (ftnlen)26);
+	setmsg_("Unknown plate data type: #.", (ftnlen)27);
 	errint_("#", plttyp, (ftnlen)1);
 	sigerr_("SPICE(BADDATATYPE)", (ftnlen)18);
 	chkout_("RDFFPL", (ftnlen)6);

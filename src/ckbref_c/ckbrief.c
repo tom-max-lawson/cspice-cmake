@@ -17,7 +17,7 @@ static doublereal c_b313 = 0.;
 
 /* $Program    CKBRIEF ( BRIEF CK summary ) */
 
-/* Main program */ int MAIN__(void)
+/* Main program */ MAIN__(void)
 {
     /* System generated locals */
     address a__1[2];

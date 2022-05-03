@@ -27,7 +27,7 @@ static integer c__2 = 2;
     /* Subroutine */ int s_cat(char *, char **, integer *, integer *, ftnlen);
 
     /* Local variables */
-    static char line[80];
+    static char line[255];
     static doublereal tvec[6];
     extern /* Subroutine */ int dasac_(integer *, integer *, char *, ftnlen);
     static integer l, m;
@@ -122,6 +122,10 @@ static integer c__2 = 2;
 /*     N.J. Bachman   (JPL) */
 
 /* $ Version */
+
+/* -    Version 5.0.0, 01-DEC-2020 (NJB) */
+
+/*        Updated number and date in version string parameter VER. */
 
 /* -    Version 4.0.0, 28-FEB-2017 (NJB) */
 
@@ -284,6 +288,12 @@ static integer c__2 = 2;
 
 /* $ Version */
 
+/* -    MKDSK Version 3.0.0, 27-OCT-2020 (NJB) */
+
+/*        Increased comment line length from 80 to 255 characters. The */
+/*        change applies to both comment files and comments in setup */
+/*        files. */
+
 /* -    MKDSK Version 2.0.0, 07-FEB-2017 (NJB) */
 
 /*        Now writes the MKDSK version string to the comment area */
@@ -347,13 +357,13 @@ static integer c__2 = 2;
 
 /*        Get next comment line. */
 
-	readln_(&cmnunt, line, &eof, (ftnlen)80);
+	readln_(&cmnunt, line, &eof, (ftnlen)255);
 	while(! (eof || failed_())) {
 
 /*           Replace non-printing characters with spaces. */
 
-	    while(frstnp_(line, (ftnlen)80) != 0) {
-		m = frstnp_(line, (ftnlen)80);
+	    while(frstnp_(line, (ftnlen)255) != 0) {
+		m = frstnp_(line, (ftnlen)255);
 		*(unsigned char *)&line[m - 1] = ' ';
 	    }
 	    if (l < 10000) {
@@ -362,8 +372,8 @@ static integer c__2 = 2;
 
 		++l;
 		s_copy(cmnbuf + ((i__1 = l + 5) < 10006 && 0 <= i__1 ? i__1 : 
-			s_rnge("cmnbuf", i__1, "addcom_", (ftnlen)265)) * 255,
-			 line, (ftnlen)255, rtrim_(line, (ftnlen)80));
+			s_rnge("cmnbuf", i__1, "addcom_", (ftnlen)272)) * 255,
+			 line, (ftnlen)255, rtrim_(line, (ftnlen)255));
 	    } else {
 
 /*              Buffer is full. Set the cardinality of the comment */
@@ -377,7 +387,7 @@ static integer c__2 = 2;
 
 /*           Get next comment line. */
 
-	    readln_(&cmnunt, line, &eof, (ftnlen)80);
+	    readln_(&cmnunt, line, &eof, (ftnlen)255);
 	}
 
 /*        Dump the rest of the buffer into the comment area. */
@@ -409,7 +419,7 @@ static integer c__2 = 2;
     dpfmt_(&tvec[5], "0s", tstamp + 17, (ftnlen)2, (ftnlen)2);
     s_copy(cmnbuf + 1530, " ", (ftnlen)255, (ftnlen)1);
     s_copy(cmnbuf + 1785, astrln, (ftnlen)255, (ftnlen)80);
-    s_copy(cmnbuf + 2040, "MKDSK VERSION:       2.0.0, 28-FEB-2017", (ftnlen)
+    s_copy(cmnbuf + 2040, "MKDSK VERSION:       3.0.0, 01-DEC-2020", (ftnlen)
 	    255, (ftnlen)39);
 /* Writing concatenation */
     i__2[0] = 21, a__1[0] = "MKDSK RUN DATE/TIME: ";
@@ -451,13 +461,13 @@ static integer c__2 = 2;
 
 /*        Read next line. */
 
-	readln_(&cmnunt, line, &eof, (ftnlen)80);
+	readln_(&cmnunt, line, &eof, (ftnlen)255);
 	if (! eof) {
 
 /*           Replace non-printing character with spaces. */
 
-	    while(frstnp_(line, (ftnlen)80) != 0) {
-		m = frstnp_(line, (ftnlen)80);
+	    while(frstnp_(line, (ftnlen)255) != 0) {
+		m = frstnp_(line, (ftnlen)255);
 		*(unsigned char *)&line[m - 1] = ' ';
 	    }
 	    if (l < 10000) {
@@ -466,8 +476,8 @@ static integer c__2 = 2;
 
 		++l;
 		s_copy(cmnbuf + ((i__1 = l + 5) < 10006 && 0 <= i__1 ? i__1 : 
-			s_rnge("cmnbuf", i__1, "addcom_", (ftnlen)371)) * 255,
-			 line, (ftnlen)255, rtrim_(line, (ftnlen)80));
+			s_rnge("cmnbuf", i__1, "addcom_", (ftnlen)378)) * 255,
+			 line, (ftnlen)255, rtrim_(line, (ftnlen)255));
 	    } else {
 
 /*              Buffer is full. Set the cardinality of the comment */
@@ -490,10 +500,10 @@ static integer c__2 = 2;
 
     if (l <= 9998) {
 	s_copy(cmnbuf + ((i__1 = l + 6) < 10006 && 0 <= i__1 ? i__1 : s_rnge(
-		"cmnbuf", i__1, "addcom_", (ftnlen)398)) * 255, " ", (ftnlen)
+		"cmnbuf", i__1, "addcom_", (ftnlen)405)) * 255, " ", (ftnlen)
 		255, (ftnlen)1);
 	s_copy(cmnbuf + ((i__1 = l + 7) < 10006 && 0 <= i__1 ? i__1 : s_rnge(
-		"cmnbuf", i__1, "addcom_", (ftnlen)399)) * 255, astrln, (
+		"cmnbuf", i__1, "addcom_", (ftnlen)406)) * 255, astrln, (
 		ftnlen)255, (ftnlen)80);
 	l += 2;
     } else {

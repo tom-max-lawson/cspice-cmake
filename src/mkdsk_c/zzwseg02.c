@@ -295,7 +295,7 @@ static integer c_b38 = 100000000;
 
 /*     This include file declares parameters for DSK data type 2 */
 /*     (plate model). On most platforms, these parameters are */
-/*     indentical to those in the SPICELIB include file */
+/*     identical to those in the SPICELIB include file */
 
 /*        dsk02.inc */
 
@@ -308,12 +308,18 @@ static integer c_b38 = 100000000;
 /*     references to this file may be replaced with references to */
 /*     dsk02.inc. */
 
+/* $ Version */
 
-/* -       SPICELIB Version 1.0.0 17-FEB-2017 (NJB) */
+/* -    MKDSK Version 1.1.0, 28-NOV-2021 (BVS) */
 
-/*          Based on SPICELIB include file dsk02.inc version */
-/*          1.0.0 08-FEB-2017 (NJB) */
+/*        Updated for MAC-OSX-M1-64BIT-CLANG_C. */
 
+/* -    MKDSK Version 1.0.0, 17-FEB-2017 (NJB) */
+
+/*        Based on SPICELIB include file dsk02.inc version */
+/*        1.0.0 08-FEB-2017 (NJB) */
+
+/* -& */
 
 
 
@@ -558,6 +564,10 @@ static integer c_b38 = 100000000;
 /*     N.J. Bachman   (JPL) */
 
 /* $ Version */
+
+/* -    Version 5.0.0, 01-DEC-2020 (NJB) */
+
+/*        Updated number and date in version string parameter VER. */
 
 /* -    Version 4.0.0, 28-FEB-2017 (NJB) */
 

@@ -65,12 +65,12 @@
 
 #include <cspice/f2c.h>
 #include <cspice/fio.h>
-#include "string.h"
+#include <string.h>
 #ifndef NON_POSIX_STDIO
 #ifdef MSDOS
-#include "io.h"
+#include <cspice/io.h>
 #else
-#include "unistd.h" /* for access */
+#include <unistd.h> /* for access */
 #endif
 #endif
 
@@ -84,7 +84,7 @@ extern integer f_clos();
 #undef abs
 #undef min
 #undef max
-#include "stdlib.h"
+#include <stdlib.h>
 
 #ifdef __cplusplus
 extern "C" {
@@ -421,11 +421,11 @@ static void
 
 #ifdef KR_headers
 
-   int fk_open( seq, fmt, n) ftnint n;
+   fk_open( seq, fmt, n) ftnint n;
 
 #else
 
-   int fk_open(int seq, int fmt, ftnint n)
+   fk_open(int seq, int fmt, ftnint n)
 
 #endif
    {

@@ -114,6 +114,10 @@ static integer c__2 = 2;
 
 /* $ Version */
 
+/* -    Version 5.0.0, 01-DEC-2020 (NJB) */
+
+/*        Updated number and date in version string parameter VER. */
+
 /* -    Version 4.0.0, 28-FEB-2017 (NJB) */
 
 /*        Added declaration of version string VER. Previously */
@@ -611,7 +615,7 @@ static integer c__2 = 2;
 	tkvrsn_("TOOLKIT", verstr, (ftnlen)7, (ftnlen)80);
 	tostdo_(" ", (ftnlen)1);
 /* Writing concatenation */
-	i__2[0] = 53, a__1[0] = "MKDSK Program; Ver. 2.0.0, 28-FEB-2017; Too"
+	i__2[0] = 53, a__1[0] = "MKDSK Program; Ver. 3.0.0, 01-DEC-2020; Too"
 		"lkit Ver. ";
 	i__2[1] = rtrim_(verstr, (ftnlen)80), a__1[1] = verstr;
 	s_cat(ch__1, a__1, i__2, &c__2, (ftnlen)133);

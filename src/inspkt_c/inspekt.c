@@ -5,7 +5,7 @@
 
 #include <cspice/f2c.h>
 
-/* Main program */ int MAIN__(void)
+/* Main program */ MAIN__(void)
 {
     /* Builtin functions */
     /* Subroutine */ int s_copy(char *, char *, ftnlen, ftnlen);
@@ -70,6 +70,10 @@
 
 
 /* $ Version */
+
+/* -    Inspekt Version 7.49.0, 28-NOV-2021 (BVS) */
+
+/*        Updated for MAC-OSX-M1-64BIT-CLANG_C. */
 
 /* -    Inspekt Version 7.48.0, 10-MAR-2014 (BVS) */
 
@@ -188,7 +192,7 @@
 /* -    Inspekt Version 7.20, 08-OCT-1999 (WLT) */
 
 /*        The environment lines were expanded so that the supported */
-/*        environments are now explicitely given.  New */
+/*        environments are now explicitly given.  New */
 /*        environments are WIN-NT */
 
 /* -    Inspekt Version 7.19, 20-SEP-1999 (NJB) */

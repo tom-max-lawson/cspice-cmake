@@ -19,7 +19,7 @@ static integer c__5 = 5;
 static integer c__3 = 3;
 
 /* $Program BRIEF ( BRIEF SPK or binary PCK summary ) */
-/* Main program */ int MAIN__(void)
+/* Main program */ MAIN__(void)
 {
     /* System generated locals */
     address a__1[4], a__2[2], a__3[3], a__4[5];
@@ -278,6 +278,10 @@ static integer c__3 = 3;
 
 /* $ Version */
 
+/* -    BRIEF Version 4.1.0, 17-SEP-2021 (BVS) */
+
+/*        Updated version string. */
+
 /* -    BRIEF Version 4.0.0, 08-SEP-2010 (BVS) */
 
 /*        Moved WINRM from main program to this include file. */
@@ -322,7 +326,7 @@ static integer c__3 = 3;
 /*     objects. */
 
 
-/*     End of inlcude file. */
+/*     End of include file. */
 
 
 /* $ Exceptions */
@@ -412,6 +416,12 @@ static integer c__3 = 3;
 /*     E.D. Wright    (JPL) */
 
 /* $ Version */
+
+/* -    BRIEF Version 4.1.0, 17-SEP-2021 (BVS) */
+
+/*        Updated long error message for the case when there are */
+/*        no SPKs or PCKs to summarize to state that PCKs listed */
+/*        in meta-kernels are ignored. */
 
 /* -    BRIEF Version 4.0.0, 08-SEP-2010 (BVS) */
 
@@ -1009,7 +1019,7 @@ static integer c__3 = 3;
 
     tkvrsn_("TOOLKIT", tkv, (ftnlen)7, (ftnlen)64);
     s_copy(line, "BRIEF -- Version", (ftnlen)80, (ftnlen)16);
-    suffix_("4.0.0, September 8, 2010        ", &c__1, line, (ftnlen)32, (
+    suffix_("4.1.0, September 17, 2021       ", &c__1, line, (ftnlen)32, (
 	    ftnlen)80);
     suffix_("-- Toolkit Version", &c__1, line, (ftnlen)18, (ftnlen)80);
     suffix_(tkv, &c__1, line, (ftnlen)64, (ftnlen)80);
@@ -1026,7 +1036,7 @@ static integer c__3 = 3;
     if (s_cmp(pass1, " ", (ftnlen)25000, (ftnlen)1) == 0) {
 	for (i__ = 1; i__ <= 21; ++i__) {
 	    writit_(utext + ((i__1 = i__ - 1) < 21 && 0 <= i__1 ? i__1 : 
-		    s_rnge("utext", i__1, "brief_", (ftnlen)932)) * 80, (
+		    s_rnge("utext", i__1, "brief_", (ftnlen)938)) * 80, (
 		    ftnlen)80);
 	}
 	s_stop("", (ftnlen)0);
@@ -1614,12 +1624,12 @@ static integer c__3 = 3;
 	s_stop("", (ftnlen)0);
     }
 
-/*     If help display was requsted, display help text and stop. */
+/*     If help display was requested, display help text and stop. */
 
     if (help) {
 	for (i__ = 1; i__ <= 50; ++i__) {
 	    writit_(htext + ((i__1 = i__ - 1) < 50 && 0 <= i__1 ? i__1 : 
-		    s_rnge("htext", i__1, "brief_", (ftnlen)1588)) * 80, (
+		    s_rnge("htext", i__1, "brief_", (ftnlen)1594)) * 80, (
 		    ftnlen)80);
 	}
 	s_stop("", (ftnlen)0);
@@ -1677,7 +1687,7 @@ static integer c__3 = 3;
     }
     s_copy(fmtpic, frmat + (((i__1 = num + (c__ + (o + (t << 1) << 1) << 1) - 
 	    15) < 16 && 0 <= i__1 ? i__1 : s_rnge("frmat", i__1, "brief_", (
-	    ftnlen)1661)) << 5), (ftnlen)32, (ftnlen)32);
+	    ftnlen)1667)) << 5), (ftnlen)32, (ftnlen)32);
 
 /*     Initialize the cells. */
 
@@ -1864,7 +1874,7 @@ static integer c__3 = 3;
 			class__ = 2;
 		    }
 		    object[(i__1 = objsiz - 1) < 3 && 0 <= i__1 ? i__1 : 
-			    s_rnge("object", i__1, "brief_", (ftnlen)1888)] = 
+			    s_rnge("object", i__1, "brief_", (ftnlen)1894)] = 
 			    class__;
 
 /*                 See if we already have this "object".  If not */
@@ -1932,7 +1942,7 @@ static integer c__3 = 3;
 				    if (found && idmch_(&bodlst[(i__3 = bod[0]
 					     + 6) < 706 && 0 <= i__3 ? i__3 : 
 					    s_rnge("bodlst", i__3, "brief_", (
-					    ftnlen)1962)], &size)) {
+					    ftnlen)1968)], &size)) {
 					objcf1_((I_fp)inc_, bod, &c__6, 
 						bodlst);
 				    }
@@ -1957,7 +1967,7 @@ static integer c__3 = 3;
 				if (found && idmch_(&bodlst[(i__3 = bod[0] + 
 					6) < 706 && 0 <= i__3 ? i__3 : s_rnge(
 					"bodlst", i__3, "brief_", (ftnlen)
-					1986)], &size)) {
+					1992)], &size)) {
 				    objcf1_((I_fp)inc_, bod, &c__6, bodlst);
 				}
 			    }
@@ -2315,7 +2325,8 @@ static integer c__3 = 3;
 
     if (ndone == 0) {
 	setmsg_("No binary SPK or PCK files to summarize were provided to th"
-		"e program.", (ftnlen)69);
+		"e program. Note that BRIEF ignores binary PCK files provided"
+		" in meta-kernels.", (ftnlen)136);
 	sigerr_("SPICE(NOFILES)", (ftnlen)14);
     }
 
@@ -2650,9 +2661,9 @@ logical mchboc_0_(int n__, integer *object, integer *size, integer *id,
 
 L_idmch:
     ret_val = object[0] <= ref[(i__1 = object[4] - 1) < 2 && 0 <= i__1 ? i__1 
-	    : s_rnge("ref", i__1, "mchboc_", (ftnlen)2618)] && object[1] >= 
+	    : s_rnge("ref", i__1, "mchboc_", (ftnlen)2626)] && object[1] >= 
 	    ref[(i__2 = object[4] - 1) < 2 && 0 <= i__2 ? i__2 : s_rnge("ref",
-	     i__2, "mchboc_", (ftnlen)2618)];
+	     i__2, "mchboc_", (ftnlen)2626)];
     return ret_val;
 
 L_idset:

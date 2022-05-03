@@ -13,7 +13,7 @@ static integer c__1 = 1;
 static integer c__0 = 0;
 static integer c__3 = 3;
 
-/* Main program */ int MAIN__(void)
+/* Main program */ MAIN__(void)
 {
     /* Initialized data */
 

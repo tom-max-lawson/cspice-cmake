@@ -13,7 +13,7 @@ static integer c__23 = 23;
 static integer c__4 = 4;
 
 /* $Procedure VERSION ( Print library version information ) */
-/* Main program */ int MAIN__(void)
+/* Main program */ MAIN__(void)
 {
     /* System generated locals */
     address a__1[2], a__2[4];

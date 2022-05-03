@@ -29,8 +29,8 @@ static integer c__10 = 10;
 	    "                       " "Discrete States, Evenly Spaced, Lagran"
 	    "ge Interpolation                          " "Discrete States, Un"
 	    "evenly Spaced, Lagrange Interpolation                        " 
-	    "Two-Line Elements (Short Period)                               "
-	    "                 " "Two-Line Elements (Long Period)             "
+	    "Two-Line Elements                                              "
+	    "                 " "Type 11                                     "
 	    "                                    " "Discrete States, Evenly S"
 	    "paced, Hermite Interpolation                           " "Discre"
 	    "te States, Unevenly Spaced, Hermite Interpolation               "
@@ -187,10 +187,19 @@ static integer c__10 = 10;
 
 /* $ Author_and_Institution */
 
+/*     N.J. Bachman   (JPL) */
 /*     K.R. Gehringer (JPL) */
+/*     B.V. Semenov   (JPL) */
 /*     W.L. Taber     (JPL) */
 
 /* $ Version */
+
+/* -    SPACIT Version 4.1.0, 31-AUG-2021 (BVS) */
+
+/*        Removed '(Short Period)' from Type 10 description. */
+
+/*        Replaced Type 11 description with 'Type 11', similar */
+/*        to also non-existing Type 6. */
 
 /* -    SPACIT Version 4.0.0, 18-OCT-2012 (NJB) */
 
@@ -381,7 +390,7 @@ static integer c__10 = 10;
 		"kit?", (ftnlen)80, (ftnlen)56);
     } else {
 	s_copy(typdsc, spktyp + ((i__1 = *segtyp - 1) < 21 && 0 <= i__1 ? 
-		i__1 : s_rnge("spktyp", i__1, "spkwss_", (ftnlen)400)) * 80, (
+		i__1 : s_rnge("spktyp", i__1, "spkwss_", (ftnlen)409)) * 80, (
 		ftnlen)80, (ftnlen)80);
     }
     repmi_(lines + 320, "#", segtyp, lines + 320, (ftnlen)80, (ftnlen)1, (

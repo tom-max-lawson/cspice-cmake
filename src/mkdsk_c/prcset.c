@@ -170,6 +170,10 @@ static integer c__100 = 100;
 
 /* $ Version */
 
+/* -    Version 5.0.0, 01-DEC-2020 (NJB) */
+
+/*        Updated number and date in version string parameter VER. */
+
 /* -    Version 4.0.0, 28-FEB-2017 (NJB) */
 
 /*        Added declaration of version string VER. Previously */
@@ -455,6 +459,7 @@ static integer c__100 = 100;
 /*        GETTYP  {Get segment data type} */
 /*        GETGEN  {Get general DSK parameters} */
 /*        GETP02  {Get type 2 parameters} */
+/*        GETP05  {Get plate type 5 parameters} */
 
 /*     GETSET must be called before the other entry points may be called. */
 
@@ -477,6 +482,14 @@ static integer c__100 = 100;
 /*     B.V. Semenov    (JPL) */
 
 /* $ Version */
+
+/* -    MKDSK Version 4.0.0, 01-DEC-2020 (NJB) */
+
+/*        Added check for missing angular or distance units in the */
+/*        INPUT_DATA_UNITS setup file assignment. Previously only */
+/*        the presence of two assignments was verified, so either a */
+/*        duplicated angular unit assignment or distance unit */
+/*        assignment would pass the test. */
 
 /* -    MKDSK Version 3.0.0, 08-MAR-2017 (NJB) (BVS) */
 
@@ -821,6 +834,9 @@ L_getset:
 
 
 L_gettyp:
+    if (return_()) {
+	return 0;
+    }
     chkin_("GETTYP", (ftnlen)6);
     gipool_("DATA_TYPE", &c__1, &c__1, &n, dtype, &found, (ftnlen)9);
     if (! found) {
@@ -840,6 +856,9 @@ L_getgen:
 
 /*     Fetch the surface name; convert the name to an ID code. */
 
+    if (return_()) {
+	return 0;
+    }
     chkin_("GETGEN", (ftnlen)6);
     gcpool_("SURFACE_NAME", &c__1, &c__1, &n, surfnm, &found, (ftnlen)12, (
 	    ftnlen)36);
@@ -1007,10 +1026,12 @@ L_getgen:
 
 /*           Parse the unit specifications. */
 
+	    s_copy(aunits, " ", aunits_len, (ftnlen)1);
+	    s_copy(dunits, " ", dunits_len, (ftnlen)1);
 	    i__1 = n;
 	    for (i__ = 1; i__ <= i__1; ++i__) {
 		lparse_(unistr + ((i__2 = i__ - 1) < 2 && 0 <= i__2 ? i__2 : 
-			s_rnge("unistr", i__2, "prcset_", (ftnlen)1015)) * 
+			s_rnge("unistr", i__2, "prcset_", (ftnlen)1034)) * 
 			255, "=", &c__2, &ntoken, words, (ftnlen)255, (ftnlen)
 			1, (ftnlen)255);
 		if (ntoken != 2) {
@@ -1018,7 +1039,7 @@ L_getgen:
 			    "p file: #", (ftnlen)56);
 		    errch_("#", unistr + ((i__2 = i__ - 1) < 2 && 0 <= i__2 ? 
 			    i__2 : s_rnge("unistr", i__2, "prcset_", (ftnlen)
-			    1021)) * 255, (ftnlen)1, (ftnlen)255);
+			    1040)) * 255, (ftnlen)1, (ftnlen)255);
 		    sigerr_("SPICE(SYNTAXERROR)", (ftnlen)18);
 		    chkout_("GETGEN", (ftnlen)6);
 		    return 0;
@@ -1044,11 +1065,25 @@ L_getgen:
 		    errch_("#", words, (ftnlen)1, (ftnlen)255);
 		    errch_("#", unistr + ((i__2 = i__ - 1) < 2 && 0 <= i__2 ? 
 			    i__2 : s_rnge("unistr", i__2, "prcset_", (ftnlen)
-			    1050)) * 255, (ftnlen)1, (ftnlen)255);
+			    1069)) * 255, (ftnlen)1, (ftnlen)255);
 		    sigerr_("SPICE(SYNTAXERROR)", (ftnlen)18);
 		    chkout_("GETGEN", (ftnlen)6);
 		    return 0;
 		}
+	    }
+	    if (s_cmp(aunits, " ", aunits_len, (ftnlen)1) == 0) {
+		setmsg_("Angular units were not set by the INPUT_DATA_UNITS "
+			"setup file variable.", (ftnlen)71);
+		sigerr_("SPICE(SYNTAXERROR)", (ftnlen)18);
+		chkout_("GETGEN", (ftnlen)6);
+		return 0;
+	    }
+	    if (s_cmp(dunits, " ", dunits_len, (ftnlen)1) == 0) {
+		setmsg_("Distance units were not set by the INPUT_DATA_UNITS"
+			" setup file variable.", (ftnlen)72);
+		sigerr_("SPICE(SYNTAXERROR)", (ftnlen)18);
+		chkout_("GETGEN", (ftnlen)6);
+		return 0;
 	    }
 	} else {
 	    setmsg_("DTPOOL says a units assignment was provided in the setu"
@@ -1264,6 +1299,9 @@ L_getgen:
 
 
 L_getp02:
+    if (return_()) {
+	return 0;
+    }
     chkin_("GETP02", (ftnlen)6);
 
 /*     Get the plate model type. */

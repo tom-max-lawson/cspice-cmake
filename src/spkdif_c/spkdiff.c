@@ -20,7 +20,7 @@ static logical c_false = FALSE_;
 static integer c__5 = 5;
 
 /* $Procedure   SPKDIFF ( Compare two SPK files. ) */
-/* Main program */ int MAIN__(void)
+/* Main program */ MAIN__(void)
 {
     /* System generated locals */
     address a__1[3], a__2[5];

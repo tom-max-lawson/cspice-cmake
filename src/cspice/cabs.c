@@ -79,7 +79,7 @@ extern double sqrt();
 double f__cabs(real, imag) double real, imag;
 #else
 #undef abs
-#include "math.h"
+#include <math.h>
 double f__cabs(double real, double imag)
 #endif
 {

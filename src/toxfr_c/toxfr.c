@@ -14,7 +14,7 @@ static integer c__0 = 0;
 static integer c__1 = 1;
 
 /* $Procedure   TOXFR (Create a transfer file for porting data) */
-/* Main program */ int MAIN__(void)
+/* Main program */ MAIN__(void)
 {
     /* Initialized data */
 

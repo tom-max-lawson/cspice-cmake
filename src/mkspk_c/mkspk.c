@@ -18,7 +18,7 @@ static integer c__6 = 6;
 static integer c__1 = 1;
 
 /* $Procedure  MKSPK  ( Make SPK File of Type 5,8,9,10,12,13,15 or 17 ) */
-/* Main program */ int MAIN__(void)
+/* Main program */ MAIN__(void)
 {
     /* Initialized data */
 

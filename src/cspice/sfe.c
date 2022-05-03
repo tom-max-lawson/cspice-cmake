@@ -11,9 +11,9 @@ integer e_rsfe(Void)
 	return(n);
 }
 #ifdef KR_headers
-int c_sfe(a) cilist *a; /* check */
+c_sfe(a) cilist *a; /* check */
 #else
-int c_sfe(cilist *a) /* check */
+c_sfe(cilist *a) /* check */
 #endif
 {	unit *p;
 	f__curunit = p = &f__units[a->ciunit];

@@ -20,14 +20,14 @@ int (*f__lioproc)(), (*l_getc)(), (*l_ungetc)();
 #undef abs
 #undef min
 #undef max
-#include "stdlib.h"
+#include <stdlib.h>
 int (*f__lioproc)(ftnint*, char*, ftnlen, ftnint), (*l_getc)(void),
 	(*l_ungetc)(int,FILE*);
 #endif
 
 #include <cspice/fmt.h>
 #include <cspice/lio.h>
-#include "ctype.h"
+#include <ctype.h>
 #include <cspice/fp.h>
 
 int l_eof;
@@ -73,7 +73,7 @@ extern int ungetc(int, FILE*);	/* for systems with a buggy stdio.h */
 #endif
 #endif
 
-int t_getc(Void)
+t_getc(Void)
 {	int ch;
 	if(f__curunit->uend) return(EOF);
 	if((ch=getc(f__cf))!=EOF) return(ch);
@@ -523,9 +523,9 @@ l_CHAR(Void)
 	}
 }
 #ifdef KR_headers
-int c_le(a) cilist *a;
+c_le(a) cilist *a;
 #else
-int c_le(cilist *a)
+c_le(cilist *a)
 #endif
 {
 	if(!f__init)
@@ -543,9 +543,9 @@ int c_le(cilist *a)
 	return(0);
 }
 #ifdef KR_headers
-int l_read(number,ptr,len,type) ftnint *number,type; char *ptr; ftnlen len;
+l_read(number,ptr,len,type) ftnint *number,type; char *ptr; ftnlen len;
 #else
-int l_read(ftnint *number, char *ptr, ftnlen len, ftnint type)
+l_read(ftnint *number, char *ptr, ftnlen len, ftnint type)
 #endif
 {
 #define Ptr ((flex *)ptr)

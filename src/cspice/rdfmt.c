@@ -8,12 +8,12 @@ extern double atof();
 #undef abs
 #undef min
 #undef max
-#include "stdlib.h"
+#include <stdlib.h>
 #endif
 
 #include <cspice/fmt.h>
 #include <cspice/fp.h>
-#include "ctype.h"
+#include <ctype.h>
 
  static int
 #ifdef KR_headers
@@ -387,9 +387,9 @@ rd_POS(char *s)
 	return(1);
 }
 #ifdef KR_headers
-int rd_ed(p,ptr,len) struct syl *p; char *ptr; ftnlen len;
+rd_ed(p,ptr,len) struct syl *p; char *ptr; ftnlen len;
 #else
-int rd_ed(struct syl *p, char *ptr, ftnlen len)
+rd_ed(struct syl *p, char *ptr, ftnlen len)
 #endif
 {	int ch;
 	for(;f__cursor>0;f__cursor--) if((ch=(*f__getn)())<0) return(ch);
@@ -450,9 +450,9 @@ int rd_ed(struct syl *p, char *ptr, ftnlen len)
 	return(errno);
 }
 #ifdef KR_headers
-int rd_ned(p) struct syl *p;
+rd_ned(p) struct syl *p;
 #else
-int rd_ned(struct syl *p)
+rd_ned(struct syl *p)
 #endif
 {
 	switch(p->op)

@@ -2,7 +2,7 @@
 #include <cspice/fio.h>
 #include <cspice/fmt.h>
 
-int y_rsk(Void)
+y_rsk(Void)
 {
 	if(f__curunit->uend || f__curunit->url <= f__recpos
 		|| f__curunit->url == 1) return 0;
@@ -11,7 +11,7 @@ int y_rsk(Void)
 	} while(++f__recpos < f__curunit->url);
 	return 0;
 }
-int y_getc(Void)
+y_getc(Void)
 {
 	int ch;
 	if(f__curunit->uend) return(-1);
@@ -61,9 +61,9 @@ y_newrec(Void)
 }
 
 #ifdef KR_headers
-int c_dfe(a) cilist *a;
+c_dfe(a) cilist *a;
 #else
-int c_dfe(cilist *a)
+c_dfe(cilist *a)
 #endif
 {
 	f__sequential=0;

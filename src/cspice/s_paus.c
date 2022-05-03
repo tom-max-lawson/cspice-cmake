@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include <stdio.h>
 #include <cspice/f2c.h>
 #define PAUSESIG 15
 
@@ -12,7 +12,7 @@
 #undef abs
 #undef min
 #undef max
-#include "stdlib.h"
+#include <stdlib.h>
 #ifdef __cplusplus
 extern "C" {
 #endif

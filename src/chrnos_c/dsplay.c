@@ -98,6 +98,15 @@ static integer c__54 = 54;
 
 /*     CHRONOS Include file. */
 
+/* $ Version */
+
+/* -    CHRONOS Version 1.1.0, 28-NOV-2021 (BVS) */
+
+/*        Updated for MAC-OSX-M1-64BIT-CLANG_C. */
+
+/* -    CHRONOS Version 1.0.0, 14-MAY-1998 (BVS) */
+
+/* -& */
 
 /*     CHRONOS Version. */
 
@@ -114,11 +123,11 @@ static integer c__54 = 54;
 /*     Setup file variables. */
 
 
-/*     Time system indentifier strings and total number of time */
+/*     Time system identifier strings and total number of time */
 /*     systems. */
 
 
-/*     Time types identitifier strings and total number of time types. */
+/*     Time types identifier strings and total number of time types. */
 
 
 /*     Line size parameters. */

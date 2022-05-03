@@ -2,7 +2,7 @@
 #undef abs
 #undef min
 #undef max
-#include "stdio.h"
+#include <stdio.h>
 
 static integer memfailure = 3;
 
@@ -13,7 +13,7 @@ extern void exit_();
  char *
 F77_aloc(Len, whence) integer Len; char *whence;
 #else
-#include "stdlib.h"
+#include <stdlib.h>
 extern void exit_(integer*);
 
  char *

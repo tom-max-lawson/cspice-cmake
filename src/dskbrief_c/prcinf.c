@@ -138,7 +138,13 @@ static integer c__2 = 2;
 
 /* $ Version */
 
-/*     DSKBRIEF Version 2.0.0, 07-MAR-2017 (NJB) */
+/* -    DSKBRIEF Version 3.0.0, 02-NOV-2021 (NJB) */
+
+/*        Fixed indentation of the first two lines in HLPTXT. */
+
+/*        Updated version number and date. */
+
+/* -    DSKBRIEF Version 2.0.0, 07-MAR-2017 (NJB) */
 
 /*        Adapted from MKDSK Version 4.0.0, 22-AUG-2016 (NJB) */
 
@@ -167,10 +173,10 @@ static integer c__2 = 2;
 /*        This lovely mess was created using Bill Taber's ImportText */
 /*        pipe. */
 
-	s_copy(hlptxt, "DSKBRIEF is a command-line utility program that disp"
-		"lays a summary of one", (ftnlen)80, (ftnlen)73);
-	s_copy(hlptxt + 80, "or more binary DSK files. The program usage is:",
-		 (ftnlen)80, (ftnlen)47);
+	s_copy(hlptxt, "   DSKBRIEF is a command-line utility program that d"
+		"isplays a summary of", (ftnlen)80, (ftnlen)72);
+	s_copy(hlptxt + 80, "   one or more binary DSK files. The program us"
+		"age is:", (ftnlen)80, (ftnlen)54);
 	s_copy(hlptxt + 160, " ", (ftnlen)80, (ftnlen)1);
 	s_copy(hlptxt + 240, "      % dskbrief [options] file [file...]", (
 		ftnlen)80, (ftnlen)41);
@@ -394,7 +400,7 @@ static integer c__2 = 2;
 	tkvrsn_("TOOLKIT", verstr, (ftnlen)7, (ftnlen)80);
 	tostdo_(" ", (ftnlen)1);
 /* Writing concatenation */
-	i__1[0] = 56, a__1[0] = "DSKBRIEF Program; Ver. 2.0.0, 07-MAR-2017; "
+	i__1[0] = 56, a__1[0] = "DSKBRIEF Program; Ver. 3.0.0, 02-NOV-2021; "
 		"Toolkit Ver. ";
 	i__1[1] = rtrim_(verstr, (ftnlen)80), a__1[1] = verstr;
 	s_cat(ch__1, a__1, i__1, &c__2, (ftnlen)136);
@@ -403,14 +409,14 @@ static integer c__2 = 2;
     } else if (eqstr_(inftyp, "HELP", inftyp_len, (ftnlen)4)) {
 	for (i__ = 1; i__ <= 105; ++i__) {
 	    tostdo_(hlptxt + ((i__2 = i__ - 1) < 105 && 0 <= i__2 ? i__2 : 
-		    s_rnge("hlptxt", i__2, "prcinf_", (ftnlen)438)) * 80, (
+		    s_rnge("hlptxt", i__2, "prcinf_", (ftnlen)443)) * 80, (
 		    ftnlen)80);
 	}
 	tostdo_(" ", (ftnlen)1);
     } else if (eqstr_(inftyp, "USAGE", inftyp_len, (ftnlen)5)) {
 	for (i__ = 1; i__ <= 32; ++i__) {
 	    tostdo_(usgtxt + ((i__2 = i__ - 1) < 32 && 0 <= i__2 ? i__2 : 
-		    s_rnge("usgtxt", i__2, "prcinf_", (ftnlen)448)) * 80, (
+		    s_rnge("usgtxt", i__2, "prcinf_", (ftnlen)453)) * 80, (
 		    ftnlen)80);
 	}
 	tostdo_(" ", (ftnlen)1);

@@ -329,7 +329,7 @@ static integer c__1000 = 1000;
 /*                row and Nth column in the output grid precedes the */
 /*                datum for any other row and Nth column in the input */
 /*                file. In other words, the data from the input file */
-/*                fill in the rows of the output grid in "top-down" */
+/*                fill in each column of the output grid in "top-down" */
 /*                order. */
 
 /*                When the input file is row-major and TOPDWN is .TRUE., */
@@ -350,16 +350,17 @@ static integer c__1000 = 1000;
 /*                column and Nth row in the output grid precedes the */
 /*                datum for any other column and Nth row in the input */
 /*                file. In other words, the data from the input file */
-/*                fill in the columns of the output grid in "left-right" */
+/*                fill in each row of the output grid in "left-right" */
 /*                order. */
 
 /*                When the input file is column-major and LEFTRT is */
 /*                .TRUE., the leftmost column of the output grid */
 /*                contains the data from the first NROWS tokens in the */
-/*                input file. When the input file is row-major and LEFT */
-/*                is .TRUE., the rows themselves are in left-right */
-/*                order: the first element of each sequence of NCOLS */
-/*                tokens belongs to the left column of the output grid. */
+/*                input file. When the input file is row-major and */
+/*                LEFTRT is .TRUE., the rows themselves are in */
+/*                left-right order: the first element of each sequence */
+/*                of NCOLS tokens belongs to the left column of the */
+/*                output grid. */
 
 /*     CORSYS     is a DSK subsystem code designating the coordinate */
 /*                system of the input coordinates. */
@@ -375,7 +376,8 @@ static integer c__1000 = 1000;
 
 /*                REFVAL must be non-negative. */
 
-/*                Units are km. */
+/*                Units are given by the DISTANCE setting of the */
+/*                setup file's INPUT_DATA_UNITS value. */
 
 /*     HSCALE     is a conversion factor to be applied to height data. */
 /*                Multiplying a datum by HSCALE converts the datum to */
@@ -518,6 +520,12 @@ static integer c__1000 = 1000;
 /*     N.J. Bachman    (JPL) */
 
 /* $ Version */
+
+/* -    MKDSK Version 1.0.1, 27-DEC-2021 (NJB) */
+
+/*        Corrected description of units of the height reference value. */
+/*        Updated descriptions of TOPDWN and LEFTRT inputs. Corrected */
+/*        typo in header comments. */
 
 /* -    MKDSK Version 1.0.0, 25-FEB-2017 (NJB) */
 
@@ -696,7 +704,7 @@ static integer c__1000 = 1000;
 /*           Compute the vertex and insert it into the vertex array. */
 
 	    height = values[(i__2 = i__ - 1) < 1000 && 0 <= i__2 ? i__2 : 
-		    s_rnge("values", i__2, "mkvarr_", (ftnlen)588)] * *hscale;
+		    s_rnge("values", i__2, "mkvarr_", (ftnlen)596)] * *hscale;
 	    makvtx_(corsys, corpar, coords, &href, &height, &verts[k * 3 - 3])
 		    ;
 	    if (failed_()) {

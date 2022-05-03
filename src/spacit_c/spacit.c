@@ -12,7 +12,7 @@ static integer c__0 = 0;
 static integer c__6 = 6;
 
 /* $Program SPACIT ( SPACIT Utility Program ) */
-/* Main program */ int MAIN__(void)
+/* Main program */ MAIN__(void)
 {
     /* Initialized data */
 

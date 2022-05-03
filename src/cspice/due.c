@@ -2,9 +2,9 @@
 #include <cspice/fio.h>
 
 #ifdef KR_headers
-int c_due(a) cilist *a;
+c_due(a) cilist *a;
 #else
-int c_due(cilist *a)
+c_due(cilist *a)
 #endif
 {
 	if(!f__init) f_init();

@@ -41,8 +41,8 @@
 #ifndef NON_UNIX_STDIO
 #define _INCLUDE_POSIX_SOURCE   /* for HP-UX */
 #define _INCLUDE_XOPEN_SOURCE   /* for HP-UX */
-#include "sys/types.h"
-#include "sys/stat.h"
+#include <sys/types.h>
+#include <cspice/sys/stat.h>
 #endif
 
 #include <cspice/f2c.h>
@@ -53,7 +53,7 @@ extern char *malloc();
 #undef abs
 #undef min
 #undef max
-#include "stdlib.h"
+#include <stdlib.h>
 #endif
 
 #include <cspice/fio.h>

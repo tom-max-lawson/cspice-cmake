@@ -20,7 +20,7 @@ static integer c__5 = 5;
 
 /* $Program     SPKMERGE */
 
-/* Main program */ int MAIN__(void)
+/* Main program */ MAIN__(void)
 {
     /* System generated locals */
     address a__1[2];

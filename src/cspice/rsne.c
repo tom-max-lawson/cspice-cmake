@@ -36,7 +36,7 @@
 
  extern flag f__lquit;
  extern int f__lcount, nml_read;
- extern int t_getc(Void);
+ extern t_getc(Void);
 
 #ifdef KR_headers
  extern char *malloc(), *memset();
@@ -54,8 +54,8 @@ un_getc(x,f__cf) int x; FILE *f__cf;
 #undef abs
 #undef min
 #undef max
-#include "stdlib.h"
-#include "string.h"
+#include <stdlib.h>
+#include <string.h>
 
 #ifdef ungetc
  static int
@@ -291,9 +291,9 @@ print_ne(cilist *a)
  static char where0[] = "namelist read start ";
 
 #ifdef KR_headers
-int x_rsne(a) cilist *a;
+x_rsne(a) cilist *a;
 #else
-int x_rsne(cilist *a)
+x_rsne(cilist *a)
 #endif
 {
 	int ch, got1, k, n, nd, quote, readall;

@@ -9,7 +9,7 @@
 
 static logical c_false = FALSE_;
 
-/* Main program */ int MAIN__(void)
+/* Main program */ MAIN__(void)
 {
     logical info;
     extern /* Subroutine */ int chkin_(char *, ftnlen), reset_(void);
@@ -149,6 +149,10 @@ static logical c_false = FALSE_;
 /*     N.J. Bachman   (JPL) */
 
 /* $ Version */
+
+/* -    Version 5.0.0, 01-DEC-2020 (NJB) */
+
+/*        Updated number and date in version string parameter VER. */
 
 /* -    Version 4.0.0, 28-FEB-2017 (NJB) */
 

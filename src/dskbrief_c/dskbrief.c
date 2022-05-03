@@ -7,7 +7,7 @@
 
 /* Table of constant values */
 
-static integer c__25000 = 25000;
+static integer c_b12 = 1356799;
 static integer c__1 = 1;
 static integer c__10 = 10;
 static integer c__3 = 3;
@@ -25,7 +25,7 @@ static integer c__10000 = 10000;
 static integer c__24 = 24;
 
 /* $Program    DSKBRIEF ( BRIEF DSK summary ) */
-/* Main program */ int MAIN__(void)
+/* Main program */ MAIN__(void)
 {
     /* Initialized data */
 
@@ -104,7 +104,7 @@ static integer c__24 = 24;
 	    source[255];
     static doublereal dskdsc[24], grpdsc[24], lonbds[4]	/* was [2][2] */, 
 	    maxtdb, maxlon, minlon, mintdb, outbds[8]	/* was [2][4] */;
-    static char cmd[25500];
+    static char cmd[1357299];
     static integer corsys, currnt[8], grpsiz, hanlst[100000], nivals, nxtdsc[
 	    8], seglst[100000], sgpool[200012]	/* was [2][100006] */, sgptrs[
 	    10000], typcde;
@@ -199,6 +199,11 @@ static integer c__24 = 24;
 /*     N.J. Bachman   (JPL) */
 
 /* $ Version */
+
+/* -       DSKBRIEF Version 7.0.0 07-AUG-2021 (NJB) */
+
+/*           Command line length was extended to hold 5300 names of */
+/*           maximum length, plus blank separators. */
 
 /* -       DSKBRIEF Version 6.0.0 21-FEB-2017 (NJB) */
 
@@ -679,6 +684,14 @@ static integer c__24 = 24;
 /*     Local parameters */
 
 
+/*     This command line length is long enough to hold the */
+/*     maximum number of file names that can be stored by the */
+/*     KEEPER subsystem (5300), plus single blanks separating the */
+/*     file names. */
+
+/*         255 * 5300 + 5299 = 1356799 */
+
+
 /*     Local variables */
 
 
@@ -711,22 +724,22 @@ static integer c__24 = 24;
 /*     Get the DSK file name, and the names of any */
 /*     additional files, from the command line. */
 
-    s_copy(cmd, " ", (ftnlen)25500, (ftnlen)1);
-    getcml_(cmd, (ftnlen)25500);
-    if (s_cmp(cmd, " ", (ftnlen)25500, (ftnlen)1) == 0) {
+    s_copy(cmd, " ", (ftnlen)1357299, (ftnlen)1);
+    getcml_(cmd, (ftnlen)1357299);
+    if (s_cmp(cmd, " ", (ftnlen)1357299, (ftnlen)1) == 0) {
 	prcinf_("USAGE", (ftnlen)5);
 	byebye_("SUCCESS", (ftnlen)7);
     }
-    if (s_cmp(cmd + 25000, " ", (ftnlen)500, (ftnlen)1) != 0) {
+    if (s_cmp(cmd + 1356799, " ", (ftnlen)500, (ftnlen)1) != 0) {
 	setmsg_("Input command is too long: non-blank characters were found "
 		"past index #.", (ftnlen)72);
-	errint_("#", &c__25000, (ftnlen)1);
+	errint_("#", &c_b12, (ftnlen)1);
 	sigerr_("SPICE(COMMANDTOOLONG)", (ftnlen)21);
     }
 
 /*     Identify all options specified on the command line. */
 
-    fndnwd_(cmd, &c__1, &b, &e, (ftnlen)25500);
+    fndnwd_(cmd, &c__1, &b, &e, (ftnlen)1357299);
     while(b > 0) {
 	s_copy(option, cmd + (b - 1), (ftnlen)32, e - (b - 1));
 	i__ = isrchc_(option, &c__10, optlst, (ftnlen)32, (ftnlen)32);
@@ -763,7 +776,7 @@ static integer c__24 = 24;
 /*              The next token should be an integer. */
 
 		i__1 = e + 1;
-		fndnwd_(cmd, &i__1, &b1, &e1, (ftnlen)25500);
+		fndnwd_(cmd, &i__1, &b1, &e1, (ftnlen)1357299);
 		if (b1 > 0) {
 		    s_copy(numstr, cmd + (b1 - 1), (ftnlen)32, e1 - (b1 - 1));
 		    if (! beint_(numstr, (ftnlen)32)) {
@@ -795,7 +808,7 @@ static integer c__24 = 24;
 	    s_copy(cmd + (b - 1), " ", e - (b - 1), (ftnlen)1);
 	}
 	i__1 = e + 1;
-	fndnwd_(cmd, &i__1, &b, &e, (ftnlen)25500);
+	fndnwd_(cmd, &i__1, &b, &e, (ftnlen)1357299);
     }
 
 /*     Check for option combinations that involve overrides. */
@@ -821,7 +834,7 @@ static integer c__24 = 24;
 /*     Load all files specified on the command line. */
 
     didfil = FALSE_;
-    fndnwd_(cmd, &c__1, &b, &e, (ftnlen)25500);
+    fndnwd_(cmd, &c__1, &b, &e, (ftnlen)1357299);
     while(b > 0) {
 
 /*        The current word is not an option; assume it's a file */
@@ -837,7 +850,7 @@ static integer c__24 = 24;
 	furnsh_(fname, (ftnlen)255);
 	didfil = TRUE_;
 	i__1 = e + 1;
-	fndnwd_(cmd, &i__1, &b, &e, (ftnlen)25500);
+	fndnwd_(cmd, &i__1, &b, &e, (ftnlen)1357299);
     }
 
 /*     Initialize variables used to group segments. */
@@ -978,11 +991,11 @@ static integer c__24 = 24;
 /*              Buffer the handle and descriptor. */
 
 		hanlst[(i__3 = nseg - 1) < 100000 && 0 <= i__3 ? i__3 : 
-			s_rnge("hanlst", i__3, "dskbrief_", (ftnlen)666)] = 
+			s_rnge("hanlst", i__3, "dskbrief_", (ftnlen)680)] = 
 			handle;
 		movei_(dladsc, &c__8, &dlads[(i__3 = (nseg << 3) - 8) < 
 			800000 && 0 <= i__3 ? i__3 : s_rnge("dlads", i__3, 
-			"dskbrief_", (ftnlen)668)]);
+			"dskbrief_", (ftnlen)682)]);
 
 /*              Fetch the next descriptor. */
 
@@ -1020,8 +1033,8 @@ static integer c__24 = 24;
 
 		    j = seglst[(i__5 = sgptrs[(i__4 = i__ - 1) < 10000 && 0 <=
 			     i__4 ? i__4 : s_rnge("sgptrs", i__4, "dskbrief_",
-			     (ftnlen)707)] - 1) < 100000 && 0 <= i__5 ? i__5 :
-			     s_rnge("seglst", i__5, "dskbrief_", (ftnlen)707)]
+			     (ftnlen)721)] - 1) < 100000 && 0 <= i__5 ? i__5 :
+			     s_rnge("seglst", i__5, "dskbrief_", (ftnlen)721)]
 			    ;
 		    grpsiz = 1;
 
@@ -1031,9 +1044,9 @@ static integer c__24 = 24;
 
 		    dskgd_(&hanlst[(i__4 = j - 1) < 100000 && 0 <= i__4 ? 
 			    i__4 : s_rnge("hanlst", i__4, "dskbrief_", (
-			    ftnlen)715)], &dlads[(i__5 = (j << 3) - 8) < 
+			    ftnlen)729)], &dlads[(i__5 = (j << 3) - 8) < 
 			    800000 && 0 <= i__5 ? i__5 : s_rnge("dlads", i__5,
-			     "dskbrief_", (ftnlen)715)], comdsc);
+			     "dskbrief_", (ftnlen)729)], comdsc);
 
 /*                 Initialize the coordinate bounds. */
 
@@ -1049,16 +1062,16 @@ static integer c__24 = 24;
 
 		    xbds[(i__4 = (grpsiz << 1) - 2) < 200000 && 0 <= i__4 ? 
 			    i__4 : s_rnge("xbds", i__4, "dskbrief_", (ftnlen)
-			    730)] = minco1;
+			    744)] = minco1;
 		    xbds[(i__4 = (grpsiz << 1) - 1) < 200000 && 0 <= i__4 ? 
 			    i__4 : s_rnge("xbds", i__4, "dskbrief_", (ftnlen)
-			    731)] = maxco1;
+			    745)] = maxco1;
 		    ybds[(i__4 = (grpsiz << 1) - 2) < 200000 && 0 <= i__4 ? 
 			    i__4 : s_rnge("ybds", i__4, "dskbrief_", (ftnlen)
-			    733)] = minco2;
+			    747)] = minco2;
 		    ybds[(i__4 = (grpsiz << 1) - 1) < 200000 && 0 <= i__4 ? 
 			    i__4 : s_rnge("ybds", i__4, "dskbrief_", (ftnlen)
-			    734)] = maxco2;
+			    748)] = maxco2;
 
 /*                 Initialize the time bounds. */
 
@@ -1070,16 +1083,16 @@ static integer c__24 = 24;
 
 		    node = lnknxt_(&sgptrs[(i__4 = i__ - 1) < 10000 && 0 <= 
 			    i__4 ? i__4 : s_rnge("sgptrs", i__4, "dskbrief_", 
-			    (ftnlen)746)], sgpool);
+			    (ftnlen)760)], sgpool);
 		    while(node > 0) {
 			j = seglst[(i__4 = node - 1) < 100000 && 0 <= i__4 ? 
 				i__4 : s_rnge("seglst", i__4, "dskbrief_", (
-				ftnlen)750)];
+				ftnlen)764)];
 			dskgd_(&hanlst[(i__4 = j - 1) < 100000 && 0 <= i__4 ? 
 				i__4 : s_rnge("hanlst", i__4, "dskbrief_", (
-				ftnlen)752)], &dlads[(i__5 = (j << 3) - 8) < 
+				ftnlen)766)], &dlads[(i__5 = (j << 3) - 8) < 
 				800000 && 0 <= i__5 ? i__5 : s_rnge("dlads", 
-				i__5, "dskbrief_", (ftnlen)752)], dskdsc);
+				i__5, "dskbrief_", (ftnlen)766)], dskdsc);
 
 /*                    Longitude is a special case. As usual. */
 
@@ -1116,13 +1129,13 @@ static integer c__24 = 24;
 				d__1 = minco1, d__2 = outbds[(i__5 = (k << 1) 
 					- 2) < 8 && 0 <= i__5 ? i__5 : s_rnge(
 					"outbds", i__5, "dskbrief_", (ftnlen)
-					789)];
+					803)];
 				minco1 = min(d__1,d__2);
 /* Computing MAX */
 				d__1 = maxco1, d__2 = outbds[(i__5 = (k << 1) 
 					- 1) < 8 && 0 <= i__5 ? i__5 : s_rnge(
 					"outbds", i__5, "dskbrief_", (ftnlen)
-					790)];
+					804)];
 				maxco1 = max(d__1,d__2);
 			    }
 			} else {
@@ -1141,16 +1154,16 @@ static integer c__24 = 24;
 			++grpsiz;
 			xbds[(i__4 = (grpsiz << 1) - 2) < 200000 && 0 <= i__4 
 				? i__4 : s_rnge("xbds", i__4, "dskbrief_", (
-				ftnlen)812)] = dskdsc[16];
+				ftnlen)826)] = dskdsc[16];
 			xbds[(i__4 = (grpsiz << 1) - 1) < 200000 && 0 <= i__4 
 				? i__4 : s_rnge("xbds", i__4, "dskbrief_", (
-				ftnlen)813)] = dskdsc[17];
+				ftnlen)827)] = dskdsc[17];
 			ybds[(i__4 = (grpsiz << 1) - 2) < 200000 && 0 <= i__4 
 				? i__4 : s_rnge("ybds", i__4, "dskbrief_", (
-				ftnlen)815)] = dskdsc[18];
+				ftnlen)829)] = dskdsc[18];
 			ybds[(i__4 = (grpsiz << 1) - 1) < 200000 && 0 <= i__4 
 				? i__4 : s_rnge("ybds", i__4, "dskbrief_", (
-				ftnlen)816)] = dskdsc[19];
+				ftnlen)830)] = dskdsc[19];
 
 /*                    Update the time bounds. */
 
@@ -1209,7 +1222,7 @@ static integer c__24 = 24;
 
 		    if (! ust && ! segtm[(i__4 = i__ - 1) < 100000 && 0 <= 
 			    i__4 ? i__4 : s_rnge("segtm", i__4, "dskbrief_", (
-			    ftnlen)882)]) {
+			    ftnlen)896)]) {
 			tostdo_("    ***Segments have inconsistent time cove"
 				"rage.***", (ftnlen)51);
 		    }
@@ -1266,18 +1279,18 @@ static integer c__24 = 24;
 /*           segment of the Ith segment group. */
 
 	    j = seglst[(i__4 = sgptrs[(i__3 = i__ - 1) < 10000 && 0 <= i__3 ? 
-		    i__3 : s_rnge("sgptrs", i__3, "dskbrief_", (ftnlen)947)] 
+		    i__3 : s_rnge("sgptrs", i__3, "dskbrief_", (ftnlen)961)] 
 		    - 1) < 100000 && 0 <= i__4 ? i__4 : s_rnge("seglst", i__4,
-		     "dskbrief_", (ftnlen)947)];
+		     "dskbrief_", (ftnlen)961)];
 
 /*           Get the DSK descriptor for the first segment of */
 /*           the Ith group. This is the source of the "common" */
 /*           parameters. */
 
 	    dskgd_(&hanlst[(i__3 = j - 1) < 100000 && 0 <= i__3 ? i__3 : 
-		    s_rnge("hanlst", i__3, "dskbrief_", (ftnlen)954)], &dlads[
+		    s_rnge("hanlst", i__3, "dskbrief_", (ftnlen)968)], &dlads[
 		    (i__4 = (j << 3) - 8) < 800000 && 0 <= i__4 ? i__4 : 
-		    s_rnge("dlads", i__4, "dskbrief_", (ftnlen)954)], comdsc);
+		    s_rnge("dlads", i__4, "dskbrief_", (ftnlen)968)], comdsc);
 
 /*           Initialize the coordinate bounds. */
 
@@ -1293,13 +1306,13 @@ static integer c__24 = 24;
 /*           detection. */
 
 	    xbds[(i__3 = (grpsiz << 1) - 2) < 200000 && 0 <= i__3 ? i__3 : 
-		    s_rnge("xbds", i__3, "dskbrief_", (ftnlen)971)] = minco1;
+		    s_rnge("xbds", i__3, "dskbrief_", (ftnlen)985)] = minco1;
 	    xbds[(i__3 = (grpsiz << 1) - 1) < 200000 && 0 <= i__3 ? i__3 : 
-		    s_rnge("xbds", i__3, "dskbrief_", (ftnlen)972)] = maxco1;
+		    s_rnge("xbds", i__3, "dskbrief_", (ftnlen)986)] = maxco1;
 	    ybds[(i__3 = (grpsiz << 1) - 2) < 200000 && 0 <= i__3 ? i__3 : 
-		    s_rnge("ybds", i__3, "dskbrief_", (ftnlen)974)] = minco2;
+		    s_rnge("ybds", i__3, "dskbrief_", (ftnlen)988)] = minco2;
 	    ybds[(i__3 = (grpsiz << 1) - 1) < 200000 && 0 <= i__3 ? i__3 : 
-		    s_rnge("ybds", i__3, "dskbrief_", (ftnlen)975)] = maxco2;
+		    s_rnge("ybds", i__3, "dskbrief_", (ftnlen)989)] = maxco2;
 
 /*           Initialize the time bounds. */
 
@@ -1310,16 +1323,16 @@ static integer c__24 = 24;
 /*           the group. We can skip the first segment. */
 
 	    node = lnknxt_(&sgptrs[(i__3 = i__ - 1) < 10000 && 0 <= i__3 ? 
-		    i__3 : s_rnge("sgptrs", i__3, "dskbrief_", (ftnlen)987)], 
-		    sgpool);
+		    i__3 : s_rnge("sgptrs", i__3, "dskbrief_", (ftnlen)1001)],
+		     sgpool);
 	    while(node > 0) {
 		j = seglst[(i__3 = node - 1) < 100000 && 0 <= i__3 ? i__3 : 
-			s_rnge("seglst", i__3, "dskbrief_", (ftnlen)991)];
+			s_rnge("seglst", i__3, "dskbrief_", (ftnlen)1005)];
 		dskgd_(&hanlst[(i__3 = j - 1) < 100000 && 0 <= i__3 ? i__3 : 
-			s_rnge("hanlst", i__3, "dskbrief_", (ftnlen)993)], &
+			s_rnge("hanlst", i__3, "dskbrief_", (ftnlen)1007)], &
 			dlads[(i__4 = (j << 3) - 8) < 800000 && 0 <= i__4 ? 
-			i__4 : s_rnge("dlads", i__4, "dskbrief_", (ftnlen)993)
-			], dskdsc);
+			i__4 : s_rnge("dlads", i__4, "dskbrief_", (ftnlen)
+			1007)], dskdsc);
 
 /*              Longitude is a special case. As usual. */
 
@@ -1354,12 +1367,12 @@ static integer c__24 = 24;
 /* Computing MIN */
 			d__1 = minco1, d__2 = outbds[(i__4 = (k << 1) - 2) < 
 				8 && 0 <= i__4 ? i__4 : s_rnge("outbds", i__4,
-				 "dskbrief_", (ftnlen)1029)];
+				 "dskbrief_", (ftnlen)1043)];
 			minco1 = min(d__1,d__2);
 /* Computing MAX */
 			d__1 = maxco1, d__2 = outbds[(i__4 = (k << 1) - 1) < 
 				8 && 0 <= i__4 ? i__4 : s_rnge("outbds", i__4,
-				 "dskbrief_", (ftnlen)1030)];
+				 "dskbrief_", (ftnlen)1044)];
 			maxco1 = max(d__1,d__2);
 		    }
 		} else {
@@ -1377,16 +1390,16 @@ static integer c__24 = 24;
 
 		++grpsiz;
 		xbds[(i__3 = (grpsiz << 1) - 2) < 200000 && 0 <= i__3 ? i__3 :
-			 s_rnge("xbds", i__3, "dskbrief_", (ftnlen)1051)] = 
+			 s_rnge("xbds", i__3, "dskbrief_", (ftnlen)1065)] = 
 			dskdsc[16];
 		xbds[(i__3 = (grpsiz << 1) - 1) < 200000 && 0 <= i__3 ? i__3 :
-			 s_rnge("xbds", i__3, "dskbrief_", (ftnlen)1052)] = 
+			 s_rnge("xbds", i__3, "dskbrief_", (ftnlen)1066)] = 
 			dskdsc[17];
 		ybds[(i__3 = (grpsiz << 1) - 2) < 200000 && 0 <= i__3 ? i__3 :
-			 s_rnge("ybds", i__3, "dskbrief_", (ftnlen)1054)] = 
+			 s_rnge("ybds", i__3, "dskbrief_", (ftnlen)1068)] = 
 			dskdsc[18];
 		ybds[(i__3 = (grpsiz << 1) - 1) < 200000 && 0 <= i__3 ? i__3 :
-			 s_rnge("ybds", i__3, "dskbrief_", (ftnlen)1055)] = 
+			 s_rnge("ybds", i__3, "dskbrief_", (ftnlen)1069)] = 
 			dskdsc[19];
 
 /*              Update the group time bounds. */
@@ -1435,7 +1448,7 @@ static integer c__24 = 24;
 		dspdsc_(grpdsc, &c__1, &c__23, &nsig);
 	    }
 	    if (! ust && ! segtm[(i__3 = i__ - 1) < 100000 && 0 <= i__3 ? 
-		    i__3 : s_rnge("segtm", i__3, "dskbrief_", (ftnlen)1111)]) 
+		    i__3 : s_rnge("segtm", i__3, "dskbrief_", (ftnlen)1125)]) 
 		    {
 		tostdo_("    ***Segments have inconsistent time coverage.***",
 			 (ftnlen)51);

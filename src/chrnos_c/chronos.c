@@ -17,7 +17,7 @@ static integer c__34 = 34;
 static integer c__6 = 6;
 
 /* $Program      CHRONOS ( SPICE Time Conversion Tool) */
-/* Main program */ int MAIN__(void)
+/* Main program */ MAIN__(void)
 {
     /* System generated locals */
     address a__1[2], a__2[5], a__3[34], a__4[6];
@@ -360,6 +360,15 @@ static integer c__6 = 6;
 
 /*     CHRONOS Include file. */
 
+/* $ Version */
+
+/* -    CHRONOS Version 1.1.0, 28-NOV-2021 (BVS) */
+
+/*        Updated for MAC-OSX-M1-64BIT-CLANG_C. */
+
+/* -    CHRONOS Version 1.0.0, 14-MAY-1998 (BVS) */
+
+/* -& */
 
 /*     CHRONOS Version. */
 
@@ -376,11 +385,11 @@ static integer c__6 = 6;
 /*     Setup file variables. */
 
 
-/*     Time system indentifier strings and total number of time */
+/*     Time system identifier strings and total number of time */
 /*     systems. */
 
 
-/*     Time types identitifier strings and total number of time types. */
+/*     Time types identifier strings and total number of time types. */
 
 
 /*     Line size parameters. */

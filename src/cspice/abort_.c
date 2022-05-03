@@ -9,7 +9,7 @@
 		
 */
 
-#include "stdio.h"
+#include <stdio.h>
 #include <cspice/f2c.h>
 
 #ifdef KR_headers

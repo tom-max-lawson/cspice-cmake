@@ -152,6 +152,14 @@ static integer c__10 = 10;
 
 /* $ Version */
 
+/* -    SPICELIB Version 2.0.1, 20-OCT-2020 (NJB) */
+
+/*        Increased MXCOEF to 100000. */
+
+/*        Updated comments with reminder to keep constants declared */
+/*        in the include file zzsc01.inc synced with constants in */
+/*        this file. */
+
 /* -    SPICELIB Version 2.0.0, 24-MAY-2010 (NJB) */
 
 /*        Increased value of maximum coefficient record count */
@@ -160,6 +168,19 @@ static integer c__10 = 10;
 /* -    SPICELIB Version 1.0.0, 11-FEB-2008 (NJB) */
 
 /* -& */
+
+/*        NOTE: many of the declarations present here are duplicated */
+/*        in the include file zzsc01.inc. Declarations in that file */
+/*        must be kept in sync with those in this file. The */
+/*        duplicated declarations are: */
+
+/*           NDELIM */
+/*           DELIMS */
+/*           MXPART */
+/*           MXCOEF */
+/*           MXNFLD */
+/*           DPLEN */
+
 
 /*     Number of supported SCLK field delimiters: */
 

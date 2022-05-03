@@ -8,8 +8,8 @@ extern FILE *tmpfile();
 #undef abs
 #undef min
 #undef max
-#include "stdlib.h"
-#include "string.h"
+#include <stdlib.h>
+#include <string.h>
 #endif
 
 extern char *f__r_mode[], *f__w_mode[];

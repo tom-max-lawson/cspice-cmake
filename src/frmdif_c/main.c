@@ -85,7 +85,7 @@ This header file is included for use within CSPICE.
 */
 #include <cspice/SpiceUsr.h>
 
-#include "stdio.h"
+#include <stdio.h>
 #include <cspice/signal1.h>
 
 #ifndef SIGIOT
@@ -96,7 +96,7 @@ This header file is included for use within CSPICE.
 
 #ifndef KR_headers
 #undef VOID
-#include "stdlib.h"
+#include <stdlib.h>
 #endif
 
 #ifndef VOID
@@ -186,9 +186,9 @@ char **xargv;
 #endif
 
 #ifdef KR_headers
-int main(argc, argv) int argc; char **argv;
+main(argc, argv) int argc; char **argv;
 #else
-int main(int argc, char **argv)
+main(int argc, char **argv)
 #endif
 {
    /*

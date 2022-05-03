@@ -9,7 +9,7 @@
       
 */
 
-#include "stdio.h"
+#include <stdio.h>
 #include <cspice/f2c.h>
 
 #ifdef KR_headers
@@ -19,7 +19,7 @@ VOID s_stop(s, n) char *s; ftnlen n;
 #undef abs
 #undef min
 #undef max
-#include "stdlib.h"
+#include <stdlib.h>
 #ifdef __cplusplus
 extern "C" {
 #endif

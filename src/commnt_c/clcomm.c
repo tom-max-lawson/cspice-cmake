@@ -84,7 +84,7 @@ static integer c__1 = 1;
 
 /* $ Abstract */
 
-/*     CLCOMM provides command line funcionality to the COMMNT */
+/*     CLCOMM provides command line functionality to the COMMNT */
 /*     program. */
 
 /* $ Disclaimer */
@@ -112,6 +112,18 @@ static integer c__1 = 1;
 /*     CALTECH AND NASA FOR ALL THIRD-PARTY CLAIMS RESULTING FROM THE */
 /*     ACTIONS OF RECIPIENT IN THE USE OF THE SOFTWARE. */
 
+/* $ Required_Reading */
+
+/*     KERNEL */
+
+/* $ Keywords */
+
+/*     COMMENTS */
+
+/* $ Declarations */
+
+/*     None. */
+
 /* $ Brief_I/O */
 
 /*     Command line options: */
@@ -124,7 +136,7 @@ static integer c__1 = 1;
 
 /*        -d   indicates delete the comments from a binary kernel. */
 
-/*        -h   displaye the help message */
+/*        -h   display the help message */
 
 /* $ Detailed_Input */
 
@@ -132,7 +144,7 @@ static integer c__1 = 1;
 
 /* $ Detailed_Output */
 
-/*     Performance of the action defined by the comand line options. */
+/*     Performance of the action defined by the command line options. */
 
 /* $ Parameters */
 
@@ -180,12 +192,20 @@ static integer c__1 = 1;
 
 /* $ Author_and_Institution */
 
+/*     B.V. Semenov    (JPL) */
 /*     W.L. Taber      (JPL) */
 /*     I.M. Underwood  (JPL) */
 
 /* $ Version */
 
-/* -    SPICELIC Version 1.1.0, 04-AUG-2006 (EDW) */
+/* -    COMMNT Version 1.2.0, 14-OCT-2021 (BVS) */
+
+/*        Bug fix: fixed routine name in CHKIN/CHKOUT calls */
+/*        (CLCOMMNT -> CLCOMM). */
+
+/*        Bug fix: corrected usage strings (clcommnt -> commnt). */
+
+/* -    SPICELIB Version 1.1.0, 04-AUG-2006 (EDW) */
 
 /*        Replaced the DAFACU call in the add comments block with */
 /*        SPCAC. Use of DAFACU causes a system error under DOS from */
@@ -199,7 +219,7 @@ static integer c__1 = 1;
 
 /*        Edited header. */
 
-/* -    SPICELIB Version 1.0.1, 23-JAM-1997 (WLT) */
+/* -    SPICELIB Version 1.0.1, 23-JAN-1997 (WLT) */
 
 /*        Fixed a typo in the description of usage above. */
 
@@ -207,7 +227,7 @@ static integer c__1 = 1;
 
 /* -& */
 
-/*     Spicelib functions */
+/*     SPICELIB functions */
 
 
 /*     Parameters */
@@ -227,7 +247,7 @@ static integer c__1 = 1;
 /*     Number of different options. */
 
 
-/*     Number of different option namess. */
+/*     Number of different option names. */
 
 
 /*     Maximum length of an option flag, which may be the entire word for */
@@ -295,7 +315,7 @@ static integer c__1 = 1;
 
 /*     Check into the error handling. */
 
-    chkin_("CLCOMMNT", (ftnlen)8);
+    chkin_("CLCOMM", (ftnlen)6);
 
 /*     Set the error action to ABORT mode. */
 
@@ -318,7 +338,7 @@ static integer c__1 = 1;
 /*     If the input line is blank return. */
 
     if (s_cmp(tmplin, " ", (ftnlen)512, (ftnlen)1) == 0) {
-	chkout_("CLCOMMNT", (ftnlen)8);
+	chkout_("CLCOMM", (ftnlen)6);
 	return 0;
     }
 
@@ -337,7 +357,7 @@ static integer c__1 = 1;
     if (idxopt == 0) {
 	for (i__ = 1; i__ <= 18; ++i__) {
 	    tostdo_(hlpmsg + ((i__1 = i__ - 1) < 18 && 0 <= i__1 ? i__1 : 
-		    s_rnge("hlpmsg", i__1, "clcomm_", (ftnlen)328)) * 80, (
+		    s_rnge("hlpmsg", i__1, "clcomm_", (ftnlen)348)) * 80, (
 		    ftnlen)80);
 	}
 	byebye_("FAILURE", (ftnlen)7);
@@ -351,7 +371,7 @@ static integer c__1 = 1;
     if (nwords > 2) {
 	for (i__ = 1; i__ <= 18; ++i__) {
 	    tostdo_(hlpmsg + ((i__1 = i__ - 1) < 18 && 0 <= i__1 ? i__1 : 
-		    s_rnge("hlpmsg", i__1, "clcomm_", (ftnlen)342)) * 80, (
+		    s_rnge("hlpmsg", i__1, "clcomm_", (ftnlen)362)) * 80, (
 		    ftnlen)80);
 	}
 	byebye_("FAILURE", (ftnlen)7);
@@ -395,7 +415,7 @@ static integer c__1 = 1;
 /*     Set the option. */
 
     s_copy(option, optnam + (((i__1 = idxopt - 1) < 5 && 0 <= i__1 ? i__1 : 
-	    s_rnge("optnam", i__1, "clcomm_", (ftnlen)395)) << 4), (ftnlen)16,
+	    s_rnge("optnam", i__1, "clcomm_", (ftnlen)415)) << 4), (ftnlen)16,
 	     (ftnlen)16);
 
 /*     Perform the action based on the option selected. */
@@ -408,8 +428,8 @@ static integer c__1 = 1;
 /*        to be added to the kernel file. */
 
 	if (nwords != 2) {
-	    setmsg_("Usage is: clcommnt -a <kernel file> <comment file>", (
-		    ftnlen)50);
+	    setmsg_("Usage is: commnt -a <kernel file> <comment file>", (
+		    ftnlen)48);
 	    errch_("#", usage, (ftnlen)1, (ftnlen)80);
 	    sigerr_("SPICE(USAGEERROR)", (ftnlen)17);
 	}
@@ -464,7 +484,7 @@ static integer c__1 = 1;
 /*        kernel file, which we got from the command line above. */
 
 	if (nwords != 1) {
-	    setmsg_("Usage is: clcommnt -d <kernel file>", (ftnlen)35);
+	    setmsg_("Usage is: commnt -d <kernel file>", (ftnlen)33);
 	    errch_("#", usage, (ftnlen)1, (ftnlen)80);
 	    sigerr_("SPICE(USAGEERROR)", (ftnlen)17);
 	}
@@ -493,8 +513,8 @@ static integer c__1 = 1;
 /*        the kernel file are to be extracted.. */
 
 	if (nwords != 2) {
-	    setmsg_("Usage is: clcommnt -e <kernel file> <comment file>", (
-		    ftnlen)50);
+	    setmsg_("Usage is: commnt -e <kernel file> <comment file>", (
+		    ftnlen)48);
 	    errch_("#", usage, (ftnlen)1, (ftnlen)80);
 	    sigerr_("SPICE(USAGEERROR)", (ftnlen)17);
 	}
@@ -568,7 +588,7 @@ static integer c__1 = 1;
 /*        kernel file, which we got from the command line above. */
 
 	if (nwords != 1) {
-	    setmsg_("Usage is: clcommnt -r <kernel file>", (ftnlen)35);
+	    setmsg_("Usage is: commnt -r <kernel file>", (ftnlen)33);
 	    errch_("#", usage, (ftnlen)1, (ftnlen)80);
 	    sigerr_("SPICE(USAGEERROR)", (ftnlen)17);
 	}
@@ -621,7 +641,7 @@ static integer c__1 = 1;
 	    i__1 = numopn;
 	    for (i__ = 1; i__ <= i__1; ++i__) {
 		dafcls_(&opnset[(i__2 = i__ + 5) < 7 && 0 <= i__2 ? i__2 : 
-			s_rnge("opnset", i__2, "clcomm_", (ftnlen)637)]);
+			s_rnge("opnset", i__2, "clcomm_", (ftnlen)657)]);
 	    }
 	}
 
@@ -640,7 +660,7 @@ static integer c__1 = 1;
 	    i__1 = numopn;
 	    for (i__ = 1; i__ <= i__1; ++i__) {
 		dascls_(&opnset[(i__2 = i__ + 5) < 7 && 0 <= i__2 ? i__2 : 
-			s_rnge("opnset", i__2, "clcomm_", (ftnlen)658)]);
+			s_rnge("opnset", i__2, "clcomm_", (ftnlen)678)]);
 	    }
 	}
 
@@ -652,7 +672,7 @@ static integer c__1 = 1;
 
 /*     If we make it this far we are done.... */
 
-    chkout_("CLCOMMNT", (ftnlen)8);
+    chkout_("CLCOMM", (ftnlen)6);
     byebye_("SUCCESS", (ftnlen)7);
     return 0;
 } /* clcomm_ */

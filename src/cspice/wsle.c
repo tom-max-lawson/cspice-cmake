@@ -2,7 +2,7 @@
 #include <cspice/fio.h>
 #include <cspice/fmt.h>
 #include <cspice/lio.h>
-#include "string.h"
+#include <string.h>
 
 #ifdef KR_headers
 integer s_wsle(a) cilist *a;

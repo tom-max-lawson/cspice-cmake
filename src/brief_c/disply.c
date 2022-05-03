@@ -155,6 +155,10 @@ static integer c_b177 = 100000;
 
 /* $ Version */
 
+/* -    BRIEF Version 4.1.0, 17-SEP-2021 (BVS) */
+
+/*        Updated version string. */
+
 /* -    BRIEF Version 4.0.0, 08-SEP-2010 (BVS) */
 
 /*        Moved WINRM from main program to this include file. */
@@ -199,7 +203,7 @@ static integer c_b177 = 100000;
 /*     objects. */
 
 
-/*     End of inlcude file. */
+/*     End of include file. */
 
 /* $ Brief_I/O */
 

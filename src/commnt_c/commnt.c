@@ -14,7 +14,7 @@ static integer c__6 = 6;
 static integer c__0 = 0;
 
 /* $Procedure   COMMNT ( Comment utility program ) */
-/* Main program */ int MAIN__(void)
+/* Main program */ MAIN__(void)
 {
     /* Initialized data */
 

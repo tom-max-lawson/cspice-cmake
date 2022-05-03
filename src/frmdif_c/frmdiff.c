@@ -17,7 +17,7 @@ static integer c__15 = 15;
 static integer c__0 = 0;
 
 /* $Procedure   FRMDIFF ( Compare two rotations. ) */
-/* Main program */ int MAIN__(void)
+/* Main program */ MAIN__(void)
 {
     /* System generated locals */
     address a__1[3], a__2[5], a__3[9];

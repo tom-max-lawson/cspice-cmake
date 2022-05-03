@@ -116,7 +116,7 @@ void    zzsetnnread_( logical * on );
 -&
 */
 
-int xrd_SL(Void)
+xrd_SL(Void)
    {
 
    int ch;
@@ -143,7 +143,7 @@ int xrd_SL(Void)
    }
 
 
-int x_getc(Void)
+x_getc(Void)
    {
    
    int ch;
@@ -187,13 +187,13 @@ int x_getc(Void)
    }
 
 
-int x_endp(Void)
+x_endp(Void)
    {
    xrd_SL();
    return f__curunit->uend == 1 ? EOF : 0;
    }
 
-int x_rev(Void)
+x_rev(Void)
    {
    (void) xrd_SL();
    return(0);
